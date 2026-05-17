@@ -1,3904 +1,1896 @@
-╔═════════════════════╗
-║   FULL PLACE DUMP   ║
-╚═════════════════════╝
-Время: 2026-05-16 22:50:32
-PlaceId: 841005469
-JobId: 77275af7-d502-4307-a1d2-0527d782c001
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                         FULL DUMP — DOORS__GAME_                         ║
+╚════════════════════════════════════════════════════════════════════════════════╝
 
-═══ REMOTES ═══
-[RemoteFunction]  ReplicatedStorage.Remotes.IsVIPServer
-[RemoteEvent]     ReplicatedStorage.Remotes.Backpack
-[RemoteFunction]  ReplicatedStorage.Remotes.Admin
-[RemoteEvent]     ReplicatedStorage.Remotes.RequestSpectator
-[RemoteEvent]     ReplicatedStorage.Remotes.RequestPurchase
-[RemoteEvent]     ReplicatedStorage.Remotes.ChangeTeam
-[RemoteFunction]  ReplicatedStorage.Remotes.GamepassOwnership
-[RemoteFunction]  ReplicatedStorage.Remotes.FetchTeamColor
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnNewMessage
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnMessageDoneFiltering
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnNewSystemMessage
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnChannelJoined
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnChannelLeft
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnMuted
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnUnmuted
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.OnMainChannelSet
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.ChannelNameColorUpdated
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
-[RemoteEvent]     ReplicatedStorage.DefaultChatSystemChatEvents.SetBlockedUserIdsRequest
-[RemoteFunction]  ReplicatedStorage.DefaultChatSystemChatEvents.GetInitDataRequest
-[RemoteFunction]  ReplicatedStorage.DefaultChatSystemChatEvents.MutePlayerRequest
-[RemoteFunction]  ReplicatedStorage.DefaultChatSystemChatEvents.UnMutePlayerRequest
-[RemoteEvent]     ReplicatedStorage.b 
- 
- 
-[BindableFunction]Workspace.Danied533.Animate.PlayEmote
-[RemoteEvent]     Workspace.Danied533.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Workspace.Danied533.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Workspace.Danied533.RocketLauncher.Fire
-[BindableFunction]Workspace.Lilyisgooder36429.Animate.PlayEmote
-[BindableEvent]   Workspace.Lilyisgooder36429.Timebomb.ResetTime
-[RemoteEvent]     Workspace.Lilyisgooder36429.Timebomb.Fire
-[BindableFunction]Workspace.tutilininsano7773.Animate.PlayEmote
-[RemoteEvent]     Workspace.tutilininsano7773.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Workspace.tutilininsano7773.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Workspace.tutilininsano7773.RocketLauncher.Fire
-[BindableFunction]Workspace.Ladenosaben.Animate.PlayEmote
-[RemoteEvent]     Workspace.Ladenosaben.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Workspace.Ladenosaben.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Workspace.Ladenosaben.RocketLauncher.Fire
-[BindableFunction]Workspace.SamuelXBece23.Animate.PlayEmote
-[RemoteEvent]     Workspace.SamuelXBece23.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Workspace.SamuelXBece23.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Workspace.SamuelXBece23.RocketLauncher.Fire
-[BindableFunction]Workspace.bionecanet.Animate.PlayEmote
-[RemoteEvent]     Workspace.bionecanet.Trowel.Fire
-[BindableFunction]Workspace.Leonela_m4.Animate.PlayEmote
-[BindableFunction]Workspace.Spro7899.Animate.PlayEmote
-[BindableEvent]   Players.Ladenosaben.Backpack.Timebomb.ResetTime
-[RemoteEvent]     Players.Ladenosaben.Backpack.Timebomb.Fire
-[RemoteEvent]     Players.Ladenosaben.Backpack.Trowel.Fire
-[RemoteEvent]     Players.Ladenosaben.Backpack.Slingshot.Fire
-[RemoteEvent]     Players.Ladenosaben.Backpack.Superball.Fire
-[RemoteEvent]     Players.tutilininsano7773.Backpack.Superball.Fire
-[RemoteEvent]     Players.tutilininsano7773.Backpack.Slingshot.Fire
-[RemoteEvent]     Players.tutilininsano7773.Backpack.Trowel.Fire
-[BindableEvent]   Players.tutilininsano7773.Backpack.Timebomb.ResetTime
-[RemoteEvent]     Players.tutilininsano7773.Backpack.Timebomb.Fire
-[RemoteEvent]     Players.Spro7899.Backpack.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Players.Spro7899.Backpack.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Players.Spro7899.Backpack.RocketLauncher.Fire
-[RemoteEvent]     Players.Spro7899.Backpack.Superball.Fire
-[BindableEvent]   Players.Spro7899.Backpack.Timebomb.ResetTime
-[RemoteEvent]     Players.Spro7899.Backpack.Timebomb.Fire
-[RemoteEvent]     Players.Spro7899.Backpack.Trowel.Fire
-[RemoteEvent]     Players.Spro7899.Backpack.Slingshot.Fire
-[RemoteEvent]     Players.SamuelXBece23.Backpack.Superball.Fire
-[BindableEvent]   Players.SamuelXBece23.Backpack.Timebomb.ResetTime
-[RemoteEvent]     Players.SamuelXBece23.Backpack.Timebomb.Fire
-[RemoteEvent]     Players.SamuelXBece23.Backpack.Trowel.Fire
-[RemoteEvent]     Players.SamuelXBece23.Backpack.Slingshot.Fire
-[RemoteEvent]     Players.Danied533.Backpack.Superball.Fire
-[RemoteEvent]     Players.Danied533.Backpack.Slingshot.Fire
-[RemoteEvent]     Players.Danied533.Backpack.Trowel.Fire
-[BindableEvent]   Players.Danied533.Backpack.Timebomb.ResetTime
-[RemoteEvent]     Players.Danied533.Backpack.Timebomb.Fire
-[RemoteEvent]     Players.bionecanet.Backpack.Superball.Fire
-[RemoteEvent]     Players.bionecanet.Backpack.Slingshot.Fire
-[BindableEvent]   Players.bionecanet.Backpack.Timebomb.ResetTime
-[RemoteEvent]     Players.bionecanet.Backpack.Timebomb.Fire
-[RemoteEvent]     Players.bionecanet.Backpack.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Players.bionecanet.Backpack.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Players.bionecanet.Backpack.RocketLauncher.Fire
-[RemoteEvent]     Players.Leonela_m4.Backpack.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Players.Leonela_m4.Backpack.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Players.Leonela_m4.Backpack.RocketLauncher.Fire
-[RemoteEvent]     Players.Leonela_m4.Backpack.Superball.Fire
-[BindableEvent]   Players.Leonela_m4.Backpack.Timebomb.ResetTime
-[RemoteEvent]     Players.Leonela_m4.Backpack.Timebomb.Fire
-[RemoteEvent]     Players.Leonela_m4.Backpack.Trowel.Fire
-[RemoteEvent]     Players.Leonela_m4.Backpack.Slingshot.Fire
-[RemoteEvent]     Players.Lilyisgooder36429.Backpack.Trowel.Fire
-[RemoteEvent]     Players.Lilyisgooder36429.Backpack.Slingshot.Fire
-[RemoteEvent]     Players.Lilyisgooder36429.Backpack.Superball.Fire
-[RemoteEvent]     Players.Lilyisgooder36429.Backpack.RocketLauncher.RocketDestroyEvent
-[BindableEvent]   Players.Lilyisgooder36429.Backpack.RocketLauncher.YieldBeyondTouch
-[RemoteEvent]     Players.Lilyisgooder36429.Backpack.RocketLauncher.Fire
+═══════════════════════════════════════════════════════════════════════════════════
+═══ 1. REMOTE EVENT/FUNCTION DUMP ═══
+═══════════════════════════════════════════════════════════════════════════════════
+╔══════════════════════════════════════════════════════════════╗
+║              UNIVERSAL REMOTE DUMPER                         ║
+╚══════════════════════════════════════════════════════════════╝
+Игра: DOORS (GAME)
+PlaceId: 6839171747
+JobId: 22f7f361-0199-4195-ad9f-49344930e8a6
+Время: 2026-05-17 13:50:03
 
-═══ STRUCTURE: ReplicatedStorage ═══
-[ModuleScript] TrailModule
-[ModuleScript] Other
-[Script] 
- 
+═══ RemoteEvent ═══
+Всего RemoteEvent: 161
+  • Workspace.CurrentRooms.0.Door.ClientOpen
+  • Workspace.CurrentRooms.1.Door.ClientOpen
+  • Workspace.CurrentRooms.2.Door.ClientOpen
+  • RobloxReplicatedStorage.IntegrityCheckProcessorKey2_LocalizationTableAnalyticsSender_LocalizationService
+  • RobloxReplicatedStorage.IntegrityCheckProcessorKey2_DynamicTranslationSender_LocalizationService
+  • RobloxReplicatedStorage.CanChatWith
+  • RobloxReplicatedStorage.SetPlayerBlockList
+  • RobloxReplicatedStorage.UpdatePlayerBlockList
+  • RobloxReplicatedStorage.NewPlayerGroupDetails
+  • RobloxReplicatedStorage.NewPlayerCanManageDetails
+  • RobloxReplicatedStorage.SendPlayerBlockList
+  • RobloxReplicatedStorage.UpdateLocalPlayerBlockList
+  • RobloxReplicatedStorage.SendPlayerProfileSettings
+  • RobloxReplicatedStorage.RequestPlayerProfileSettings
+  • RobloxReplicatedStorage.UpdatePlayerProfileSettings
+  • RobloxReplicatedStorage.ShowPlayerJoinedFriendsToast
+  • RobloxReplicatedStorage.ShowFriendJoinedPlayerToast
+  • RobloxReplicatedStorage.CreateOrJoinParty
+  • RobloxReplicatedStorage.ModerateChatSettingUpdated
+  • RobloxReplicatedStorage.ExpChatFeatureValueChanged
+  • RobloxReplicatedStorage.ServerSideBulkPurchaseEvent
+  • RobloxReplicatedStorage.SetDialogInUse
+  • RobloxReplicatedStorage.ContactListInvokeIrisInvite
+  • RobloxReplicatedStorage.ContactListIrisInviteTeleport
+  • RobloxReplicatedStorage.UpdateCurrentCall
+  • RobloxReplicatedStorage.RequestDeviceCameraOrientationCapability
+  • RobloxReplicatedStorage.ReceiveLikelySpeakingUsers
+  • RobloxReplicatedStorage.ReferredPlayerJoin
+  • ReplicatedStorage.ClientAnimationReceiver.RemoteEvent
+  • ReplicatedStorage.ReplicatedTweening.TweenEvent
+  • ReplicatedStorage.RemotesFolder.Giggle
+  • ReplicatedStorage.RemotesFolder.SoundToClient
+  • ReplicatedStorage.RemotesFolder.Interaction_Door
+  • ReplicatedStorage.RemotesFolder.ElevatorExit
+  • ReplicatedStorage.RemotesFolder.Item_MeleeReplication
+  • ReplicatedStorage.RemotesFolder.Item_MiscReplication
+  • ReplicatedStorage.RemotesFolder.Hitmarker
+  • ReplicatedStorage.RemotesFolder.Inventory
+  • ReplicatedStorage.RemotesFolder.Equip
+  • ReplicatedStorage.RemotesFolder.UseEnemyModule
+  • ReplicatedStorage.RemotesFolder.UseEventModule
+  • ReplicatedStorage.RemotesFolder.Jumpscare
+  • ReplicatedStorage.RemotesFolder.CamLock
+  • ReplicatedStorage.RemotesFolder.CamShake
+  • ReplicatedStorage.RemotesFolder.ElevatorJoin
+  • ReplicatedStorage.RemotesFolder.Caption
+  • ReplicatedStorage.RemotesFolder.Remind
+  • ReplicatedStorage.RemotesFolder.LightningStrike
+  • ReplicatedStorage.RemotesFolder.GetCurrency
+  • ReplicatedStorage.RemotesFolder.ReplicateTween
+  • ReplicatedStorage.RemotesFolder.ClutchHeartbeat
+  • ReplicatedStorage.RemotesFolder.CamShakeRelative
+  • ReplicatedStorage.RemotesFolder.EngageMinigame
+  • ReplicatedStorage.RemotesFolder.EBF
+  • ReplicatedStorage.RemotesFolder.Cutscene
+  • ReplicatedStorage.RemotesFolder.CutsceneFollowup
+  • ReplicatedStorage.RemotesFolder.ReplicateAnimation
+  • ReplicatedStorage.RemotesFolder.CamLockHead
+  • ReplicatedStorage.RemotesFolder.ChangeModuleVariable
+  • ReplicatedStorage.RemotesFolder.ShadeResult
+  • ReplicatedStorage.RemotesFolder.PL
+  • ReplicatedStorage.RemotesFolder.PadlockHint
+  • ReplicatedStorage.RemotesFolder.Lobby
+  • ReplicatedStorage.RemotesFolder.Revive
+  • ReplicatedStorage.RemotesFolder.HideMonster
+  • ReplicatedStorage.RemotesFolder.PreRunShop
+  • ReplicatedStorage.RemotesFolder.SpiderJumpscare
+  • ReplicatedStorage.RemotesFolder.Statistics
+  • ReplicatedStorage.RemotesFolder.DeathHint
+  • ReplicatedStorage.RemotesFolder.AchievementUnlock
+  • ReplicatedStorage.RemotesFolder.Screech
+  • ReplicatedStorage.RemotesFolder.FigureLight
+  • ReplicatedStorage.RemotesFolder.HitDoor
+  • ReplicatedStorage.RemotesFolder.ElevatorFinished
+  • ReplicatedStorage.RemotesFolder.ElevatorMaxWarning
+  • ReplicatedStorage.RemotesFolder.GetOutOfHiding
+  • ReplicatedStorage.RemotesFolder.PlayAgain
+  • ReplicatedStorage.RemotesFolder.Loading
+  • ReplicatedStorage.RemotesFolder.SendErrorLog
+  • ReplicatedStorage.RemotesFolder.ShopCode
+  • ReplicatedStorage.RemotesFolder.ElevatorStart
+  • ReplicatedStorage.RemotesFolder.LiveClock
+  • ReplicatedStorage.RemotesFolder.FlexAchievement
+  • ReplicatedStorage.RemotesFolder.FlashSpecify
+  • ReplicatedStorage.RemotesFolder.ChangeSettings
+  • ReplicatedStorage.RemotesFolder.SwitchServers
+  • ReplicatedStorage.RemotesFolder.Haste
+  • ReplicatedStorage.RemotesFolder.UpdateFloor
+  • ReplicatedStorage.RemotesFolder.A90
+  • ReplicatedStorage.RemotesFolder.Vignette
+  • ReplicatedStorage.RemotesFolder.HaltCrucifix
+  • ReplicatedStorage.RemotesFolder.SystemMessage
+  • ReplicatedStorage.RemotesFolder.Greed
+  • ReplicatedStorage.RemotesFolder.ClimbLadder
+  • ReplicatedStorage.RemotesFolder.CreateElevator
+  • ReplicatedStorage.RemotesFolder.Promo
+  • ReplicatedStorage.RemotesFolder.Dread
+  • ReplicatedStorage.RemotesFolder.PlayerDied
+  • ReplicatedStorage.RemotesFolder.DropItem
+  • ReplicatedStorage.RemotesFolder.HidePickup
+  • ReplicatedStorage.RemotesFolder.Ragdoll
+  • ReplicatedStorage.RemotesFolder.Crouch
+  • ReplicatedStorage.RemotesFolder.Underwater
+  • ReplicatedStorage.RemotesFolder.UpdateMinecartNodes
+  • ReplicatedStorage.RemotesFolder.ServerLog
+  • ReplicatedStorage.RemotesFolder.DeathTickDelay
+  • ReplicatedStorage.RemotesFolder.MinecartResult
+  • ReplicatedStorage.RemotesFolder.SendRunnerNodes
+  • ReplicatedStorage.RemotesFolder.Teleport
+  • ReplicatedStorage.RemotesFolder.EndLighting
+  • ReplicatedStorage.RemotesFolder.StopSeekMusic
+  • ReplicatedStorage.RemotesFolder.CandyAnnounce
+  • ReplicatedStorage.RemotesFolder.StreamVote
+  • ReplicatedStorage.RemotesFolder.ServerTeleported
+  • ReplicatedStorage.RemotesFolder.FriendBall
+  • ReplicatedStorage.RemotesFolder.TweenColorSequence
+  • ReplicatedStorage.RemotesFolder.StupidEffects
+  • ReplicatedStorage.RemotesFolder.ReviveFriend
+  • ReplicatedStorage.RemotesFolder.ProductPurchased
+  • ReplicatedStorage.RemotesFolder.TargetCameraDirection
+  • ReplicatedStorage.RemotesFolder.MonumentEvent.ReliableEvent
+  • ReplicatedStorage.RemotesFolder.Onboarding
+  • ReplicatedStorage.RemotesFolder.BloxxerRank
+  • ReplicatedStorage.RemotesFolder.DestroyProjectile
+  • ReplicatedStorage.RemotesFolder.FireProjectile
+  • ReplicatedStorage.RemotesFolder.ProjectileHandler
+  • ReplicatedStorage.RemotesFolder.ProjectileHit
+  • ReplicatedStorage.RemotesFolder.SyncProjectile
+  • ReplicatedStorage.RemotesFolder.CreateSavedElevator
+  • ReplicatedStorage.RemotesFolder.DeleteSave
+  • ReplicatedStorage.RemotesFolder.ToolAnimate
+  • ReplicatedStorage.RemotesFolder.LotusElevatorStarted
+  • ReplicatedStorage.RemotesFolder.SurgeRemote
+  • ReplicatedStorage.RemotesFolder.AdminPanelRunCommand
+  • ReplicatedStorage.RemotesFolder.MusicIntense
+  • ReplicatedStorage.RemotesFolder.SeekSlop
+  • ReplicatedStorage.RemotesFolder.UsePowerup
+  • ReplicatedStorage.RemotesFolder.PointsNotification
+  • ReplicatedStorage.RemotesFolder.HostStartMatch
+  • ReplicatedStorage.RemotesFolder.CaptainManImBattlin
+  • ReplicatedStorage.RemotesFolder.GotGift
+  • ReplicatedStorage.RemotesFolder.ChangeFlagsEvent
+  • ReplicatedStorage.RemotesFolder.SetFlagsEvent
+  • ReplicatedStorage.RemotesFolder.CaptionWithChat
+  • ReplicatedStorage.RemotesFolder.RippleStatistics
+  • ReplicatedStorage.RemotesFolder.ChaosTalkToServer
+  • ReplicatedStorage.RemotesFolder.EndChaosMinigame
+  • ReplicatedStorage.RemotesFolder.AchievementProgress
+  • ReplicatedStorage.RemotesFolder.ElevatorMatchFound
+  • ReplicatedStorage.ModulesClient.ClientUpdatedModules.Firedamp.Remote
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaRequestData
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSetValue
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSetValues
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaArrayInsert
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaArraySet
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaArrayRemove
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaWrite
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSignal
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSetParent
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaCreate
+  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaDestroy
 
-  [ModuleScript] Templates
-    [ModuleScript] Serialized_Blank
-    [ModuleScript] Serialized_Blind
-    [ModuleScript] Serialized_Chat
-    [ModuleScript] Serialized_CommandBar
-    [ModuleScript] Serialized_Credit
-    [ModuleScript] Serialized_Direct
-    [ModuleScript] Serialized_Error
-    [ModuleScript] Serialized_Help
-    [ModuleScript] Serialized_Hint
-    [ModuleScript] Serialized_List
-    [ModuleScript] Serialized_Msg
-    [ModuleScript] Serialized_Note
-    [ModuleScript] Serialized_Resize
-    [ModuleScript] Serialized_Search
-    [ModuleScript] Serialized_Settings
-    [ModuleScript] Serialized_Timer
-    [ModuleScript] Serialized_Vote
-[Folder] Values
-  [Folder] leaderstats
-    [IntValue] WOs
-    [IntValue] KOs
-  [StringValue] Effect
-  [BoolValue] AntiTeamKill
-[Folder] Remotes
-  [RemoteFunction] IsVIPServer
-  [RemoteEvent] Backpack
-  [RemoteFunction] Admin
-  [RemoteEvent] RequestSpectator
-  [RemoteEvent] RequestPurchase
-  [RemoteEvent] ChangeTeam
-  [RemoteFunction] GamepassOwnership
-  [RemoteFunction] FetchTeamColor
-[Folder] DefaultChatSystemChatEvents
-  [RemoteEvent] OnNewMessage
-  [RemoteEvent] OnMessageDoneFiltering
-  [RemoteEvent] OnNewSystemMessage
-  [RemoteEvent] OnChannelJoined
-  [RemoteEvent] OnChannelLeft
-  [RemoteEvent] OnMuted
-  [RemoteEvent] OnUnmuted
-  [RemoteEvent] OnMainChannelSet
-  [RemoteEvent] ChannelNameColorUpdated
-  [RemoteEvent] SayMessageRequest
-  [RemoteEvent] SetBlockedUserIdsRequest
-  [RemoteFunction] GetInitDataRequest
-  [RemoteFunction] MutePlayerRequest
-  [RemoteFunction] UnMutePlayerRequest
-[RemoteEvent] b 
- 
- 
-  [StringValue]  dmi
+═══ RemoteFunction ═══
+Всего RemoteFunction: 20
+  • RobloxReplicatedStorage.GetServerVersion
+  • RobloxReplicatedStorage.GetServerChannel
+  • RobloxReplicatedStorage.ExperienceChat.WhisperChat
+  • RobloxReplicatedStorage.GetServerType
+  • ReplicatedStorage.RemotesFolder.GetUGC
+  • ReplicatedStorage.RemotesFolder.CheckRevive
+  • ReplicatedStorage.RemotesFolder.IsNotPrivateServer
+  • ReplicatedStorage.RemotesFolder.RequestAsset
+  • ReplicatedStorage.RemotesFolder.ObtainGiftedRevive
+  • ReplicatedStorage.RemotesFolder.CheckRank
+  • ReplicatedStorage.RemotesFolder.RequestLocalAsset
+  • ReplicatedStorage.RemotesFolder.RequestShop
+  • ReplicatedStorage.RemotesFolder.PurchaseShopItem
+  • ReplicatedStorage.RemotesFolder.RequestInventory
+  • ReplicatedStorage.RemotesFolder.InventoryShopFunc
+  • ReplicatedStorage.RemotesFolder.ContinueOrSave
+  • ReplicatedStorage.RemotesFolder.SaveHandler
+  • ReplicatedStorage.RemotesFolder.RequestItemInfo
+  • ReplicatedStorage.RemotesFolder.GiftProduct
+  • ReplicatedStorage.RemotesFolder.RequestRipples
 
-  [StringValue]  
+═══ BindableEvent/Function ═══
+Всего Bindable: 89
+  • Workspace.CurrentRooms.0.Assets.Dresser.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Assets.Dresser.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Assets.Dresser.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
+  • Workspace.CurrentRooms.0.Door.Func_Close
+  • Workspace.CurrentRooms.0.Door.Func_Open
+  • Workspace.CurrentRooms.0.Door.Func_Lock
+  • Workspace.CurrentRooms.0.Door.Func_ForceOpen
+  • Workspace.CurrentRooms.0.Door.Lock.Event
+  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
+  • Workspace.CurrentRooms.1.Assets.Table.DrawerContainer.Event
+  • Workspace.CurrentRooms.1.Sideroom30.Assets.ChestBox.Event
+  • Workspace.CurrentRooms.1.Sideroom30.Assets.ChestBox.Event
+  • Workspace.CurrentRooms.1.Door.Func_Close
+  • Workspace.CurrentRooms.1.Door.Func_Open
+  • Workspace.CurrentRooms.1.Door.Func_Lock
+  • Workspace.CurrentRooms.1.Door.Func_ForceOpen
+  • Workspace.CurrentRooms.2.Assets.Wardrobe.Func_Open
+  • Workspace.CurrentRooms.2.Assets.Wardrobe.Func_Open
+  • Workspace.CurrentRooms.2.Assets.Wardrobe.Func_Open
+  • Workspace.CurrentRooms.2.Sideroom30.Assets.ChestBox.Event
+  • Workspace.CurrentRooms.2.Door.Func_Close
+  • Workspace.CurrentRooms.2.Door.Func_Open
+  • Workspace.CurrentRooms.2.Door.Func_Lock
+  • Workspace.CurrentRooms.2.Door.Func_ForceOpen
+  • Workspace.Ladenosaben.Animate.PlayEmote
+  • Workspace.Ladenosaben.StunEvent
+  • Workspace.Ladenosaben.QuickAnimEvent
+  • Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.ClientLightningStrike
+  • Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.ToggleInventory
+  • Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.StopHeartbeat
+  • Players.Ladenosaben.PlayerGui.MainUI.Event_Unequip
+  • Players.Ladenosaben.PlayerGui.MainUI.Event_AutoFire
+  • Players.Ladenosaben.PlayerGui.MainUI.Event_FireWeapon
+  • Players.Ladenosaben.PlayerGui.MainUI.Event_RepositionViewmodel
+  • Players.Ladenosaben.PlayerGui.MainUI.Event_Sprinting
+  • Players.Ladenosaben.PlayerGui.MainUI.Event_Stress
+  • Players.Ladenosaben.PlayerGui.MainUI.Settings.List.Sensitivity.MoveBar
+  • Players.Ladenosaben.PlayerGui.MainUI.Settings.List.VolumeMusic.MoveBar
+  • Players.Ladenosaben.PlayerGui.MainUI.Settings.List.VolumeMusicLobby.MoveBar
+  • Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold
+  • CoreGui.RobloxGui.SendNotificationInfo
+  • ReplicatedStorage.ReplicaDataModule.StatisticsUpdated
+  • ReplicatedStorage.ReplicaDataModule.AchievementsUpdated
+  • ReplicatedStorage.ReplicaDataModule.FlexAchievementUpdated
+  • ReplicatedStorage.ReplicaDataModule.StardustUpdated
+  • ReplicatedStorage.ReplicaDataModule.StatsUpdated
+  • ReplicatedStorage.ReplicaDataModule.KnobsUpdated
+  • ReplicatedStorage.ReplicaDataModule.RevivesUpdated
+  • ReplicatedStorage.ReplicaDataModule.BoostsUpdated
+  • ReplicatedStorage.ReplicaDataModule.EventCoinsUpdated
+  • ReplicatedStorage.ReplicaDataModule.ItemsUpdated
+  • ReplicatedStorage.ReplicaDataModule.ItemsEquippedUpdated
+  • ReplicatedStorage.ReplicaDataModule.SavesUpdated
+  • ReplicatedStorage.ReplicaDataModule.SaveSlotsUpdated
+  • ReplicatedStorage.ReplicaDataModule.SettingsUpdated
+  • ReplicatedStorage.ReplicaDataModule.RiftItemUpdated
+  • ReplicatedStorage.ReplicaDataModule.StarRiftItemUpdated
+  • ReplicatedStorage.ReplicaDataModule.StatisticsUpdated
+  • ReplicatedStorage.ReplicaDataModule.AchievementsUpdated
+  • ReplicatedStorage.ReplicaDataModule.FlexAchievementUpdated
+  • ReplicatedStorage.ReplicaDataModule.StardustUpdated
+  • ReplicatedStorage.ReplicaDataModule.StatsUpdated
+  • ReplicatedStorage.ReplicaDataModule.KnobsUpdated
+  • ReplicatedStorage.ReplicaDataModule.RevivesUpdated
+  • ReplicatedStorage.ReplicaDataModule.BoostsUpdated
+  • ReplicatedStorage.ReplicaDataModule.EventCoinsUpdated
+  • ReplicatedStorage.ReplicaDataModule.ItemsUpdated
+  • ReplicatedStorage.ReplicaDataModule.ItemsEquippedUpdated
+  • ReplicatedStorage.ReplicaDataModule.SavesUpdated
+  • ReplicatedStorage.ReplicaDataModule.SaveSlotsUpdated
+  • ReplicatedStorage.ReplicaDataModule.SettingsUpdated
+  • ReplicatedStorage.ReplicaDataModule.RiftItemUpdated
+  • ReplicatedStorage.ReplicaDataModule.StarRiftItemUpdated
+  • ReplicatedStorage.RemotesFolder.FireToolProjectile
+  • ReplicatedStorage.RemotesFolder.PackedBags
+  • ReplicatedStorage.RemotesFolder.ToggleLoading
+  • ReplicatedStorage.RemotesFolder.CamShakeClient
+  • ReplicatedStorage.RemotesFolder.CamShakeRelativeClient
+  • ReplicatedStorage.RemotesFolder.ReplicateAnimationClient
+  • ReplicatedStorage.RemotesFolder.SkipToRoomNumber
+  • ReplicatedStorage.RemotesFolder.JumpscareBindable
+  • ReplicatedStorage.RemotesFolder.CaptionClient
+  • ReplicatedStorage.BigProps.DoorPieceBottom.MainPart.Event
+  • ReplicatedStorage.BigProps.DoorPieceTop.MainPart.Event
 
-  [BoolValue] log
-  [BoolValue] clog
+═══════════════════════════════════════════════════════════════════════════════════
+═══ 2. REMOTE SPY LOGS ═══
+═══════════════════════════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════
+REMOTE SPY LOG — 2026-05-17 13:48:55
+Игра: DOORS (GAME)
+═══════════════════════════════════════════════════════════════
 
-═══ STRUCTURE: Workspace ═══
-[Camera] Camera
-  [Folder] Folder
-[Model] Kohl's Admin Infinite
-[Model] Lobby
-  [Script] Script
-  [Part] Base
-  [Part] Base
-  [Part] Base
-  [SpawnLocation] Lobby
-  [SpawnLocation] Lobby
-  [SpawnLocation] Lobby
-  [Part] Base
-  [SpawnLocation] Lobby
-  [Part] Base
-  [Part] Base
-  [Part] Base
-  [Part] Base
-  [Part] Base
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-  [Part] Wall
-    [TouchTransmitter] TouchInterest
-[Model] Doomspires
-  [Model] BLUE
-    [Model] Floor1
-      [Model] Stairs
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor2
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] CommRoom
-      [Model] Room
-      [Model] Spire
-    [BrickColorValue] BLUE
-    [Model] Floor5
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] FloorBrick
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] FloorBrick
-      [Part] FloorBrick
-    [Model] Spawns
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-    [Model] Roof
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-    [Model] Floor3
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-    [Model] SafetyRailing
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-    [Model] Floor7
-      [Model] Ladder
-      [Model] Walls
-      [Model] Floor
-      [Model] Windows
-      [Model] Ladder
-    [Model] Floor4
-      [Model] Stairs
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor6
-      [Model] Ladder
-      [Model] Ladder
-      [Model] Floor
-      [Model] Windows
-      [Model] Walls
-    [Part] Path
-      [Weld] Weld
-      [Weld] Weld
-      [Weld] Weld
-      [Weld] Weld
-      [Weld] Weld
-      [Weld] Weld
-      [Snap] Snap
-  [Model] RED
-    [Model] Floor1
-      [Model] Stairs
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor2
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor3
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor4
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Roof
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-    [Model] CommRoom
-      [Model] Spire
-      [Model] Room
-    [Model] SafetyRailing
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-    [Model] Spawns
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-    [BrickColorValue] RED
-    [Model] Floor5
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor6
-      [Model] Windows
-      [Model] Floor
-      [Model] Walls
-      [Model] Ladder
-      [Model] Ladder
-      [Model] Ladder
-      [Model] Ladder
-    [Model] Floor7
-      [Model] Floor
-      [Model] Ladder
-      [Model] Ladder
-      [Model] Walls
-      [Model] Windows
-    [Part] Path
-      [Snap] Snap
-  [Model] YELLOW
-    [Model] CommRoom
-      [Model] Room
-      [Model] Spire
-    [BrickColorValue] YELLOW
-    [Model] Spawns
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-      [SpawnLocation] SpawnLocation
-    [Model] Floor1
-      [Model] Stairs
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor2
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor3
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor6
-      [Model] Ladder
-      [Model] Walls
-      [Model] Floor
-      [Model] Windows
-      [Model] Ladder
-      [Model] Ladder
-      [Model] Ladder
-    [Model] Floor7
-      [Model] Ladder
-      [Model] Windows
-      [Model] Ladder
-      [Model] Walls
-      [Model] Floor
-    [Model] SafetyRailing
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-    [Model] Roof
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-    [Model] Floor5
-      [Model] Stairs
-      [Part] WallBrickLong
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor4
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Part] Path
-      [Snap] Snap
-  [Model] GREEN
-    [Model] CommRoom
-      [Model] Spire
-      [Model] Room
-    [BrickColorValue] GREEN
-    [Model] Floor6
-      [Model] Floor
-      [Model] Windows
-      [Model] Walls
-    [Model] Floor7
-      [Model] Walls
-      [Model] Windows
-      [Model] Floor
-    [Model] Roof
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-    [Model] Floor2
-      [Model] Stairs
-      [Part] WallBrickShort
-      [Part] FloorBrick
-      [Part] WallBrickShort
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] Excepted
-      [Part] Excepted
-      [Part] FloorBrick
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] FloorBrick
-    [Model] Floor1
-      [Model] Stairs
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-    [Model] SafetyRailing
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-      [Part] Excepted
-    [Model] Floor5
-      [Model] Stairs
-      [Part] WallBrickShort
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor4
-      [Model] Stairs
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-    [Model] Floor3
-      [Model] Stairs
-      [Part] WallBrickLong
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] FloorBrick
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickLong
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] WallBrickShort
-      [Part] FloorBrick
-    [Part] Path
-      [Weld] Weld
-      [Weld] Weld
-      [Snap] Snap
-      [Weld] Weld
-      [Weld] Weld
-  [Folder] GameValues
-    [Folder] Teams
-      [BrickColorValue] BLUE
-      [BrickColorValue] GREEN
-      [BrickColorValue] YELLOW
-      [BrickColorValue] RED
-    [IntValue] TeamsLeft
-[Terrain] Terrain
-  [Attachment] Attachment
-  [Attachment] Attachment
-  [Beam] Beam
-[Part] Baseplate
-  [Script] Kill
-  [TouchTransmitter] TouchInterest
-[Model] Danied533
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] walk
-      [Animation] WalkAnim
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] mood
-      [Animation] Animation1
-    [BindableFunction] PlayEmote
-    [StringValue] idle
-      [Animation] Animation2
-      [Animation] Animation1
-    [StringValue] pose
-      [Animation] RthroIdlePose
-  [MeshPart] RightHand
-    [WrapTarget] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] RightWrist
-    [Weld] RightGrip
-  [Shirt] Shirt
-  [BodyColors] Body Colors
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [Pants] Pants
-  [Accessory] Pal Hair
-    [MeshPart] Handle
-      [Attachment] HairAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [WrapTarget] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] LeftElbow
-  [MeshPart] RightLowerArm
-    [WrapTarget] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] RightElbow
-  [MeshPart] LeftUpperArm
-    [WrapTarget] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] LeftShoulder
-  [MeshPart] RightUpperArm
-    [WrapTarget] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] RightShoulder
-  [MeshPart] LowerTorso
-    [WrapTarget] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] Root
-  [MeshPart] LeftLowerLeg
-    [WrapTarget] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] LeftKnee
-  [MeshPart] LeftUpperLeg
-    [WrapTarget] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] LeftHip
-  [MeshPart] LeftFoot
-    [WrapTarget] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] LeftAnkle
-  [MeshPart] RightFoot
-    [WrapTarget] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [Motor6D] RightAnkle
-  [MeshPart] RightLowerLeg
-    [WrapTarget] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [Motor6D] RightKnee
-  [MeshPart] RightUpperLeg
-    [WrapTarget] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [Motor6D] RightHip
-  [MeshPart] UpperTorso
-    [WrapTarget] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] Waist
-  [MeshPart] Head
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [WrapTarget] Head
-    [FaceControls] FaceControls
-    [Motor6D] Neck
-  [MeshPart] LeftHand
-    [WrapTarget] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [Motor6D] LeftWrist
-  [Tool] RocketLauncher
-    [LocalScript] Client
-    [Script] Server
-    [RemoteEvent] RocketDestroyEvent
-    [BindableEvent] YieldBeyondTouch
-    [RemoteEvent] Fire
-    [Part] Handle
-      [Sound] exp
-      [Sound] swoosh
-      [SpecialMesh] Mesh
-[Model] Lilyisgooder36429
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftLowerArm
-    [Motor6D] LeftElbow
-  [MeshPart] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerArm
-    [Motor6D] RightElbow
-  [MeshPart] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftUpperArm
-    [Motor6D] LeftShoulder
-  [MeshPart] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperArm
-    [Motor6D] RightShoulder
-  [MeshPart] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LowerTorso
-    [Motor6D] Root
-  [Shirt] Shirt
-  [MeshPart] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerLeg
-    [Motor6D] LeftKnee
-  [MeshPart] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperLeg
-    [Motor6D] LeftHip
-  [MeshPart] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftFoot
-    [Motor6D] LeftAnkle
-  [MeshPart] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightFoot
-    [Motor6D] RightAnkle
-  [MeshPart] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerLeg
-    [Motor6D] RightKnee
-  [MeshPart] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperLeg
-    [Motor6D] RightHip
-  [MeshPart] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] UpperTorso
-    [Motor6D] Waist
-  [BodyColors] Body Colors
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [MeshPart] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightHand
-    [Motor6D] RightWrist
-    [Weld] RightGrip
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] idle
-      [Animation] Animation1
-      [Animation] Animation2
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] walk
-      [Animation] WalkAnim
-    [BindableFunction] PlayEmote
-    [StringValue] mood
-      [Animation] Animation1
-  [MeshPart] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftHand
-    [Motor6D] LeftWrist
-  [MeshPart] Head
-    [FaceControls] FaceControls
-    [WrapTarget] Head
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Motor6D] Neck
-  [Pants] Pants
-  [Accessory] SidePonytail
-    [MeshPart] Handle
-      [Attachment] HairAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-  [Tool] Timebomb
-    [Part] Handle
-      [SpecialMesh] Mesh
-      [Sound] Click
-      [Sound] exp
-    [LocalScript] Local
-    [Script] Server
-    [BindableEvent] ResetTime
-    [RemoteEvent] Fire
-[Explosion] Explosion
-[Model] tutilininsano7773
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftLowerArm
-    [Motor6D] LeftElbow
-  [MeshPart] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerArm
-    [Motor6D] RightElbow
-  [MeshPart] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftUpperArm
-    [Motor6D] LeftShoulder
-  [MeshPart] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperArm
-    [Motor6D] RightShoulder
-  [MeshPart] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LowerTorso
-    [Motor6D] Root
-  [Shirt] Shirt
-  [MeshPart] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerLeg
-    [Motor6D] LeftKnee
-  [MeshPart] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperLeg
-    [Motor6D] LeftHip
-  [MeshPart] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftFoot
-    [Motor6D] LeftAnkle
-  [MeshPart] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightFoot
-    [Motor6D] RightAnkle
-  [MeshPart] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerLeg
-    [Motor6D] RightKnee
-  [MeshPart] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperLeg
-    [Motor6D] RightHip
-  [MeshPart] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] UpperTorso
-    [Motor6D] Waist
-  [BodyColors] Body Colors
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [MeshPart] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightHand
-    [Motor6D] RightWrist
-    [Weld] RightGrip
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] idle
-      [Animation] Animation1
-      [Animation] Animation2
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] walk
-      [Animation] WalkAnim
-    [BindableFunction] PlayEmote
-    [StringValue] mood
-      [Animation] Animation1
-  [MeshPart] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftHand
-    [Motor6D] LeftWrist
-  [MeshPart] Head
-    [FaceControls] FaceControls
-    [WrapTarget] Head
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Motor6D] Neck
-  [Pants] Pants
-  [Accessory] Pal Hair
-    [MeshPart] Handle
-      [Attachment] HairAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-  [Tool] RocketLauncher
-    [Part] Handle
-      [SpecialMesh] Mesh
-      [Sound] exp
-      [Sound] swoosh
-    [LocalScript] Client
-    [RemoteEvent] RocketDestroyEvent
-    [BindableEvent] YieldBeyondTouch
-    [RemoteEvent] Fire
-    [Script] Server
-  [ForceField] ForceField
-[Folder] WallHolder
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-  [Part] Trowel Wall
-[Explosion] Explosion
-[Model] Ladenosaben
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftLowerArm
-    [Motor6D] LeftElbow
-  [MeshPart] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerArm
-    [Motor6D] RightElbow
-  [MeshPart] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftUpperArm
-    [Motor6D] LeftShoulder
-  [MeshPart] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperArm
-    [Motor6D] RightShoulder
-  [MeshPart] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LowerTorso
-    [Motor6D] Root
-  [Shirt] Shirt
-  [MeshPart] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerLeg
-    [Motor6D] LeftKnee
-  [MeshPart] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperLeg
-    [Motor6D] LeftHip
-  [MeshPart] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftFoot
-    [Motor6D] LeftAnkle
-  [MeshPart] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightFoot
-    [Motor6D] RightAnkle
-  [MeshPart] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerLeg
-    [Motor6D] RightKnee
-  [MeshPart] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperLeg
-    [Motor6D] RightHip
-  [MeshPart] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] UpperTorso
-    [Motor6D] Waist
-  [BodyColors] Body Colors
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [MeshPart] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightHand
-    [Motor6D] RightWrist
-    [Weld] RightGrip
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] idle
-      [Animation] Animation1
-      [Animation] Animation2
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] walk
-      [Animation] WalkAnim
-    [BindableFunction] PlayEmote
-    [StringValue] mood
-      [Animation] Animation1
-  [MeshPart] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftHand
-    [Motor6D] LeftWrist
-  [MeshPart] Head
-    [FaceControls] FaceControls
-    [WrapTarget] Head
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Motor6D] Neck
-  [Pants] Pants
-  [Accessory] Pal Hair
-    [MeshPart] Handle
-      [Attachment] HairAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-  [Tool] RocketLauncher
-    [Part] Handle
-      [SpecialMesh] Mesh
-      [Sound] exp
-      [Sound] swoosh
-    [LocalScript] Client
-    [RemoteEvent] RocketDestroyEvent
-    [BindableEvent] YieldBeyondTouch
-    [RemoteEvent] Fire
-    [Script] Server
-[Model] SamuelXBece23
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerArm
-    [Motor6D] LeftElbow
-    [Vector3Value] OriginalSize
-  [MeshPart] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] RightLowerArm
-    [Motor6D] RightElbow
-    [Vector3Value] OriginalSize
-  [MeshPart] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperArm
-    [Motor6D] LeftShoulder
-    [Vector3Value] OriginalSize
-  [MeshPart] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] RightUpperArm
-    [Motor6D] RightShoulder
-    [Vector3Value] OriginalSize
-  [MeshPart] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LowerTorso
-    [Motor6D] Root
-    [Vector3Value] OriginalSize
-  [Shirt] Shirt
-  [MeshPart] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] RightUpperLeg
-    [Motor6D] RightHip
-  [MeshPart] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftFoot
-    [Motor6D] LeftAnkle
-    [Vector3Value] OriginalSize
-  [MeshPart] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperLeg
-    [Motor6D] LeftHip
-    [Vector3Value] OriginalSize
-  [MeshPart] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerLeg
-    [Motor6D] LeftKnee
-    [Vector3Value] OriginalSize
-  [BodyColors] Body Colors
-  [MeshPart] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] RightFoot
-    [Motor6D] RightAnkle
-  [MeshPart] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] UpperTorso
-    [Motor6D] Waist
-    [Vector3Value] OriginalSize
-  [MeshPart] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] RightLowerLeg
-    [Motor6D] RightKnee
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [MeshPart] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] RightHand
-    [Motor6D] RightWrist
-    [Vector3Value] OriginalSize
-    [Weld] RightGrip
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] idle
-      [Animation] Animation1
-      [Animation] Animation2
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] walk
-      [Animation] WalkAnim
-    [BindableFunction] PlayEmote
-    [StringValue] mood
-      [Animation] Animation1
-  [MeshPart] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftHand
-    [Motor6D] LeftWrist
-    [Vector3Value] OriginalSize
-  [MeshPart] Head
-    [FaceControls] FaceControls
-    [WrapTarget] Head
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Motor6D] Neck
-  [Pants] Pants
-  [Accessory] BoySpaceHair
-    [MeshPart] Handle
-      [Attachment] HatAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-  [Tool] RocketLauncher
-    [Part] Handle
-      [SpecialMesh] Mesh
-      [Sound] exp
-      [Sound] swoosh
-    [LocalScript] Client
-    [RemoteEvent] RocketDestroyEvent
-    [BindableEvent] YieldBeyondTouch
-    [RemoteEvent] Fire
-    [Script] Server
-[Explosion] Explosion
-[Model] bionecanet
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftLowerArm
-    [Motor6D] LeftElbow
-  [MeshPart] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerArm
-    [Motor6D] RightElbow
-  [MeshPart] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftUpperArm
-    [Motor6D] LeftShoulder
-  [MeshPart] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperArm
-    [Motor6D] RightShoulder
-  [MeshPart] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LowerTorso
-    [Motor6D] Root
-  [Shirt] Shirt
-  [MeshPart] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerLeg
-    [Motor6D] LeftKnee
-  [MeshPart] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperLeg
-    [Motor6D] LeftHip
-  [MeshPart] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftFoot
-    [Motor6D] LeftAnkle
-  [MeshPart] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightFoot
-    [Motor6D] RightAnkle
-  [MeshPart] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerLeg
-    [Motor6D] RightKnee
-  [MeshPart] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperLeg
-    [Motor6D] RightHip
-  [MeshPart] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] UpperTorso
-    [Motor6D] Waist
-  [BodyColors] Body Colors
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [MeshPart] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightHand
-    [Motor6D] RightWrist
-    [Weld] RightGrip
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] idle
-      [Animation] Animation1
-      [Animation] Animation2
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] walk
-      [Animation] WalkAnim
-    [BindableFunction] PlayEmote
-    [StringValue] mood
-      [Animation] Animation1
-  [MeshPart] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftHand
-    [Motor6D] LeftWrist
-  [MeshPart] Head
-    [FaceControls] FaceControls
-    [WrapTarget] Head
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Motor6D] Neck
-  [Pants] Pants
-  [Accessory] Pal Hair
-    [MeshPart] Handle
-      [Attachment] HairAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-  [Tool] Trowel
-    [Script] Server
-    [LocalScript] Client
-    [Part] Handle
-      [SpecialMesh] Mesh
-      [Sound] BuildSound
-    [RemoteEvent] Fire
-  [ForceField] ForceField
-[Model] Leonela_m4
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftLowerArm
-    [Motor6D] LeftElbow
-  [MeshPart] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerArm
-    [Motor6D] RightElbow
-  [MeshPart] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftUpperArm
-    [Motor6D] LeftShoulder
-  [MeshPart] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperArm
-    [Motor6D] RightShoulder
-  [MeshPart] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LowerTorso
-    [Motor6D] Root
-  [Shirt] Shirt
-  [MeshPart] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerLeg
-    [Motor6D] LeftKnee
-  [MeshPart] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperLeg
-    [Motor6D] LeftHip
-  [MeshPart] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftFoot
-    [Motor6D] LeftAnkle
-  [MeshPart] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightFoot
-    [Motor6D] RightAnkle
-  [MeshPart] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerLeg
-    [Motor6D] RightKnee
-  [MeshPart] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperLeg
-    [Motor6D] RightHip
-  [MeshPart] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] UpperTorso
-    [Motor6D] Waist
-  [BodyColors] Body Colors
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [MeshPart] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightHand
-    [Motor6D] RightWrist
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] idle
-      [Animation] Animation1
-      [Animation] Animation2
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] walk
-      [Animation] WalkAnim
-    [BindableFunction] PlayEmote
-    [StringValue] mood
-      [Animation] Animation1
-  [MeshPart] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftHand
-    [Motor6D] LeftWrist
-  [MeshPart] Head
-    [FaceControls] FaceControls
-    [WrapTarget] Head
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Motor6D] Neck
-  [Pants] Pants
-  [Accessory] Kate Hair
-    [MeshPart] Handle
-      [Attachment] HairAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-[Explosion] Explosion
-[Explosion] Explosion
-[Folder] WallHolder
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-  [Part] Trowel Wall
-    [Weld] Weld
-[Explosion] Explosion
-[Explosion] Explosion
-[Explosion] Explosion
-[Explosion] Explosion
-[Model] Spro7899
-  [Part] HumanoidRootPart
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Attachment] RootAttachment
-      [Vector3Value] OriginalPosition
-    [Sound] Climbing
-    [Sound] Died
-    [Sound] GettingUp
-    [Sound] Swimming
-    [Sound] Jumping
-    [Sound] Landing
-    [Sound] Splash
-    [Sound] FreeFalling
-    [Sound] Running
-  [MeshPart] LeftLowerArm
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftLowerArm
-    [Motor6D] LeftElbow
-  [MeshPart] RightLowerArm
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerArm
-    [Motor6D] RightElbow
-  [MeshPart] LeftUpperArm
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftUpperArm
-    [Motor6D] LeftShoulder
-  [MeshPart] RightUpperArm
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightElbowRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperArm
-    [Motor6D] RightShoulder
-  [MeshPart] LowerTorso
-    [Attachment] RootRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] WaistBackAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LowerTorso
-    [Motor6D] Root
-  [Shirt] Shirt
-  [MeshPart] LeftLowerLeg
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftLowerLeg
-    [Motor6D] LeftKnee
-  [MeshPart] LeftUpperLeg
-    [Attachment] LeftHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftUpperLeg
-    [Motor6D] LeftHip
-  [MeshPart] LeftFoot
-    [Attachment] LeftAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftFootAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [StringValue] AvatarPartScaleType
-    [WrapTarget] LeftFoot
-    [Motor6D] LeftAnkle
-  [MeshPart] RightFoot
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightFootAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightFoot
-    [Motor6D] RightAnkle
-  [MeshPart] RightLowerLeg
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightAnkleRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightLowerLeg
-    [Motor6D] RightKnee
-  [MeshPart] RightUpperLeg
-    [Attachment] RightHipRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightKneeRigAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightUpperLeg
-    [Motor6D] RightHip
-  [MeshPart] UpperTorso
-    [Attachment] WaistRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightShoulderRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] BodyBackAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightCollarAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] UpperTorso
-    [Motor6D] Waist
-  [BodyColors] Body Colors
-  [Humanoid] Humanoid
-    [Animator] Animator
-    [NumberValue] BodyTypeScale
-    [NumberValue] BodyProportionScale
-    [NumberValue] BodyWidthScale
-    [NumberValue] BodyHeightScale
-    [NumberValue] BodyDepthScale
-    [NumberValue] HeadScale
-    [HumanoidDescription] HumanoidDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [BodyPartDescription] BodyPartDescription
-      [AccessoryDescription] AccessoryDescription
-    [Status] Status
-  [MeshPart] RightHand
-    [Attachment] RightWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] RightGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] RightHand
-    [Motor6D] RightWrist
-  [Script] onDied
-  [Script] Health
-  [LocalScript] Animate
-    [StringValue] cheer
-      [Animation] CheerAnim
-    [StringValue] climb
-      [Animation] ClimbAnim
-    [StringValue] dance
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance2
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] dance3
-      [Animation] Animation1
-      [Animation] Animation2
-      [Animation] Animation3
-    [StringValue] fall
-      [Animation] FallAnim
-    [StringValue] idle
-      [Animation] Animation1
-      [Animation] Animation2
-    [StringValue] jump
-      [Animation] JumpAnim
-    [StringValue] laugh
-      [Animation] LaughAnim
-    [StringValue] point
-      [Animation] PointAnim
-    [StringValue] sit
-      [Animation] SitAnim
-    [StringValue] toollunge
-      [Animation] ToolLungeAnim
-    [StringValue] toolnone
-      [Animation] ToolNoneAnim
-    [StringValue] toolslash
-      [Animation] ToolSlashAnim
-    [StringValue] wave
-      [Animation] WaveAnim
-    [NumberValue] ScaleDampeningPercent
-    [StringValue] run
-      [Animation] RunAnim
-    [StringValue] swim
-      [Animation] Swim
-    [StringValue] swimidle
-      [Animation] SwimIdle
-    [StringValue] walk
-      [Animation] WalkAnim
-    [BindableFunction] PlayEmote
-    [StringValue] mood
-      [Animation] Animation1
-  [MeshPart] LeftHand
-    [Attachment] LeftWristRigAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] LeftGripAttachment
-      [Vector3Value] OriginalPosition
-    [StringValue] AvatarPartScaleType
-    [Vector3Value] OriginalSize
-    [WrapTarget] LeftHand
-    [Motor6D] LeftWrist
-  [MeshPart] Head
-    [FaceControls] FaceControls
-    [WrapTarget] Head
-    [Attachment] FaceFrontAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HatAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] HairAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] FaceCenterAttachment
-      [Vector3Value] OriginalPosition
-    [Attachment] NeckRigAttachment
-      [Vector3Value] OriginalPosition
-    [Vector3Value] OriginalSize
-    [Motor6D] Neck
-  [Pants] Pants
-  [Accessory] ROBLOXCap
-    [MeshPart] Handle
-      [Attachment] HatAttachment
-      [Vector3Value] OriginalSize
-      [Weld] AccessoryWeld
-  [ForceField] ForceField
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("STARTING RP ROOM ")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("RP ROOM YIELD COMPLETE 0.00007891654968261719")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 3  5 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 4  5 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 5  5 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 6  5 3")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 7  5 4")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("RC FINAL 4.277534484863281")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("STARTING FLOOR GENERATION : ")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("GENERATION ATTEMPT: 1")
+[13:48:55] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("FLOOR GENERATION TOOK: 0.3302180767059326")
+[13:48:55] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:48:55] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:48:56] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:48:56] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:48:56] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:48:57] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:48:57] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:48:57] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:48:57] ReplicatedStorage.RemotesFolder.ChangeSettings → C→S({VolumeMusicLobby=50,VolumeMusic=50,ReduceMotion=false,Sensitivity=50,ToggleCrouch=true,HideLayers=false,...})
+[13:48:58] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-177[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-177[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-177[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-177[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-177[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-173[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-161[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-153[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:48:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-134[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-130[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-134[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-153[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:48:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-153[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-153[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-161[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-161[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-161[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-134[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-123[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-123[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-123[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-123[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-123[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-123[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-119[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-119[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-119[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-119[number])
+[13:49:00] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:00] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:00] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:01] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:01] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:01] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:01] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:01] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-115[number])
+[13:49:01] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-115[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-115[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-115[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:02] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-115[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-107[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-111[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-130[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-142[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-153[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-165[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:02] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:02] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:02] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:03] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:03] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:03] Workspace.CurrentRooms.0.Door.ClientOpen → C→S()
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-169[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-184[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-196[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-196[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-196[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-215[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-207[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-196[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-184[number])
+[13:49:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:04] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:04] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:05] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-103[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-73[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-53[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-50[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-46[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:05] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-42[number])
+[13:49:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-30[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-26[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-26[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-26[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-26[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-26[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-26[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-26[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-46[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-69[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-92[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-111[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-115[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-126[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-126[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-100[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-154[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-154[number])
+[13:49:06] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:06] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-146[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-173[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-177[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-181[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-181[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-181[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-185[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-208[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-250[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-281[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-300[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-304[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-304[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-304[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-312[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-312[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-312[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-320[number])
+[13:49:07] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:07] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:07] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-327[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-335[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-335[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-335[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-335[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-320[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-304[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-281[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-266[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-243[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-216[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-181[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-158[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-119[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-108[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-108[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-108[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-108[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-119[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-162[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-189[number])
+[13:49:08] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:08] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-212[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-223[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-223[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-223[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-223[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-223[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-223[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-227[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-227[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-227[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-227[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-227[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-227[number])
+[13:49:09] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-227[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-212[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-193[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-193[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:10] ReplicatedStorage.RemotesFolder.LiveClock → S→C(0[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:10] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-193[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-193[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-193[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-193[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.ToolAnimate → S→C(Key [Tool], "CancelAnimation")
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-179[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-179[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-179[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-179[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-179[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-179[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-152[number])
+[13:49:10] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-152[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-152[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-190[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-190[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-152[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-148[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-140[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:11] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
+[13:49:11] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:12] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-82[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-194[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-209[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-229[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-252[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-275[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-298[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-348[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-413[number])
+[13:49:12] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-425[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-429[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-429[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-437[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-471[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-521[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-548[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-575[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-614[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:13] ReplicatedStorage.ReplicatedTweening.TweenEvent → S→C("RunTween", Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Main [MeshPart], {1=0.4000000059604645,2=Enum.EasingStyle.Quad,3=Enum.EasingDirection.Out,4=0,5=false,6=0,}, {CFrame=273.450195, -3.24140906, -3.70719004, 1, 0, 0, 0, 1, 0, 0, 0, 1,})
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:13] ReplicatedStorage.ReplicatedTweening.TweenEvent → S→C("RunTween", Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Main [MeshPart], {1=0.4000000059604645,2=Enum.EasingStyle.Quad,3=Enum.EasingDirection.Out,4=0,5=false,6=0,}, {CFrame=273.450195, -2.35566688, -3.70719004, 1, 0, 0, 0, 1, 0, 0, 0, 1,})
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-623[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-611[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-603[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-603[number])
+[13:49:13] ReplicatedStorage.ReplicatedTweening.TweenEvent → S→C("RunTween", Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Main [MeshPart], {1=0.4000000059604645,2=Enum.EasingStyle.Quad,3=Enum.EasingDirection.Out,4=0,5=false,6=0,}, {CFrame=273.450195, -1.44670081, -3.70719004, 1, 0, 0, 0, 1, 0, 0, 0, 1,})
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-603[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-599[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-588[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-576[number])
+[13:49:13] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-569[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-557[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-538[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-530[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-519[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-540[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-511[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-465[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-423[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-404[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-373[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-331[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-300[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-277[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-258[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-258[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-254[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-250[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-234[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-196[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-165[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:14] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-138[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-134[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-119[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:16] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:16] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:16] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:17] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:17] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:17] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:18] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:18] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:18] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:18] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:18] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-111[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-111[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
+[13:49:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-198[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-213[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-236[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-275[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-333[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-356[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-359[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-359[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-352[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-352[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-352[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-352[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-352[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-352[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-344[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-336[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-336[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-336[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-336[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-336[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-340[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-344[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-344[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-344[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-363[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.GetCurrency → S→C(V3(265.84,-0.22,-78.08), 5[number], "Gold")
+[13:49:19] Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold → BIND(5[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-371[number])
+[13:49:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-371[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-367[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-352[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-332[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-305[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-263[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-248[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-240[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-228[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-217[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-205[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-205[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-205[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-205[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-205[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-205[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-190[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-159[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
+[13:49:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-86[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-86[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-86[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-86[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:21] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:21] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:21] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
+[13:49:22] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:22] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:22] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:22] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-82[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-59[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-32[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-21[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-21[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-24[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-28[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-28[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-28[number])
+[13:49:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-28[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-28[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:23] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-36[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-178[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-175[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-190[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-186[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-236[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-329[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-379[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-390[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-390[number])
+[13:49:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-394[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-406[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-425[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-456[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-483[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-479[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-448[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-421[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-421[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-432[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-475[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-533[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-567[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-598[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-633[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.GetCurrency → S→C(V3(204.61,-2.72,-101.30), 25[number], "Gold")
+[13:49:25] Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold → BIND(30[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:25] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:26] ReplicatedStorage.RemotesFolder.GetCurrency → S→C(V3(205.43,-2.72,-100.02), 10[number], "Gold")
+[13:49:26] Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold → BIND(40[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.GetCurrency → S→C(V3(205.53,-2.72,-100.88), 5[number], "Gold")
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:26] Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold → BIND(45[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.GetCurrency → S→C(V3(204.79,-2.72,-102.25), 5[number], "Gold")
+[13:49:26] Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold → BIND(50[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-627[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-608[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-596[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-596[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-596[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-592[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-592[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-600[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-611[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.GetCurrency → S→C(V3(204.20,-2.72,-106.96), 5[number], "Gold")
+[13:49:27] Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold → BIND(55[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:27] ReplicatedStorage.RemotesFolder.GetCurrency → S→C(V3(204.06,-2.72,-107.97), 25[number], "Gold")
+[13:49:27] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
+[13:49:27] Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold → BIND(80[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-629[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-629[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-637[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-645[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-645[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-645[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-637[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-618[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-596[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-558[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-529[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-510[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-494[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-475[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-463[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-440[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-398[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-363[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-340[number])
+[13:49:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-317[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-275[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-240[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-202[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-140[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-82[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:29] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:29] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-52[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-40[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-44[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
+[13:49:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-113[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-109[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-109[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:31] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.ReplicateAnimation → S→C(Workspace.Ladenosaben [Model], Workspace.CurrentRooms.1.Assets.Wardrobe.Anim_Enter [Animation], CF(222.46,-0.34,-60.48), CF(222.46,0.29,-56.23), Workspace.CurrentRooms.1.Assets.Wardrobe.AnimationController [AnimationController], Workspace.CurrentRooms.1.Assets.Wardrobe.Anim_EnterModel [Animation])
+[13:49:31] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
+[13:49:32] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:32] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-1[number])
+[13:49:32] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-1[number])
+[13:49:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-1[number])
+[13:49:32] ReplicatedStorage.RemotesFolder.CamLock → S→C(V3(-0.00,-0.00,-1.00))
+[13:49:32] ReplicatedStorage.RemotesFolder.ServerTeleported → S→C(V3(222.46,0.29,-56.23), V3(-0.00,-0.00,-1.00))
+[13:49:32] ReplicatedStorage.RemotesFolder.Teleport → S→C(CF(222.46,0.29,-56.23))
+[13:49:32] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:32] ReplicatedStorage.RemotesFolder.ServerTeleported → S→C(V3(222.46,0.29,-56.23), V3(-0.00,-0.00,-1.00))
+[13:49:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
+[13:49:32] ReplicatedStorage.RemotesFolder.ServerTeleported → S→C(V3(222.46,0.29,-56.23), V3(-0.00,-0.00,-1.00))
+[13:49:33] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:33] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:33] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.CamLock → C→S()
+[13:49:33] Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.StopHeartbeat → BIND()
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-326[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-533[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-607[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-565[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-561[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-565[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-596[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-615[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-615[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-615[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-615[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-615[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-615[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-619[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:38] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:41] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.HideMonster → S→C(9.933333333333334[number])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:41] Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.ToggleInventory → BIND(true[boolean])
+[13:49:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:43] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:44] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:45] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-626[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-626[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-626[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-626[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-626[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-626[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-630[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:46] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-638[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-626[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-615[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-599[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-584[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-557[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-534[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:47] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-519[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-507[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-496[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-492[number])
+[13:49:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-499[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-515[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-530[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-549[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-576[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-596[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-619[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:48] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:49] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-646[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-642[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:50] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:51] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.ReplicateAnimation → S→C(Workspace.Ladenosaben [Model], Workspace.CurrentRooms.1.Assets.Wardrobe.Anim_ForceOut [Animation], CF(222.46,0.29,-56.23), CF(222.46,-0.34,-60.48), Workspace.CurrentRooms.1.Assets.Wardrobe.AnimationController [AnimationController], Workspace.CurrentRooms.1.Assets.Wardrobe.Anim_ExitModel [Animation])
+[13:49:51] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:51] Players.Ladenosaben.PlayerGui.MainUI.Event_Stress → BIND(100[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:51] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-650[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:52] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-634[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-611[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-569[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-507[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-442[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-380[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-295[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-203[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-145[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-34[number])
+[13:49:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(5[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(43[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(63[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(97[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(132[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(163[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(182[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:53] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(194[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(209[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(267[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(290[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(290[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(290[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(290[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(448[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(448[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(410[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(291[number])
+[13:49:53] ReplicatedStorage.RemotesFolder.ServerTeleported → S→C(V3(222.46,-0.34,-60.48), V3(-0.00,-0.00,-1.00))
+[13:49:53] ReplicatedStorage.RemotesFolder.GetOutOfHiding → S→C()
+[13:49:54] ReplicatedStorage.RemotesFolder.ServerTeleported → S→C(V3(222.46,-0.34,-60.48), V3(-0.00,-0.00,-1.00))
+[13:49:54] ReplicatedStorage.RemotesFolder.ServerTeleported → S→C(V3(222.46,-0.34,-60.48), V3(-0.00,-0.00,-1.00))
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-63[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-57[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-126[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-153[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-161[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-184[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-273[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-319[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-319[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-319[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-304[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-284[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-257[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-230[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-207[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-180[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:54] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-161[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-157[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-134[number])
+[13:49:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-126[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-111[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-92[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-88[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-84[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-88[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-96[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-88[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-61[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-46[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-46[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
+[13:49:55] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-46[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-42[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-42[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
+[13:49:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
+[13:49:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
+[13:49:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-38[number])
 
-═══ SPY LOGS ═══
-====== REMOTE SPY LOG ======
-Старт: 2026-05-16 22:49:26
-PlaceId: 841005469
-Длительность: 55 сек
-============================
-[22:49:29][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.Spro7899 [Player]
-[22:49:29][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(120.2,85.0,26.0)
-[22:49:30][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(126.7,74.1,26.0)
-[22:49:30][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(124.7,75.3,26.0)
-[22:49:31][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(124.7,75.3,26.0)
-[22:49:31][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.BABA_44353 [Player]
-[22:49:31][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(123.8,85.5,26.0)
-[22:49:31][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(124.8,85.7,26.0)
-[22:49:31][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(124.8,85.7,26.0)
-[22:49:31][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(120.3,85.7,26.0)
-[22:49:31][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(119.4,85.7,26.0)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(119.4,85.7,26.0)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(119.0,86.3,25.2)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(119.0,86.5,24.1)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(119.0,86.5,24.1)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(119.0,86.5,24.1)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(119.0,86.5,24.1)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(119.0,86.5,24.1)
-[22:49:32][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(118.1,85.3,24.0)
-[22:49:33][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(12.8,81.8,108.8)
-[22:49:33][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(11.6,82.6,107.2)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(10.6,86.7,107.3)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(8.6,87.3,107.6)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(8.2,86.9,107.7)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(11.3,81.8,109.1)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(9.4,81.8,110.8)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(1.7,81.8,110.2)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(2.0,88.4,108.5)
-[22:49:34][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(10.9,86.5,107.3)
-[22:49:40][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.Lilyisgooder36429 [Player]
-[22:49:41][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.infinito_27444 [Player]
-[22:49:43][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.8,78.4,12.0)
-[22:49:43][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.0,72.9,-6.9)
-[22:49:44][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.0,75.9,-0.7)
-[22:49:44][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.0,79.1,7.3)
-[22:49:44][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.0,79.2,5.9)
-[22:49:44][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.0,78.7,7.8)
-[22:49:44][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.0,78.8,6.2)
-[22:49:44][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(105.0,76.1,11.2)
-[22:49:45][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(106.1,73.3,12.0)
-[22:49:45][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(106.1,73.3,12.0)
-[22:49:45][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(106.1,73.1,12.0)
-[22:49:45][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(106.1,73.1,12.0)
-[22:49:46][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.SamuelXBece23 [Player]
-[22:49:46][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(23.1,80.6,115.6)
-[22:49:47][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(22.0,76.2,118.4)
-[22:49:47][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(9.0,81.8,123.4)
-[22:49:47][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(8.7,81.8,123.2)
-[22:49:48][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(8.3,81.8,123.0)
-[22:49:48][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(8.3,81.8,123.0)
-[22:49:48][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(8.3,81.8,123.0)
-[22:49:49][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(8.3,81.8,125.4)
-[22:49:49][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(8.7,81.8,128.9)
-[22:49:49][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(9.2,81.8,132.9)
-[22:49:49][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(9.6,81.8,140.4)
-[22:49:49][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(9.9,81.8,142.7)
-[22:49:49][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(10.2,81.8,144.4)
-[22:49:50][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(10.6,81.8,146.2)
-[22:49:50][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | 6.8190937, 90.5374832, 148.645477, -0.838670909, -0.0327746943, 0.54365164, 0, 0.9981879, 0.0601769462, -0.544638693, 0.0504686534, -0.837150991 [CFrame]
-[22:49:51][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | 6.87984371, 90.5962372, 148.573654, -0.838670909, -0.0327746943, 0.54365164, 0, 0.9981879, 0.0601769462, -0.544638693, 0.0504686534, -0.837150991 [CFrame]
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:51][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | 6.86262989, 90.4387512, 148.390762, -0.838670909, -0.0327746943, 0.54365164, 0, 0.9981879, 0.0601769462, -0.544638693, 0.0504686534, -0.837150991 [CFrame]
-[22:49:51][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | 6.85201645, 90.4143524, 148.339325, -0.838670909, -0.0327746943, 0.54365164, 0, 0.9981879, 0.0601769462, -0.544638693, 0.0504686534, -0.837150991 [CFrame]
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:51][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | 6.85069752, 90.4210358, 148.33725, -0.838670909, -0.0327746943, 0.54365164, 0, 0.9981879, 0.0601769462, -0.544638693, 0.0504686534, -0.837150991 [CFrame]
-[22:49:51][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | 7.91582012, 90.3789597, 148.508194, -0.838670909, -0.0327746943, 0.54365164, 0, 0.9981879, 0.0601769462, -0.544638693, 0.0504686534, -0.837150991 [CFrame]
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:51][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | 9.67660904, 90.2105026, 149.552856, -0.838670909, -0.0327746943, 0.54365164, 0, 0.9981879, 0.0601769462, -0.544638693, 0.0504686534, -0.837150991 [CFrame]
-[22:49:51][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.Lilyisgooder36429 [Player]
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:51][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:52][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:52][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:53][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -7.48675823, 116.02269, 145.703812, 0.942641437, -0.137047559, 0.304376781, 0, 0.911834061, 0.410558969, -0.33380723, -0.387009889, 0.859532475 [CFrame]
-[22:49:53][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -6.81274223, 115.237602, 143.877197, 0.942641377, -0.137047559, 0.304376811, 0, 0.911834121, 0.410559028, -0.3338072, -0.387009919, 0.859532595 [CFrame]
-[22:49:53][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:53][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:53][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -4.79634953, 109.557846, 139.440109, 0.942641437, -0.137047559, 0.304376781, 0, 0.911834061, 0.410558969, -0.33380723, -0.387009889, 0.859532475 [CFrame]
-[22:49:53][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -4.16283941, 109.338676, 138.091064, 0.942641377, -0.137047559, 0.304376811, 0, 0.911834121, 0.410559028, -0.3338072, -0.387009919, 0.859532595 [CFrame]
-[22:49:53][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:53][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:53][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -3.29709792, 109.679062, 136.370697, 0.942641437, -0.137047559, 0.304376781, 0, 0.911834061, 0.410558969, -0.33380723, -0.387009889, 0.859532475 [CFrame]
-[22:49:53][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -2.38197374, 109.414368, 134.671051, 0.942641377, -0.137047559, 0.304376811, 0, 0.911834121, 0.410559028, -0.3338072, -0.387009919, 0.859532595 [CFrame]
-[22:49:53][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:53][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:53][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -1.66144359, 109.582405, 133.102295, 0.942641377, -0.137047559, 0.304376811, 0, 0.911834121, 0.410559028, -0.3338072, -0.387009919, 0.859532595 [CFrame]
-[22:49:54][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -0.934740663, 109.470695, 131.441284, 0.942641437, -0.137047559, 0.304376781, 0, 0.911834061, 0.410558969, -0.33380723, -0.387009889, 0.859532475 [CFrame]
-[22:49:54][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:54][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:54][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -0.458902955, 109.386604, 130.666382, 0.942641437, -0.137047559, 0.304376781, 0, 0.911834061, 0.410558969, -0.33380723, -0.387009889, 0.859532475 [CFrame]
-[22:49:54][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:49:54][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(4.2,102.2,124.1)
-[22:49:55][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(3967.3,-1361.6,-8921.0)
-[22:49:56][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(106.0,72.1,12.0)
-[22:49:56][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(113.2,69.1,22.0)
-[22:49:56][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(125.3,52.9,26.0)
-[22:49:56][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(133.4,87.1,-24.0)
-[22:49:56][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(97.0,123.4,32.2)
-[22:49:57][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(101.7,107.9,20.0)
-[22:49:57][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(115.0,58.9,23.4)
-[22:49:57][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(137.4,92.8,26.0)
-[22:49:57][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(167.0,120.1,0.8)
-[22:49:57][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(115.0,103.7,32.7)
-[22:49:58][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(124.3,64.7,26.0)
-[22:49:58][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.Spro7899 [Player]
-[22:49:59][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-108.9,115.9,36.0)
-[22:49:59][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-108.4,112.9,20.0)
-[22:49:59][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-96.8,116.9,20.6)
-[22:49:59][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-111.0,101.6,25.1)
-[22:50:00][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-119.0,126.6,37.8)
-[22:50:00][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-120.2,121.5,40.0)
-[22:50:00][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-93.0,122.9,1.0)
-[22:50:00][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-93.0,116.6,-1.0)
-[22:50:00][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-109.4,102.1,20.0)
-[22:50:00][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-107.0,79.0,12.3)
-[22:50:01][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-5420.7,-110.5,-8285.0)
-[22:50:01][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.SamuelXBece23 [Player]
-[22:50:01][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-5376.4,-97.2,-8313.8)
-[22:50:01][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-97.0,105.4,-9.2)
-[22:50:02][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-97.0,105.9,-2.9)
-[22:50:02][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-99.0,105.1,15.0)
-[22:50:02][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-105.0,80.2,10.7)
-[22:50:02][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-19.2,102.2,109.4)
-[22:50:02][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-111.0,104.1,22.6)
-[22:50:03][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -14.7949486, 110.475983, 105.852249, 0.930417359, -0.0367824398, 0.364651233, 0, 0.994951069, 0.100360908, -0.366501659, -0.0933775306, 0.925719798 [CFrame]
-[22:50:03][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:50:03][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -13.8776207, 110.531837, 105.285072, 0.930417359, -0.0367824398, 0.364651233, 0, 0.994951069, 0.100360908, -0.366501659, -0.0933775306, 0.925719798 [CFrame]
-[22:50:03][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:50:03][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -11.1936703, 110.598557, 106.925262, 0.930417359, -0.0367824398, 0.364651233, 0, 0.994951069, 0.100360908, -0.366501659, -0.0933775306, 0.925719798 [CFrame]
-[22:50:03][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:50:03][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -10.0631113, 110.42482, 110.494904, 0.930417359, -0.0367824398, 0.364651233, 0, 0.994951069, 0.100360908, -0.366501659, -0.0933775306, 0.925719798 [CFrame]
-[22:50:03][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:50:03][S<-C] RobloxReplicatedStorage.CanChatWith | table: 0x2bf76ebc0dda81ba [table]
-[22:50:04][S<-C] RobloxReplicatedStorage.SendPlayerProfileSettings | "10962772096" | table: 0x5849d62d0db9b02a [table]
-[22:50:04][S<-C] RobloxReplicatedStorage.NewPlayerGroupDetails | table: 0x4fa45f714fcba8ea [table]
-[22:50:04][S<-C] RobloxReplicatedStorage.NewPlayerCanManageDetails | "10962772096" | false [boolean]
-[22:50:04][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -8.74232101, 110.294273, 113.72847, 0.930417359, -0.0367824398, 0.364651233, 0, 0.994951069, 0.100360908, -0.366501659, -0.0933775306, 0.925719798 [CFrame]
-[22:50:04][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:50:04][C->FireServer] Workspace.Ladenosaben.Timebomb.Fire | -7.6744628, 110.33374, 116.829071, 0.930417359, -0.0367824398, 0.364651233, 0, 0.994951069, 0.100360908, -0.366501659, -0.0933775306, 0.925719798 [CFrame]
-[22:50:04][BIND] Workspace.Ladenosaben.Timebomb.ResetTime | 
-[22:50:04][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(-5.6,102.2,104.8)
-[22:50:04][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(-4.5,102.2,107.7)
-[22:50:04][C->FireServer] Workspace.Ladenosaben.Trowel.Fire | V3(-4.0,102.2,108.7)
-[22:50:05][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(-5.7,102.2,106.8)
-[22:50:05][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(-7.4,102.2,103.2)
-[22:50:05][C->FireServer] Workspace.Ladenosaben.Slingshot.Fire | V3(-3646.3,-888.8,-9120.4)
-[22:50:05][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-3768.1,-847.2,-9081.1)
-[22:50:06][C->FireServer] Workspace.Ladenosaben.Superball.Fire | V3(-3770.8,-847.2,-9082.6)
-[22:50:06][BIND] Players.Ladenosaben.Backpack.Timebomb.ResetTime | 
-[22:50:08][BIND] Players.Ladenosaben.Backpack.Timebomb.ResetTime | 
-[22:50:10][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.Leonela_m4 [Player]
-[22:50:12][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.Ladenosaben [Player]
-[22:50:14][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.bionecanet [Player]
-[22:50:14][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-12.1,62.9,153.0)
-[22:50:14][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-9.9,63.5,155.0)
-[22:50:14][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-9.7,63.6,155.0)
-[22:50:14][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-6.0,64.1,155.0)
-[22:50:15][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(-2.0,63.8,155.0)
-[22:50:15][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(1.9,63.9,155.0)
-[22:50:15][BIND] Players.Ladenosaben.Backpack.Timebomb.ResetTime | 
-[22:50:17][BIND] Players.Ladenosaben.Backpack.Timebomb.ResetTime | 
-[22:50:18][S<-C] ReplicatedStorage.Remotes.RequestSpectator | "PlayerLoaded" | Players.Leonela_m4 [Player]
-[22:50:18][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(109.0,85.7,16.2)
-[22:50:18][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(109.0,85.5,16.9)
-[22:50:18][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(109.0,84.5,19.1)
-[22:50:18][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(109.5,84.5,20.0)
-[22:50:19][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(109.0,92.3,19.8)
-[22:50:19][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(103.6,120.3,36.0)
-[22:50:19][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(100.5,115.5,36.0)
-[22:50:19][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(101.7,113.0,25.7)
-[22:50:20][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(97.0,116.2,19.9)
-[22:50:20][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(97.0,118.3,16.9)
-[22:50:20][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(97.0,114.7,22.8)
-[22:50:20][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(97.0,114.7,21.9)
-[22:50:20][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(97.0,114.7,23.2)
-[22:50:21][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(97.0,116.7,19.2)
-[22:50:21][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(95.7,117.3,16.0)
-[22:50:21][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(95.7,117.3,16.0)
-[22:50:21][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(95.7,117.3,16.0)
-[22:50:21][C->FireServer] Workspace.Ladenosaben.RocketLauncher.Fire | V3(95.0,115.2,15.6)
+═══════════════════════════════════════════════════════════════
+СПИ ОСТАНОВЛЕН — 2026-05-17 13:49:56
+Всего перехвачено: 1588 вызовов
+═══════════════════════════════════════════════════════════════
 
-===== КОНЕЦ =====
-Конец: 22:50:21
-
-═══════════════════════════
-Конец: 22:50:32
+═══════════════════════════════════════════════════════════════════════════════════
+КОНЕЦ ДАМПА — 2026-05-17 13:50:03
+═══════════════════════════════════════════════════════════════════════════════════
