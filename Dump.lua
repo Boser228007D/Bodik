@@ -1,1831 +1,428 @@
-╔════════════════════════════════════════════════════════════════════════════════╗
-║                         FULL DUMP — DOORS__GAME_                         ║
-╚════════════════════════════════════════════════════════════════════════════════╝
+-- ╔════════════════════════════════════════════════════════════════════════════════╗
+-- ║                    UNIVERSAL REMOTE DUMPER — ЛЮБАЯ ИГРА                        ║
+-- ║              Работает с RemoteEvent, RemoteFunction, BindableEvent            ║
+-- ╚════════════════════════════════════════════════════════════════════════════════╝
 
-═══════════════════════════════════════════════════════════════════════════════════
-═══ 1. REMOTE EVENT/FUNCTION DUMP ═══
-═══════════════════════════════════════════════════════════════════════════════════
-╔══════════════════════════════════════════════════════════════╗
-║              UNIVERSAL REMOTE DUMPER                         ║
-╚══════════════════════════════════════════════════════════════╝
-Игра: DOORS (GAME)
-PlaceId: 6839171747
-JobId: 3e80cce4-96e8-412f-a4ee-ae1105d73d94
-Время: 2026-05-17 14:02:14
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
-═══ RemoteEvent ═══
-Всего RemoteEvent: 160
-  • Workspace.CurrentRooms.0.Door.ClientOpen
-  • Workspace.CurrentRooms.1.Door.ClientOpen
-  • RobloxReplicatedStorage.IntegrityCheckProcessorKey2_LocalizationTableAnalyticsSender_LocalizationService
-  • RobloxReplicatedStorage.IntegrityCheckProcessorKey2_DynamicTranslationSender_LocalizationService
-  • RobloxReplicatedStorage.CanChatWith
-  • RobloxReplicatedStorage.SetPlayerBlockList
-  • RobloxReplicatedStorage.UpdatePlayerBlockList
-  • RobloxReplicatedStorage.NewPlayerGroupDetails
-  • RobloxReplicatedStorage.NewPlayerCanManageDetails
-  • RobloxReplicatedStorage.SendPlayerBlockList
-  • RobloxReplicatedStorage.UpdateLocalPlayerBlockList
-  • RobloxReplicatedStorage.SendPlayerProfileSettings
-  • RobloxReplicatedStorage.RequestPlayerProfileSettings
-  • RobloxReplicatedStorage.UpdatePlayerProfileSettings
-  • RobloxReplicatedStorage.ShowPlayerJoinedFriendsToast
-  • RobloxReplicatedStorage.ShowFriendJoinedPlayerToast
-  • RobloxReplicatedStorage.CreateOrJoinParty
-  • RobloxReplicatedStorage.ModerateChatSettingUpdated
-  • RobloxReplicatedStorage.ExpChatFeatureValueChanged
-  • RobloxReplicatedStorage.ServerSideBulkPurchaseEvent
-  • RobloxReplicatedStorage.SetDialogInUse
-  • RobloxReplicatedStorage.ContactListInvokeIrisInvite
-  • RobloxReplicatedStorage.ContactListIrisInviteTeleport
-  • RobloxReplicatedStorage.UpdateCurrentCall
-  • RobloxReplicatedStorage.RequestDeviceCameraOrientationCapability
-  • RobloxReplicatedStorage.ReceiveLikelySpeakingUsers
-  • RobloxReplicatedStorage.ReferredPlayerJoin
-  • ReplicatedStorage.ClientAnimationReceiver.RemoteEvent
-  • ReplicatedStorage.ReplicatedTweening.TweenEvent
-  • ReplicatedStorage.RemotesFolder.Giggle
-  • ReplicatedStorage.RemotesFolder.SoundToClient
-  • ReplicatedStorage.RemotesFolder.Interaction_Door
-  • ReplicatedStorage.RemotesFolder.ElevatorExit
-  • ReplicatedStorage.RemotesFolder.Item_MeleeReplication
-  • ReplicatedStorage.RemotesFolder.Item_MiscReplication
-  • ReplicatedStorage.RemotesFolder.Hitmarker
-  • ReplicatedStorage.RemotesFolder.Inventory
-  • ReplicatedStorage.RemotesFolder.Equip
-  • ReplicatedStorage.RemotesFolder.UseEnemyModule
-  • ReplicatedStorage.RemotesFolder.UseEventModule
-  • ReplicatedStorage.RemotesFolder.Jumpscare
-  • ReplicatedStorage.RemotesFolder.CamLock
-  • ReplicatedStorage.RemotesFolder.CamShake
-  • ReplicatedStorage.RemotesFolder.ElevatorJoin
-  • ReplicatedStorage.RemotesFolder.Caption
-  • ReplicatedStorage.RemotesFolder.Remind
-  • ReplicatedStorage.RemotesFolder.LightningStrike
-  • ReplicatedStorage.RemotesFolder.GetCurrency
-  • ReplicatedStorage.RemotesFolder.ReplicateTween
-  • ReplicatedStorage.RemotesFolder.ClutchHeartbeat
-  • ReplicatedStorage.RemotesFolder.CamShakeRelative
-  • ReplicatedStorage.RemotesFolder.EngageMinigame
-  • ReplicatedStorage.RemotesFolder.EBF
-  • ReplicatedStorage.RemotesFolder.Cutscene
-  • ReplicatedStorage.RemotesFolder.CutsceneFollowup
-  • ReplicatedStorage.RemotesFolder.ReplicateAnimation
-  • ReplicatedStorage.RemotesFolder.CamLockHead
-  • ReplicatedStorage.RemotesFolder.ChangeModuleVariable
-  • ReplicatedStorage.RemotesFolder.ShadeResult
-  • ReplicatedStorage.RemotesFolder.PL
-  • ReplicatedStorage.RemotesFolder.PadlockHint
-  • ReplicatedStorage.RemotesFolder.Lobby
-  • ReplicatedStorage.RemotesFolder.Revive
-  • ReplicatedStorage.RemotesFolder.HideMonster
-  • ReplicatedStorage.RemotesFolder.PreRunShop
-  • ReplicatedStorage.RemotesFolder.SpiderJumpscare
-  • ReplicatedStorage.RemotesFolder.Statistics
-  • ReplicatedStorage.RemotesFolder.DeathHint
-  • ReplicatedStorage.RemotesFolder.AchievementUnlock
-  • ReplicatedStorage.RemotesFolder.Screech
-  • ReplicatedStorage.RemotesFolder.FigureLight
-  • ReplicatedStorage.RemotesFolder.HitDoor
-  • ReplicatedStorage.RemotesFolder.ElevatorFinished
-  • ReplicatedStorage.RemotesFolder.ElevatorMaxWarning
-  • ReplicatedStorage.RemotesFolder.GetOutOfHiding
-  • ReplicatedStorage.RemotesFolder.PlayAgain
-  • ReplicatedStorage.RemotesFolder.Loading
-  • ReplicatedStorage.RemotesFolder.SendErrorLog
-  • ReplicatedStorage.RemotesFolder.ShopCode
-  • ReplicatedStorage.RemotesFolder.ElevatorStart
-  • ReplicatedStorage.RemotesFolder.LiveClock
-  • ReplicatedStorage.RemotesFolder.FlexAchievement
-  • ReplicatedStorage.RemotesFolder.FlashSpecify
-  • ReplicatedStorage.RemotesFolder.ChangeSettings
-  • ReplicatedStorage.RemotesFolder.SwitchServers
-  • ReplicatedStorage.RemotesFolder.Haste
-  • ReplicatedStorage.RemotesFolder.UpdateFloor
-  • ReplicatedStorage.RemotesFolder.A90
-  • ReplicatedStorage.RemotesFolder.Vignette
-  • ReplicatedStorage.RemotesFolder.HaltCrucifix
-  • ReplicatedStorage.RemotesFolder.SystemMessage
-  • ReplicatedStorage.RemotesFolder.Greed
-  • ReplicatedStorage.RemotesFolder.ClimbLadder
-  • ReplicatedStorage.RemotesFolder.CreateElevator
-  • ReplicatedStorage.RemotesFolder.Promo
-  • ReplicatedStorage.RemotesFolder.Dread
-  • ReplicatedStorage.RemotesFolder.PlayerDied
-  • ReplicatedStorage.RemotesFolder.DropItem
-  • ReplicatedStorage.RemotesFolder.HidePickup
-  • ReplicatedStorage.RemotesFolder.Ragdoll
-  • ReplicatedStorage.RemotesFolder.Crouch
-  • ReplicatedStorage.RemotesFolder.Underwater
-  • ReplicatedStorage.RemotesFolder.UpdateMinecartNodes
-  • ReplicatedStorage.RemotesFolder.ServerLog
-  • ReplicatedStorage.RemotesFolder.DeathTickDelay
-  • ReplicatedStorage.RemotesFolder.MinecartResult
-  • ReplicatedStorage.RemotesFolder.SendRunnerNodes
-  • ReplicatedStorage.RemotesFolder.Teleport
-  • ReplicatedStorage.RemotesFolder.EndLighting
-  • ReplicatedStorage.RemotesFolder.StopSeekMusic
-  • ReplicatedStorage.RemotesFolder.CandyAnnounce
-  • ReplicatedStorage.RemotesFolder.StreamVote
-  • ReplicatedStorage.RemotesFolder.ServerTeleported
-  • ReplicatedStorage.RemotesFolder.FriendBall
-  • ReplicatedStorage.RemotesFolder.TweenColorSequence
-  • ReplicatedStorage.RemotesFolder.StupidEffects
-  • ReplicatedStorage.RemotesFolder.ReviveFriend
-  • ReplicatedStorage.RemotesFolder.ProductPurchased
-  • ReplicatedStorage.RemotesFolder.TargetCameraDirection
-  • ReplicatedStorage.RemotesFolder.MonumentEvent.ReliableEvent
-  • ReplicatedStorage.RemotesFolder.Onboarding
-  • ReplicatedStorage.RemotesFolder.BloxxerRank
-  • ReplicatedStorage.RemotesFolder.DestroyProjectile
-  • ReplicatedStorage.RemotesFolder.FireProjectile
-  • ReplicatedStorage.RemotesFolder.ProjectileHandler
-  • ReplicatedStorage.RemotesFolder.ProjectileHit
-  • ReplicatedStorage.RemotesFolder.SyncProjectile
-  • ReplicatedStorage.RemotesFolder.CreateSavedElevator
-  • ReplicatedStorage.RemotesFolder.DeleteSave
-  • ReplicatedStorage.RemotesFolder.ToolAnimate
-  • ReplicatedStorage.RemotesFolder.LotusElevatorStarted
-  • ReplicatedStorage.RemotesFolder.SurgeRemote
-  • ReplicatedStorage.RemotesFolder.AdminPanelRunCommand
-  • ReplicatedStorage.RemotesFolder.MusicIntense
-  • ReplicatedStorage.RemotesFolder.SeekSlop
-  • ReplicatedStorage.RemotesFolder.UsePowerup
-  • ReplicatedStorage.RemotesFolder.PointsNotification
-  • ReplicatedStorage.RemotesFolder.HostStartMatch
-  • ReplicatedStorage.RemotesFolder.CaptainManImBattlin
-  • ReplicatedStorage.RemotesFolder.GotGift
-  • ReplicatedStorage.RemotesFolder.ChangeFlagsEvent
-  • ReplicatedStorage.RemotesFolder.SetFlagsEvent
-  • ReplicatedStorage.RemotesFolder.CaptionWithChat
-  • ReplicatedStorage.RemotesFolder.RippleStatistics
-  • ReplicatedStorage.RemotesFolder.ChaosTalkToServer
-  • ReplicatedStorage.RemotesFolder.EndChaosMinigame
-  • ReplicatedStorage.RemotesFolder.AchievementProgress
-  • ReplicatedStorage.RemotesFolder.ElevatorMatchFound
-  • ReplicatedStorage.ModulesClient.ClientUpdatedModules.Firedamp.Remote
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaRequestData
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSetValue
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSetValues
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaArrayInsert
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaArraySet
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaArrayRemove
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaWrite
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSignal
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaSetParent
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaCreate
-  • ReplicatedStorage.ReplicaRemoteEvents.Replica_ReplicaDestroy
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ НАСТРОЙКИ ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local CONFIG = {
+    SpyDuration = 60,
+    OutputFolder = "workspace/UniversalDumper/",
+}
 
-═══ RemoteFunction ═══
-Всего RemoteFunction: 20
-  • RobloxReplicatedStorage.GetServerVersion
-  • RobloxReplicatedStorage.GetServerChannel
-  • RobloxReplicatedStorage.ExperienceChat.WhisperChat
-  • RobloxReplicatedStorage.GetServerType
-  • ReplicatedStorage.RemotesFolder.GetUGC
-  • ReplicatedStorage.RemotesFolder.CheckRevive
-  • ReplicatedStorage.RemotesFolder.IsNotPrivateServer
-  • ReplicatedStorage.RemotesFolder.RequestAsset
-  • ReplicatedStorage.RemotesFolder.ObtainGiftedRevive
-  • ReplicatedStorage.RemotesFolder.CheckRank
-  • ReplicatedStorage.RemotesFolder.RequestLocalAsset
-  • ReplicatedStorage.RemotesFolder.RequestShop
-  • ReplicatedStorage.RemotesFolder.PurchaseShopItem
-  • ReplicatedStorage.RemotesFolder.RequestInventory
-  • ReplicatedStorage.RemotesFolder.InventoryShopFunc
-  • ReplicatedStorage.RemotesFolder.ContinueOrSave
-  • ReplicatedStorage.RemotesFolder.SaveHandler
-  • ReplicatedStorage.RemotesFolder.RequestItemInfo
-  • ReplicatedStorage.RemotesFolder.GiftProduct
-  • ReplicatedStorage.RemotesFolder.RequestRipples
+-- Создаём папку
+if not isfolder(CONFIG.OutputFolder) then
+    pcall(makefolder, CONFIG.OutputFolder)
+end
 
-═══ BindableEvent/Function ═══
-Всего Bindable: 92
-  • Workspace.CurrentRooms.0.Assets.Dresser.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Dresser.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Dresser.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Assets.Table.DrawerContainer.Event
-  • Workspace.CurrentRooms.0.Door.Func_Close
-  • Workspace.CurrentRooms.0.Door.Func_Open
-  • Workspace.CurrentRooms.0.Door.Func_Lock
-  • Workspace.CurrentRooms.0.Door.Func_ForceOpen
-  • Workspace.CurrentRooms.0.Door.Lock.Event
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Assets.Wardrobe.Func_Open
-  • Workspace.CurrentRooms.1.Door.Func_Close
-  • Workspace.CurrentRooms.1.Door.Func_Open
-  • Workspace.CurrentRooms.1.Door.Func_Lock
-  • Workspace.CurrentRooms.1.Door.Func_ForceOpen
-  • Workspace.Ladenosaben.Animate.PlayEmote
-  • Workspace.Ladenosaben.StunEvent
-  • Workspace.Ladenosaben.QuickAnimEvent
-  • Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.ClientLightningStrike
-  • Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.ToggleInventory
-  • Players.Ladenosaben.PlayerGui.MainUI.Initiator.Main_Game.StopHeartbeat
-  • Players.Ladenosaben.PlayerGui.MainUI.Event_Unequip
-  • Players.Ladenosaben.PlayerGui.MainUI.Event_AutoFire
-  • Players.Ladenosaben.PlayerGui.MainUI.Event_FireWeapon
-  • Players.Ladenosaben.PlayerGui.MainUI.Event_RepositionViewmodel
-  • Players.Ladenosaben.PlayerGui.MainUI.Event_Sprinting
-  • Players.Ladenosaben.PlayerGui.MainUI.Event_Stress
-  • Players.Ladenosaben.PlayerGui.MainUI.Settings.List.Sensitivity.MoveBar
-  • Players.Ladenosaben.PlayerGui.MainUI.Settings.List.VolumeMusic.MoveBar
-  • Players.Ladenosaben.PlayerGui.MainUI.Settings.List.VolumeMusicLobby.MoveBar
-  • Players.Ladenosaben.PlayerGui.TopbarUI.Topbar.StatsTopbarHandler.StatModules.Gold.Gold
-  • CoreGui.RobloxGui.SendNotificationInfo
-  • ReplicatedStorage.ReplicaDataModule.StatisticsUpdated
-  • ReplicatedStorage.ReplicaDataModule.AchievementsUpdated
-  • ReplicatedStorage.ReplicaDataModule.FlexAchievementUpdated
-  • ReplicatedStorage.ReplicaDataModule.StardustUpdated
-  • ReplicatedStorage.ReplicaDataModule.StatsUpdated
-  • ReplicatedStorage.ReplicaDataModule.KnobsUpdated
-  • ReplicatedStorage.ReplicaDataModule.RevivesUpdated
-  • ReplicatedStorage.ReplicaDataModule.BoostsUpdated
-  • ReplicatedStorage.ReplicaDataModule.EventCoinsUpdated
-  • ReplicatedStorage.ReplicaDataModule.ItemsUpdated
-  • ReplicatedStorage.ReplicaDataModule.ItemsEquippedUpdated
-  • ReplicatedStorage.ReplicaDataModule.SavesUpdated
-  • ReplicatedStorage.ReplicaDataModule.SaveSlotsUpdated
-  • ReplicatedStorage.ReplicaDataModule.SettingsUpdated
-  • ReplicatedStorage.ReplicaDataModule.RiftItemUpdated
-  • ReplicatedStorage.ReplicaDataModule.StarRiftItemUpdated
-  • ReplicatedStorage.ReplicaDataModule.StatisticsUpdated
-  • ReplicatedStorage.ReplicaDataModule.AchievementsUpdated
-  • ReplicatedStorage.ReplicaDataModule.FlexAchievementUpdated
-  • ReplicatedStorage.ReplicaDataModule.StardustUpdated
-  • ReplicatedStorage.ReplicaDataModule.StatsUpdated
-  • ReplicatedStorage.ReplicaDataModule.KnobsUpdated
-  • ReplicatedStorage.ReplicaDataModule.RevivesUpdated
-  • ReplicatedStorage.ReplicaDataModule.BoostsUpdated
-  • ReplicatedStorage.ReplicaDataModule.EventCoinsUpdated
-  • ReplicatedStorage.ReplicaDataModule.ItemsUpdated
-  • ReplicatedStorage.ReplicaDataModule.ItemsEquippedUpdated
-  • ReplicatedStorage.ReplicaDataModule.SavesUpdated
-  • ReplicatedStorage.ReplicaDataModule.SaveSlotsUpdated
-  • ReplicatedStorage.ReplicaDataModule.SettingsUpdated
-  • ReplicatedStorage.ReplicaDataModule.RiftItemUpdated
-  • ReplicatedStorage.ReplicaDataModule.StarRiftItemUpdated
-  • ReplicatedStorage.RemotesFolder.FireToolProjectile
-  • ReplicatedStorage.RemotesFolder.PackedBags
-  • ReplicatedStorage.RemotesFolder.ToggleLoading
-  • ReplicatedStorage.RemotesFolder.CamShakeClient
-  • ReplicatedStorage.RemotesFolder.CamShakeRelativeClient
-  • ReplicatedStorage.RemotesFolder.ReplicateAnimationClient
-  • ReplicatedStorage.RemotesFolder.SkipToRoomNumber
-  • ReplicatedStorage.RemotesFolder.JumpscareBindable
-  • ReplicatedStorage.RemotesFolder.CaptionClient
-  • ReplicatedStorage.BigProps.DoorPieceBottom.MainPart.Event
-  • ReplicatedStorage.BigProps.DoorPieceTop.MainPart.Event
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ ПЕРЕМЕННЫЕ ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UIS = game:GetService("UserInputService")
+local CoreGui = game:GetService("CoreGui")
+local LocalPlayer = Players.LocalPlayer
 
-═══════════════════════════════════════════════════════════════════════════════════
-═══ 2. REMOTE SPY LOGS ═══
-═══════════════════════════════════════════════════════════════════════════════════
-═══════════════════════════════════════════════════════════════
-REMOTE SPY LOG — 2026-05-17 14:01:04
-Игра: DOORS (GAME)
-═══════════════════════════════════════════════════════════════
+local spyRunning = false
+local logs = {}
+local connections = {}
+local oldNamecall = nil
 
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("STARTING RP ROOM ")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("RP ROOM YIELD COMPLETE 0.00008034706115722656")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 5  5 4")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 0  5 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 1  5 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 2  5 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 3  5 3")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 4  5 4")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("1 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("2 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("3 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("4 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("5 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 0  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 1  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 2  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 3  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 4  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 5  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 6  3 0")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 7  3 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("6 CHUNK ROOM GENERATION ROOM TRIES: 8  3 2")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("RC FINAL 4.1190876960754395")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("STARTING FLOOR GENERATION : ")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("GENERATION ATTEMPT: 1")
-[14:01:04] ReplicatedStorage.RemotesFolder.SendErrorLog → S→C("FLOOR GENERATION TOOK: 0.32826662063598633")
-[14:01:04] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:05] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:05] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:06] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:06] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:07] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:07] ReplicatedStorage.RemotesFolder.ChangeSettings → C→S({VolumeMusicLobby=50,VolumeMusic=50,ReduceMotion=false,Sensitivity=50,ToggleCrouch=true,HideLayers=false,...})
-[14:01:07] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] Workspace.CurrentRooms.0.Door.ClientOpen → C→S()
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:08] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-85[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-108[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-112[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:09] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:10] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-100[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-66[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-39[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-39[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-39[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-39[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-39[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-27[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-4[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(15[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(30[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(38[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(42[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(50[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(57[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(61[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(61[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(61[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(61[number])
-[14:01:11] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(61[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(57[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(46[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(42[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(42[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(38[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(30[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(27[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(15[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:12] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:13] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:13] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-16[number])
-[14:01:14] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:14] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:14] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:15] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:15] ReplicatedStorage.RemotesFolder.ChangeSettings → C→S({VolumeMusicLobby=50,VolumeMusic=50,ReduceMotion=false,Sensitivity=50,ToggleCrouch=true,HideLayers=false,...})
-[14:01:15] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-8[number])
-[14:01:15] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(4[number])
-[14:01:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(11[number])
-[14:01:15] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(15[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(15[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(7[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:16] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-0[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-4[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-4[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-4[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-4[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-4[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-20[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-23[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-27[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-27[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-27[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-35[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-50[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-77[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:17] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-100[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-116[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-135[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-181[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-185[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-185[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-189[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-189[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-189[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-189[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-189[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-181[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-177[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-162[number])
-[14:01:18] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-162[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-162[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-162[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-150[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-147[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-127[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-112[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-85[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-81[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-100[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-104[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-112[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-135[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-139[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-158[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-162[number])
-[14:01:19] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-162[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-166[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-154[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-118[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:20] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-109[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-112[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-147[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-159[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-159[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-89[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:21] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:21] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-172[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-192[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-230[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-245[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-249[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-249[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-249[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-249[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-238[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-234[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-234[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-226[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-222[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-219[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-215[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-215[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-215[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-211[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-226[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-249[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-272[number])
-[14:01:22] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-295[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-299[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-295[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-295[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-295[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-287[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-287[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-287[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-287[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-287[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-275[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-268[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-260[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-252[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-245[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-210[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-164[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-164[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-160[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-152[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-148[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
-[14:01:23] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-141[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-121[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:24] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:24] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:24] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:25] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:25] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:25] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:26] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
-[14:01:26] ReplicatedStorage.RemotesFolder.ChangeSettings → C→S({VolumeMusicLobby=50,VolumeMusic=50,ReduceMotion=false,Sensitivity=50,ToggleCrouch=true,HideLayers=false,...})
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:26] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:26] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:27] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:27] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:27] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:27] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-52[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-48[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-48[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-48[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:28] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:28] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:29] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:29] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:30] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-114[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
-[14:01:31] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:31] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-129[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-137[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-137[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-141[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-141[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-141[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-141[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-118[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:32] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:33] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-114[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-118[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-118[number])
-[14:01:33] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:33] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-118[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-118[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-118[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-125[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:34] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:34] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:35] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.ChangeSettings → C→S({VolumeMusicLobby=50,VolumeMusic=50,ReduceMotion=false,Sensitivity=50,ToggleCrouch=true,HideLayers=false,...})
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-137[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-137[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-137[number])
-[14:01:35] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-141[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-141[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-144[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-148[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-156[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-183[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-191[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-195[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-195[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-202[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-252[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-268[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-272[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-279[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-283[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-283[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-283[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-283[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-291[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-298[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-302[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:36] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:36] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-306[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-287[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-272[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-260[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-252[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-248[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-245[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-237[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-221[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-198[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-198[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-229[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-233[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-225[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:37] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-214[number])
-[14:01:37] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-206[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-198[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-179[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-171[number])
-[14:01:38] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:38] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:39] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:39] ReplicatedStorage.RemotesFolder.ChangeSettings → C→S({VolumeMusicLobby=50,VolumeMusic=50,ReduceMotion=false,Sensitivity=50,ToggleCrouch=true,HideLayers=false,...})
-[14:01:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:39] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:39] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:39] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-168[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-160[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-156[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-156[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-156[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-156[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-156[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-148[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-133[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-114[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-94[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-44[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-29[number])
-[14:01:40] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:41] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:42] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:42] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:42] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:42] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:43] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:43] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:43] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:43] ReplicatedStorage.RemotesFolder.ChangeSettings → C→S({VolumeMusicLobby=50,VolumeMusic=50,ReduceMotion=false,Sensitivity=50,ToggleCrouch=true,HideLayers=false,...})
-[14:01:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-2[number])
-[14:01:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(2[number])
-[14:01:43] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(2[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(10[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:44] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(21[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(37[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(44[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(33[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(21[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(10[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(2[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-2[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-17[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-25[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-33[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-44[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:44] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:45] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-75[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-91[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-71[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-33[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-25[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-25[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-25[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-25[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-25[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-25[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-29[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-37[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-37[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-37[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-37[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-37[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-41[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
-[14:01:45] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-72[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-79[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-76[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:46] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-52[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-41[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:47] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-45[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-49[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-52[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-60[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-56[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-21[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-1[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(10[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-6[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-10[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-13[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-21[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-21[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-33[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-48[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-67[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-102[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:48] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-106[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-98[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-87[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-63[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-36[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-59[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-78[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-108[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-110[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-103[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-99[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-99[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-83[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-80[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-64[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-33[number])
-[14:01:49] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-14[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-18[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-47[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-59[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-66[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-82[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:50] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:51] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:51] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
-[14:01:51] ReplicatedStorage.RemotesFolder.Crouch → C→S(true[boolean], nil[nil])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:51] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:52] ReplicatedStorage.RemotesFolder.Crouch → C→S(false[boolean], nil[nil])
-[14:01:52] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-151[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-167[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-178[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-182[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-140[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:52] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-132[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-120[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-128[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-140[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-147[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-159[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-159[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-159[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-163[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-155[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-143[number])
-[14:01:53] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-136[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-124[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-113[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-105[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-97[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-90[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-93[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:54] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-101[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-113[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:55] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:56] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:57] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:58] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:01:59] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:00] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:01] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:02] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.LightningStrike → S→C()
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:03] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.CheckRevive → C→S()
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.Dread → S→C("clear")
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.PingRemote → C→S()
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:04] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
-[14:02:05] ReplicatedStorage.RemotesFolder.MotorReplication → C→S(-117[number])
+-- Имя игры для папки
+local gameName = string.gsub(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name or "Unknown", "[^%w]", "_")
+local gameFolder = CONFIG.OutputFolder .. gameName .. "_" .. tostring(game.PlaceId) .. "/"
 
-═══════════════════════════════════════════════════════════════
-СПИ ОСТАНОВЛЕН — 2026-05-17 14:02:05
-Всего перехвачено: 1521 вызовов
-═══════════════════════════════════════════════════════════════
+pcall(makefolder, gameFolder)
 
-═══════════════════════════════════════════════════════════════════════════════════
-КОНЕЦ ДАМПА — 2026-05-17 14:02:14
-═══════════════════════════════════════════════════════════════════════════════════
+local DUMP_FILE = gameFolder .. "remotes_dump.txt"
+local SPY_FILE = gameFolder .. "spy_log.txt"
+local ALL_FILE = gameFolder .. "full_dump.txt"
+
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ УТИЛИТЫ ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local function saveToFile(filename, content)
+    local success, err = pcall(function()
+        writefile(filename, content)
+    end)
+    return success, err
+end
+
+local function formatValue(value)
+    local t = typeof(value)
+    if t == "Instance" then
+        return value:GetFullName() .. " [" .. value.ClassName .. "]"
+    elseif t == "Vector3" then
+        return string.format("V3(%.2f,%.2f,%.2f)", value.X, value.Y, value.Z)
+    elseif t == "CFrame" then
+        return string.format("CF(%.2f,%.2f,%.2f)", value.X, value.Y, value.Z)
+    elseif t == "table" then
+        local str = "{"
+        for k, v in pairs(value) do
+            str = str .. tostring(k) .. "=" .. tostring(v) .. ","
+            if #str > 100 then str = str .. "..." break end
+        end
+        return str .. "}"
+    elseif t == "string" then
+        return '"' .. value .. '"'
+    else
+        return tostring(value) .. "[" .. t .. "]"
+    end
+end
+
+local function log(direction, remote, args)
+    local parts = {}
+    for i = 1, args.n do
+        table.insert(parts, formatValue(args[i]))
+    end
+    local line = string.format("[%s] %s → %s(%s)",
+        os.date("%H:%M:%S"),
+        remote:GetFullName(),
+        direction,
+        table.concat(parts, ", ")
+    )
+    table.insert(logs, line)
+    print(line)
+end
+
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ УНИВЕРСАЛЬНЫЙ ХУК REMOTES ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local function hookRemote(obj)
+    if not spyRunning then return end
+    
+    if obj:IsA("RemoteEvent") then
+        -- Перехват сервер → клиент
+        local ok, conn = pcall(function()
+            return obj.OnClientEvent:Connect(function(...)
+                if spyRunning then
+                    local args = table.pack(...)
+                    log("S→C", obj, args)
+                end
+            end)
+        end)
+        if ok and conn then table.insert(connections, conn) end
+        
+    elseif obj:IsA("RemoteFunction") then
+        -- RemoteFunction тоже можно перехватить
+        local ok, conn = pcall(function()
+            return obj.OnClientInvoke:Connect(function(...)
+                if spyRunning then
+                    local args = table.pack(...)
+                    log("S→C (Invoke)", obj, args)
+                end
+                return nil
+            end)
+        end)
+        if ok and conn then table.insert(connections, conn) end
+        
+    elseif obj:IsA("BindableEvent") then
+        local ok, conn = pcall(function()
+            return obj.Event:Connect(function(...)
+                if spyRunning then
+                    local args = table.pack(...)
+                    log("BIND", obj, args)
+                end
+            end)
+        end)
+        if ok and conn then table.insert(connections, conn) end
+    end
+end
+
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ УНИВЕРСАЛЬНЫЙ ДАМП REMOTES ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local function dumpAllRemotes()
+    local results = {
+        "╔══════════════════════════════════════════════════════════════╗",
+        "║              UNIVERSAL REMOTE DUMPER                         ║",
+        "╚══════════════════════════════════════════════════════════════╝",
+        "Игра: " .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
+        "PlaceId: " .. game.PlaceId,
+        "JobId: " .. game.JobId,
+        "Время: " .. os.date("%Y-%m-%d %H:%M:%S"),
+        "",
+        "═══ RemoteEvent ═══",
+    }
+    
+    local remotes = {}
+    local functions = {}
+    local bindables = {}
+    
+    for _, obj in pairs(game:GetDescendants()) do
+        pcall(function()
+            if obj:IsA("RemoteEvent") then
+                table.insert(remotes, "  • " .. obj:GetFullName())
+            elseif obj:IsA("RemoteFunction") then
+                table.insert(functions, "  • " .. obj:GetFullName())
+            elseif obj:IsA("BindableEvent") or obj:IsA("BindableFunction") then
+                table.insert(bindables, "  • " .. obj:GetFullName())
+            end
+        end)
+    end
+    
+    table.insert(results, "Всего RemoteEvent: " .. #remotes)
+    for _, v in pairs(remotes) do table.insert(results, v) end
+    
+    table.insert(results, "")
+    table.insert(results, "═══ RemoteFunction ═══")
+    table.insert(results, "Всего RemoteFunction: " .. #functions)
+    for _, v in pairs(functions) do table.insert(results, v) end
+    
+    table.insert(results, "")
+    table.insert(results, "═══ BindableEvent/Function ═══")
+    table.insert(results, "Всего Bindable: " .. #bindables)
+    for _, v in pairs(bindables) do table.insert(results, v) end
+    
+    local out = table.concat(results, "\n")
+    local ok, err = saveToFile(DUMP_FILE, out)
+    
+    return ok, err, out
+end
+
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ ЗАПУСК SPY ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local function startSpy()
+    if spyRunning then return end
+    
+    spyRunning = true
+    logs = {}
+    connections = {}
+    
+    table.insert(logs, "═══════════════════════════════════════════════════════════════")
+    table.insert(logs, "REMOTE SPY LOG — " .. os.date("%Y-%m-%d %H:%M:%S"))
+    table.insert(logs, "Игра: " .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
+    table.insert(logs, "═══════════════════════════════════════════════════════════════")
+    table.insert(logs, "")
+    
+    -- Хукаем все существующие объекты
+    for _, obj in pairs(game:GetDescendants()) do
+        pcall(function() hookRemote(obj) end)
+    end
+    
+    -- Хукаем новые объекты
+    local descAdded = game.DescendantAdded:Connect(function(obj)
+        if spyRunning then pcall(function() hookRemote(obj) end) end
+    end)
+    table.insert(connections, descAdded)
+    
+    -- Хук через hookmetamethod для перехвата FireServer
+    if hookmetamethod and getnamecallmethod then
+        pcall(function()
+            oldNamecall = hookmetamethod(game, "__namecall", function(self, ...)
+                local method = getnamecallmethod()
+                if spyRunning and (method == "FireServer" or method == "InvokeServer") then
+                    local args = table.pack(...)
+                    log("C→S", self, args)
+                end
+                return oldNamecall(self, ...)
+            end)
+        end)
+    end
+    
+    print("═══════════════════════════════════════════════════════════════")
+    print("🕵️ REMOTE SPY ЗАПУЩЕН на " .. CONFIG.SpyDuration .. " секунд")
+    print("═══════════════════════════════════════════════════════════════")
+end
+
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ ОСТАНОВКА SPY ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local function stopSpy()
+    if not spyRunning then return end
+    
+    spyRunning = false
+    
+    for _, conn in pairs(connections) do
+        pcall(function() conn:Disconnect() end)
+    end
+    connections = {}
+    
+    if oldNamecall then
+        pcall(function()
+            hookmetamethod(game, "__namecall", oldNamecall)
+        end)
+        oldNamecall = nil
+    end
+    
+    table.insert(logs, "")
+    table.insert(logs, "═══════════════════════════════════════════════════════════════")
+    table.insert(logs, "СПИ ОСТАНОВЛЕН — " .. os.date("%Y-%m-%d %H:%M:%S"))
+    table.insert(logs, "Всего перехвачено: " .. (#logs - 5) .. " вызовов")
+    table.insert(logs, "═══════════════════════════════════════════════════════════════")
+    
+    local out = table.concat(logs, "\n")
+    local ok, err = saveToFile(SPY_FILE, out)
+    
+    return ok, err, out
+end
+
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ ПОЛНЫЙ ДАМП ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local function fullDump()
+    -- Сначала дампим remotes
+    local remoteOk, remoteErr, remoteOut = dumpAllRemotes()
+    
+    -- Затем читаем spy логи если есть
+    local spyContent = ""
+    local readOk, spyData = pcall(readfile, SPY_FILE)
+    if readOk and spyData then
+        spyContent = spyData
+    elseif #logs > 0 then
+        spyContent = table.concat(logs, "\n")
+    else
+        spyContent = "— Spy логи не найдены —"
+    end
+    
+    local full = {
+        "╔════════════════════════════════════════════════════════════════════════════════╗",
+        "║                         FULL DUMP — " .. gameName .. "                         ║",
+        "╚════════════════════════════════════════════════════════════════════════════════╝",
+        "",
+        "═══════════════════════════════════════════════════════════════════════════════════",
+        "═══ 1. REMOTE EVENT/FUNCTION DUMP ═══",
+        "═══════════════════════════════════════════════════════════════════════════════════",
+        remoteOut,
+        "",
+        "═══════════════════════════════════════════════════════════════════════════════════",
+        "═══ 2. REMOTE SPY LOGS ═══",
+        "═══════════════════════════════════════════════════════════════════════════════════",
+        spyContent,
+        "",
+        "═══════════════════════════════════════════════════════════════════════════════════",
+        "КОНЕЦ ДАМПА — " .. os.date("%Y-%m-%d %H:%M:%S"),
+        "═══════════════════════════════════════════════════════════════════════════════════",
+    }
+    
+    local out = table.concat(full, "\n")
+    local ok, err = saveToFile(ALL_FILE, out)
+    
+    return ok, err, out
+end
+
+-- ════════════════════════════════════════════════════════════════════════════════
+-- [ GUI ]
+-- ════════════════════════════════════════════════════════════════════════════════
+local Window = WindUI:CreateWindow({
+    Title = "Universal Remote Dumper",
+    Icon = "eye",
+    Author = "Purple Orca",
+    Folder = "UniversalDumper",
+    Size = UDim2.fromOffset(550, 500),
+    Transparent = true,
+    Theme = "Violet",
+})
+
+-- Главная вкладка
+local MainTab = Window:Tab({ Title = "Dumper", Icon = "search" })
+
+MainTab:Section({ Title = "Remote Dumper", Opened = true }):Button({
+    Title = "📋 Дампить все Remotes",
+    Desc = "Сохраняет все RemoteEvent/Function/Bindable в файл",
+    Callback = function()
+        WindUI:Notify({ Title = "Сканирование...", Content = "Поиск всех Remotes", Duration = 2 })
+        local ok, err, out = dumpAllRemotes()
+        if ok then
+            WindUI:Notify({ Title = "✅ Готово", Content = "Сохранено: " .. DUMP_FILE, Duration = 5 })
+        else
+            WindUI:Notify({ Title = "❌ Ошибка", Content = err, Duration = 5 })
+        end
+    end
+})
+
+MainTab:Section({ Title = "Remote Spy", Opened = true }):Slider({
+    Title = "Длительность (сек)",
+    Value = { Min = 30, Max = 300, Default = 60 },
+    Callback = function(v) CONFIG.SpyDuration = v end
+})
+
+MainTab:Section({ Title = "Remote Spy" }):Button({
+    Title = "▶ Запустить Spy",
+    Desc = "Начинает перехват всех Remote вызовов",
+    Callback = function()
+        if spyRunning then
+            WindUI:Notify({ Title = "⚠️", Content = "Spy уже запущен!", Duration = 2 })
+            return
+        end
+        
+        startSpy()
+        
+        WindUI:Notify({ Title = "🕵️ Spy запущен", Content = "Длительность: " .. CONFIG.SpyDuration .. " сек. Играй активно!", Duration = 4 })
+        
+        -- Авто-остановка
+        task.spawn(function()
+            for i = CONFIG.SpyDuration, 1, -1 do
+                if not spyRunning then break end
+                if i == 10 then
+                    WindUI:Notify({ Title = "Spy", Content = "Осталось 10 секунд!", Duration = 2 })
+                end
+                task.wait(1)
+            end
+            if spyRunning then
+                local ok, err = stopSpy()
+                WindUI:Notify({
+                    Title = ok and "✅ Spy завершён" or "❌ Ошибка",
+                    Content = ok and ("Сохранено: " .. SPY_FILE) or err,
+                    Duration = 5
+                })
+            end
+        end)
+    end
+})
+
+MainTab:Section({ Title = "Remote Spy" }):Button({
+    Title = "⏹ Остановить Spy",
+    Desc = "Принудительная остановка",
+    Callback = function()
+        if not spyRunning then
+            WindUI:Notify({ Title = "⚠️", Content = "Spy не запущен", Duration = 2 })
+            return
+        end
+        local ok, err = stopSpy()
+        WindUI:Notify({
+            Title = ok and "✅ Остановлено" or "❌ Ошибка",
+            Content = ok and ("Сохранено: " .. SPY_FILE) or err,
+            Duration = 4
+        })
+    end
+})
+
+MainTab:Section({ Title = "Полный дамп", Opened = true }):Button({
+    Title = "💾 ДАМПИТЬ ВСЁ",
+    Desc = "Объединяет Remotes + Spy логи в один файл",
+    Callback = function()
+        WindUI:Notify({ Title = "Сбор данных...", Content = "Формирую полный дамп", Duration = 2 })
+        local ok, err, out = fullDump()
+        if ok then
+            WindUI:Notify({ Title = "✅ Всё сдамплено!", Content = "Файл: " .. ALL_FILE, Duration = 6 })
+        else
+            WindUI:Notify({ Title = "❌ Ошибка", Content = err, Duration = 5 })
+        end
+    end
+})
+
+-- Инструкция
+local InfoTab = Window:Tab({ Title = "Инструкция", Icon = "info" })
+InfoTab:Paragraph({
+    Title = "📖 Как использовать",
+    Desc = "1. Нажми «Дампить все Remotes» — сохранит список всех Remote в игре\n\n2. Настрой длительность (30-300 сек)\n\n3. Нажми «Запустить Spy» и АКТИВНО играй\n\n4. Дождись окончания или нажми «Остановить»\n\n5. Нажми «ДАМПИТЬ ВСЁ» — объединит всё в один файл\n\n6. Файлы сохраняются в: " .. gameFolder
+})
+
+-- Управление
+UIS.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.LeftControl then
+        pcall(function() Window:Toggle() end)
+    end
+end)
+
+WindUI:Notify({
+    Title = "Universal Remote Dumper",
+    Content = "Загружен! Файлы в: " .. gameFolder,
+    Duration = 6,
+})
