@@ -1,160 +1,57 @@
 ╔═══════════════════════════════════════════════════════════╗
-              MEGA DUMP — ARMORED PATROL
-  PlaceId: 10518166490 | 2026-05-25 20:36:14
+              MEGA DUMP — [💰UPD] 1.8 Arena
+  PlaceId: 77790193039862 | 2026-05-25 21:31:52
 ╚═══════════════════════════════════════════════════════════╝
 
 
 ════════════════════════════════════════════════════════════
 [ REMOTES ]
 ════════════════════════════════════════════════════════════
-═══ REMOTES LIST — ARMORED PATROL ═══
-Time: 2026-05-25 20:36:04
-Total: 322
+═══ REMOTES LIST — [💰UPD] 1.8 Arena ═══
+Time: 2026-05-25 21:31:45
+Total: 111
 
-── UnreliableRemoteEvent (41) ──
-  ReplicatedStorage.CramURE
-  ReplicatedStorage.EffectURE
-  Workspace.ManagedRigs.AMX.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.AMX.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.AMX.RigSvcsURE
-  Workspace.ManagedRigs.Arty3Adjunct.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.BTR.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.BTR.RigSvcsURE
-  Workspace.ManagedRigs.BoforsAdjunct.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Grant.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Grant.RigSvcsURE
-  Workspace.ManagedRigs.KV1.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.KV1.RigSvcsURE
-  Workspace.ManagedRigs.Leopard.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Leopard.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Leopard.RigSvcsURE
-  Workspace.ManagedRigs.Panther.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Panther.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Panther.RigSvcsURE
-  Workspace.ManagedRigs.Patton.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Patton.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Patton.RigSvcsURE
-  Workspace.ManagedRigs.SPG.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.SPG.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.SPG.RigSvcsURE
-  Workspace.ManagedRigs.Sherman.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Sherman.RigSvcsURE
-  Workspace.ManagedRigs.Sturmtiger.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Sturmtiger.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Sturmtiger.RigSvcsURE
-  Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.SupplyTruck.RigSvcsURE
-  Workspace.ManagedRigs.T34.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.T34.RigSvcsURE
-  Workspace.ManagedRigs.Tiger.Movable.50Cal.Ss50CalG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Tiger.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.Tiger.RigSvcsURE
-  Workspace.ManagedRigs.V150.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.V150.RigSvcsURE
-  Workspace.ManagedRigs.VEC.Movable.SsTurretG<done.TurretRE.TurretURE
-  Workspace.ManagedRigs.VEC.RigSvcsURE
+── UnreliableRemoteEvent (5) ──
+  ReplicatedStorage.Remotes.AnimateHit
+  ReplicatedStorage.Remotes.CriticalParticles
+  ReplicatedStorage.Remotes.DamageFlash
+  ReplicatedStorage.Remotes.InputUpdate
+  ReplicatedStorage.Remotes.PlayLocalSound
 
-── RemoteEvent (191) ──
-  Players.8_nog.Backpack.Fists.RemoteEvent
-  Players.8_nog.Backpack.Grenade.ToolSvcsRE
-  Players.8_nog.Backpack.RPG.ToolSvcsRE
-  Players.8_nog.Backpack.Rifle.ToolSvcsRE
-  Players.DJBMW531.Backpack.Fists.RemoteEvent
-  Players.DJBMW531.Backpack.Grenade.ToolSvcsRE
-  Players.DJBMW531.Backpack.RPG.ToolSvcsRE
-  Players.DJBMW531.Backpack.Rifle.ToolSvcsRE
-  Players.KNIFE_LEMON74.Backpack.Build.ToolSvcsRE
-  Players.KNIFE_LEMON74.Backpack.Fists.RemoteEvent
-  Players.KNIFE_LEMON74.Backpack.Foxhole.ToolSvcsRE
-  Players.KNIFE_LEMON74.Backpack.Grenade.ToolSvcsRE
-  Players.KNIFE_LEMON74.Backpack.RPG.ToolSvcsRE
-  Players.KNIFE_LEMON74.Backpack.Rifle.ToolSvcsRE
-  Players.Kaktys_mem.Backpack.Fists.RemoteEvent
-  Players.Kaktys_mem.Backpack.Grenade.ToolSvcsRE
-  Players.Kaktys_mem.Backpack.RPG.ToolSvcsRE
-  Players.Kaktys_mem.Backpack.Rifle.ToolSvcsRE
-  Players.Rip_ktoto08.Backpack.Build.ToolSvcsRE
-  Players.Rip_ktoto08.Backpack.Fists.RemoteEvent
-  Players.Rip_ktoto08.Backpack.Foxhole.ToolSvcsRE
-  Players.Rip_ktoto08.Backpack.Grenade.ToolSvcsRE
-  Players.Rip_ktoto08.Backpack.RPG.ToolSvcsRE
-  Players.Rip_ktoto08.Backpack.Rifle.ToolSvcsRE
-  Players.Talgatpro_bro.Backpack.Fists.RemoteEvent
-  Players.Talgatpro_bro.Backpack.Grenade.ToolSvcsRE
-  Players.Talgatpro_bro.Backpack.RPG.ToolSvcsRE
-  Players.Talgatpro_bro.Backpack.Rifle.ToolSvcsRE
-  Players.WEGAESFDASEG.Backpack.Fists.RemoteEvent
-  Players.WEGAESFDASEG.Backpack.Grenade.ToolSvcsRE
-  Players.WEGAESFDASEG.Backpack.Rifle.ToolSvcsRE
-  Players.arbuzik095766.Backpack.Fists.RemoteEvent
-  Players.arbuzik095766.Backpack.Grenade.ToolSvcsRE
-  Players.arbuzik095766.Backpack.Rifle.ToolSvcsRE
-  Players.fanerachka.Backpack.C4.ToolSvcsRE
-  Players.fanerachka.Backpack.Fists.RemoteEvent
-  Players.fanerachka.Backpack.Foxhole.ToolSvcsRE
-  Players.fanerachka.Backpack.Grenade.ToolSvcsRE
-  Players.fanerachka.Backpack.Rifle.ToolSvcsRE
-  Players.fanerachka.Backpack.Smoke.ToolSvcsRE
-  Players.funnyzayc.Backpack.Build.ToolSvcsRE
-  Players.funnyzayc.Backpack.C4.ToolSvcsRE
-  Players.funnyzayc.Backpack.Fists.RemoteEvent
-  Players.funnyzayc.Backpack.Grenade.ToolSvcsRE
-  Players.funnyzayc.Backpack.RPG.ToolSvcsRE
-  Players.funnyzayc.Backpack.Rifle.ToolSvcsRE
-  Players.hddhdjsjdgsjajdjdjdj.Backpack.Fists.RemoteEvent
-  Players.hddhdjsjdgsjajdjdjdj.Backpack.Grenade.ToolSvcsRE
-  Players.hddhdjsjdgsjajdjdjdj.Backpack.RPG.ToolSvcsRE
-  Players.hddhdjsjdgsjajdjdjdj.Backpack.Rifle.ToolSvcsRE
-  Players.hihuvu.Backpack.Fists.RemoteEvent
-  Players.hihuvu.Backpack.Grenade.ToolSvcsRE
-  Players.hihuvu.Backpack.RPG.ToolSvcsRE
-  Players.hihuvu.Backpack.Rifle.ToolSvcsRE
-  Players.kivk99.Backpack.Build.ToolSvcsRE
-  Players.kivk99.Backpack.Fists.RemoteEvent
-  Players.kivk99.Backpack.Foxhole.ToolSvcsRE
-  Players.kivk99.Backpack.Grenade.ToolSvcsRE
-  Players.kivk99.Backpack.RPG.ToolSvcsRE
-  Players.kivk99.Backpack.Rifle.ToolSvcsRE
-  Players.kostasvak.Backpack.Fists.RemoteEvent
-  Players.kostasvak.Backpack.Grenade.ToolSvcsRE
-  Players.kostasvak.Backpack.RPG.ToolSvcsRE
-  Players.kostasvak.Backpack.Rifle.ToolSvcsRE
-  Players.rom4ik290610.Backpack.Fists.RemoteEvent
-  Players.rom4ik290610.Backpack.Grenade.ToolSvcsRE
-  Players.rom4ik290610.Backpack.RPG.ToolSvcsRE
-  Players.rom4ik290610.Backpack.Rifle.ToolSvcsRE
-  Players.stasik_sigma8.Backpack.Build.ToolSvcsRE
-  Players.stasik_sigma8.Backpack.C4.ToolSvcsRE
-  Players.stasik_sigma8.Backpack.Fists.RemoteEvent
-  Players.stasik_sigma8.Backpack.Foxhole.ToolSvcsRE
-  Players.stasik_sigma8.Backpack.Grenade.ToolSvcsRE
-  Players.stasik_sigma8.Backpack.RPG.ToolSvcsRE
-  Players.stasik_sigma8.Backpack.Rifle.ToolSvcsRE
-  Players.stasik_sigma8.Backpack.Smoke.ToolSvcsRE
-  Players.tyelsqw.Backpack.Fists.RemoteEvent
-  Players.tyelsqw.Backpack.Grenade.ToolSvcsRE
-  Players.tyelsqw.Backpack.RPG.ToolSvcsRE
-  Players.tyelsqw.Backpack.Rifle.ToolSvcsRE
-  Players.vti5389.Backpack.Fists.RemoteEvent
-  Players.vti5389.Backpack.Grenade.ToolSvcsRE
-  Players.vti5389.Backpack.RPG.ToolSvcsRE
-  Players.vti5389.Backpack.Rifle.ToolSvcsRE
-  Players.xlebbylit.Backpack.Fists.RemoteEvent
-  Players.xlebbylit.Backpack.Grenade.ToolSvcsRE
-  Players.xlebbylit.Backpack.RPG.ToolSvcsRE
-  Players.xlebbylit.Backpack.Rifle.ToolSvcsRE
-  ReplicatedStorage.BreakRE
-  ReplicatedStorage.BreakRE.BreakViRE
-  ReplicatedStorage.CamoEndRE
-  ReplicatedStorage.ConfigRE
-  ReplicatedStorage.FragRE
-  ReplicatedStorage.FragRE.BreakViRE
-  ReplicatedStorage.MapVoteRE
-  ReplicatedStorage.ModerateEvent
-  ReplicatedStorage.RepairEffectRE
-  ReplicatedStorage.ResetRE
-  ReplicatedStorage.SpeedUpdate
-  ReplicatedStorage.TracerRE
+── RemoteEvent (58) ──
+  ReplicatedStorage.Remotes.ApplySkinToPlayer
+  ReplicatedStorage.Remotes.BeginBlocking
+  ReplicatedStorage.Remotes.BuyGamepass
+  ReplicatedStorage.Remotes.BuyProduct
+  ReplicatedStorage.Remotes.ClientStateUpdate
+  ReplicatedStorage.Remotes.DisplayTitle
+  ReplicatedStorage.Remotes.EndBlocking
+  ReplicatedStorage.Remotes.EndBowCharge
+  ReplicatedStorage.Remotes.ExecuteCommand
+  ReplicatedStorage.Remotes.FinishedEating
+  ReplicatedStorage.Remotes.GameEnd
+  ReplicatedStorage.Remotes.GoalScored
+  ReplicatedStorage.Remotes.HitRequest
+  ReplicatedStorage.Remotes.InteractItem
+  ReplicatedStorage.Remotes.InventoryUpdate
+  ReplicatedStorage.Remotes.LevelUp
+  ReplicatedStorage.Remotes.LoadLocalCharacter
+  ReplicatedStorage.Remotes.ModifyScoreboard
+  ReplicatedStorage.Remotes.QueueRequest
+  ReplicatedStorage.Remotes.ReceiveSystemMessage
+  ReplicatedStorage.Remotes.SaveControlScheme
+  ReplicatedStorage.Remotes.SaveSkinPreferences
+  ReplicatedStorage.Remotes.ServerStateUpdate
+  ReplicatedStorage.Remotes.SetAbsolutePosition
+  ReplicatedStorage.Remotes.SetCameraOrientation
+  ReplicatedStorage.Remotes.SetClientSlot
+  ReplicatedStorage.Remotes.SetSelectedSlot
+  ReplicatedStorage.Remotes.StartBowCharge
+  ReplicatedStorage.Remotes.StartEating
+  ReplicatedStorage.Remotes.StartMining
+  ReplicatedStorage.Remotes.StopEating
+  ReplicatedStorage.Remotes.StopMining
+  ReplicatedStorage.Remotes.UpdateScoreboard
   RobloxReplicatedStorage.CanChatWith
   RobloxReplicatedStorage.ContactListInvokeIrisInvite
   RobloxReplicatedStorage.ContactListIrisInviteTeleport
@@ -173,1266 +70,285 @@ Total: 322
   RobloxReplicatedStorage.ServerSideBulkPurchaseEvent
   RobloxReplicatedStorage.SetDialogInUse
   RobloxReplicatedStorage.SetPlayerBlockList
+  RobloxReplicatedStorage.SetUserActive
   RobloxReplicatedStorage.ShowFriendJoinedPlayerToast
   RobloxReplicatedStorage.ShowPlayerJoinedFriendsToast
   RobloxReplicatedStorage.UpdateCurrentCall
   RobloxReplicatedStorage.UpdateLocalPlayerBlockList
   RobloxReplicatedStorage.UpdatePlayerBlockList
   RobloxReplicatedStorage.UpdatePlayerProfileSettings
-  StarterPack.Fists.RemoteEvent
-  Workspace.8_nog.CharSvcsRE
-  Workspace.DJBMW531.CharSvcsRE
-  Workspace.KNIFE_LEMON74.CharSvcsRE
-  Workspace.Kaktys_mem.CharSvcsRE
-  Workspace.ManagedRigs.AMX.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.AMX.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.AMX.RigSvcsRE
-  Workspace.ManagedRigs.Arty3Adjunct.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Arty3Adjunct.RigSvcsRE
-  Workspace.ManagedRigs.BTR.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.BTR.RigSvcsRE
-  Workspace.ManagedRigs.BoforsAdjunct.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.BoforsAdjunct.RigSvcsRE
-  Workspace.ManagedRigs.ChinookArty3.RigSvcsRE
-  Workspace.ManagedRigs.ChinookBofors.RigSvcsRE
-  Workspace.ManagedRigs.Grant.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Grant.RigSvcsRE
-  Workspace.ManagedRigs.Huey.RigSvcsRE
-  Workspace.ManagedRigs.KV1.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.KV1.RigSvcsRE
-  Workspace.ManagedRigs.Leopard.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.Leopard.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Leopard.RigSvcsRE
-  Workspace.ManagedRigs.Panther.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.Panther.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Panther.RigSvcsRE
-  Workspace.ManagedRigs.Patton.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.Patton.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Patton.RigSvcsRE
-  Workspace.ManagedRigs.SPG.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.SPG.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.SPG.RigSvcsRE
-  Workspace.ManagedRigs.Sherman.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Sherman.RigSvcsRE
-  Workspace.ManagedRigs.Sturmtiger.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.Sturmtiger.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Sturmtiger.RigSvcsRE
-  Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.SupplyTruck.RigSvcsRE
-  Workspace.ManagedRigs.T34.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.T34.RigSvcsRE
-  Workspace.ManagedRigs.Tiger.Movable.50Cal.Ss50CalG<done.TurretRE
-  Workspace.ManagedRigs.Tiger.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.Tiger.RigSvcsRE
-  Workspace.ManagedRigs.V150.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.V150.RigSvcsRE
-  Workspace.ManagedRigs.VEC.Movable.SsTurretG<done.TurretRE
-  Workspace.ManagedRigs.VEC.RigSvcsRE
-  Workspace.Rip_ktoto08.CharSvcsRE
-  Workspace.Talgatpro_bro.CharSvcsRE
-  Workspace.WEGAESFDASEG.CharSvcsRE
-  Workspace.WEGAESFDASEG.RPG.ToolSvcsRE
-  Workspace.arbuzik095766.CharSvcsRE
-  Workspace.arbuzik095766.RPG.ToolSvcsRE
-  Workspace.fanerachka.CharSvcsRE
-  Workspace.fanerachka.RPG.ToolSvcsRE
-  Workspace.funnyzayc.CharSvcsRE
-  Workspace.hddhdjsjdgsjajdjdjdj.CharSvcsRE
-  Workspace.hihuvu.CharSvcsRE
-  Workspace.kivk99.CharSvcsRE
-  Workspace.kostasvak.CharSvcsRE
-  Workspace.rom4ik290610.CharSvcsRE
-  Workspace.stasik_sigma8.CharSvcsRE
-  Workspace.tyelsqw.CharSvcsRE
-  Workspace.vti5389.CharSvcsRE
-  Workspace.xlebbylit.CharSvcsRE
 
 ── RemoteFunction (15) ──
-  Players.KNIFE_LEMON74.Backpack.Build.ToolSvcsRF
-  Players.Rip_ktoto08.Backpack.Build.ToolSvcsRF
-  Players.funnyzayc.Backpack.Build.ToolSvcsRF
-  Players.kivk99.Backpack.Build.ToolSvcsRF
-  Players.stasik_sigma8.Backpack.Build.ToolSvcsRF
-  ReplicatedStorage.ConfigRF
-  ReplicatedStorage.Feedback
-  ReplicatedStorage.Moderate
+  ReplicatedStorage.Remotes.ClaimDailyReward
+  ReplicatedStorage.Remotes.DestroyCallback
+  ReplicatedStorage.Remotes.EquipCosmetic
+  ReplicatedStorage.Remotes.GetControlScheme
+  ReplicatedStorage.Remotes.GetSkinInfo
+  ReplicatedStorage.Remotes.LoadSkin
+  ReplicatedStorage.Remotes.PlaceBlockRequest
+  ReplicatedStorage.Remotes.PlaceStairRequest
+  ReplicatedStorage.Remotes.PurchaseCosmetic
+  ReplicatedStorage.Remotes.RollLootChest
+  ReplicatedStorage.Remotes.SubmitPromoCode
   RobloxReplicatedStorage.ExperienceChat.WhisperChat
   RobloxReplicatedStorage.GetServerChannel
   RobloxReplicatedStorage.GetServerType
   RobloxReplicatedStorage.GetServerVersion
-  Workspace.ManagedRigs.ChinookArty3.RigSvcsRF
-  Workspace.ManagedRigs.ChinookBofors.RigSvcsRF
-  Workspace.ManagedRigs.Huey.RigSvcsRF
 
-── BindableEvent (42) ──
+── BindableEvent (8) ──
   CoreGui.RobloxGui.SendNotificationInfo
-  ReplicatedStorage.BoltUpgrChange
-  Workspace.ManagedRigs.AMX.RepairBE
-  Workspace.ManagedRigs.AMX.RigSvcsBE
-  Workspace.ManagedRigs.Arty3Adjunct.RepairBE
-  Workspace.ManagedRigs.Arty3Adjunct.RigSvcsBE
-  Workspace.ManagedRigs.BTR.RepairBE
-  Workspace.ManagedRigs.BTR.RigSvcsBE
-  Workspace.ManagedRigs.BoforsAdjunct.RepairBE
-  Workspace.ManagedRigs.BoforsAdjunct.RigSvcsBE
-  Workspace.ManagedRigs.ChinookArty3.RepairBE
-  Workspace.ManagedRigs.ChinookArty3.RigSvcsBE
-  Workspace.ManagedRigs.ChinookBofors.RepairBE
-  Workspace.ManagedRigs.ChinookBofors.RigSvcsBE
-  Workspace.ManagedRigs.Grant.RepairBE
-  Workspace.ManagedRigs.Grant.RigSvcsBE
-  Workspace.ManagedRigs.Huey.RepairBE
-  Workspace.ManagedRigs.Huey.RigSvcsBE
-  Workspace.ManagedRigs.KV1.RepairBE
-  Workspace.ManagedRigs.KV1.RigSvcsBE
-  Workspace.ManagedRigs.Leopard.RepairBE
-  Workspace.ManagedRigs.Leopard.RigSvcsBE
-  Workspace.ManagedRigs.Panther.RepairBE
-  Workspace.ManagedRigs.Panther.RigSvcsBE
-  Workspace.ManagedRigs.Patton.RepairBE
-  Workspace.ManagedRigs.Patton.RigSvcsBE
-  Workspace.ManagedRigs.SPG.RepairBE
-  Workspace.ManagedRigs.SPG.RigSvcsBE
-  Workspace.ManagedRigs.Sherman.RepairBE
-  Workspace.ManagedRigs.Sherman.RigSvcsBE
-  Workspace.ManagedRigs.Sturmtiger.RepairBE
-  Workspace.ManagedRigs.Sturmtiger.RigSvcsBE
-  Workspace.ManagedRigs.SupplyTruck.RepairBE
-  Workspace.ManagedRigs.SupplyTruck.RigSvcsBE
-  Workspace.ManagedRigs.T34.RepairBE
-  Workspace.ManagedRigs.T34.RigSvcsBE
-  Workspace.ManagedRigs.Tiger.RepairBE
-  Workspace.ManagedRigs.Tiger.RigSvcsBE
-  Workspace.ManagedRigs.V150.RepairBE
-  Workspace.ManagedRigs.V150.RigSvcsBE
-  Workspace.ManagedRigs.VEC.RepairBE
-  Workspace.ManagedRigs.VEC.RigSvcsBE
+  Players.WEGAESFDASEG.PlayerScripts.CharacterController.Inventory.RedrawViewmodel
+  Players.WEGAESFDASEG.PlayerScripts.CharacterController.Inventory.SelectionChanged
+  ReplicatedStorage.Remotes.LocalSystemMessage
+  ReplicatedStorage.Remotes.LocalTitle
+  ReplicatedStorage.Remotes.ToggleChatClient
+  StarterPlayer.StarterPlayerScripts.CharacterController.Inventory.RedrawViewmodel
+  StarterPlayer.StarterPlayerScripts.CharacterController.Inventory.SelectionChanged
 
-── BindableFunction (33) ──
-  Workspace.ManagedRigs.AMX.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.AMX.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.Arty3Adjunct.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Arty3Adjunct.RigSvcsBF
-  Workspace.ManagedRigs.BTR.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.BTR.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.BoforsAdjunct.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.BoforsAdjunct.RigSvcsBF
-  Workspace.ManagedRigs.Grant.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Grant.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.KV1.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.KV1.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.Leopard.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Leopard.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.Panther.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Panther.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.Patton.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Patton.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.SPG.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.SPG.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.Sherman.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Sherman.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.Sturmtiger.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Sturmtiger.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.SupplyTruck.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.T34.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.T34.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.Tiger.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.Tiger.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.V150.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.V150.SeatDriver.LsDrive.DriveFunction
-  Workspace.ManagedRigs.VEC.Movable.SsTurretG<done.AimBf
-  Workspace.ManagedRigs.VEC.SeatDriver.LsDrive.DriveFunction
+── BindableFunction (25) ──
+  StarterPlayer.StarterCharacterScripts.Animate.PlayEmote
+  Workspace.ApexCreedGamer.Animate.PlayEmote
+  Workspace.Aran34s.Animate.PlayEmote
+  Workspace.Coopster20038.Animate.PlayEmote
+  Workspace.Gordo_pa1723.Animate.PlayEmote
+  Workspace.Jakster040418.Animate.PlayEmote
+  Workspace.JaydenUg007.Animate.PlayEmote
+  Workspace.Legendarydiamond678.Animate.PlayEmote
+  Workspace.LobbyInstances.ChangeSkin.Animate.PlayEmote
+  Workspace.LobbyInstances.DailyReward.Animate.PlayEmote
+  Workspace.LobbyInstances.KitSelect.Animate.PlayEmote
+  Workspace.LobbyInstances.ParkourDude.Animate.PlayEmote
+  Workspace.LobbyInstances.PromoCodes.Animate.PlayEmote
+  Workspace.LobbyInstances.QueueBedFight.Animate.PlayEmote
+  Workspace.LobbyInstances.QueueBoxing.Animate.PlayEmote
+  Workspace.LobbyInstances.QueueBridge.Animate.PlayEmote
+  Workspace.LobbyInstances.Shop.Animate.PlayEmote
+  Workspace.LocalCharacter_WEGAESFDASEG.Animate.PlayEmote
+  Workspace.The_King1c0.Animate.PlayEmote
+  Workspace.Tmcqueen31.Animate.PlayEmote
+  Workspace.WEGAESFDASEG.Animate.PlayEmote
+  Workspace.chancethereal236.Animate.PlayEmote
+  Workspace.cowpizza93.Animate.PlayEmote
+  Workspace.paula32891.Animate.PlayEmote
+  Workspace.yaya123456789902.Animate.PlayEmote
 
 
 ════════════════════════════════════════════════════════════
 [ SPY LOG ]
 ════════════════════════════════════════════════════════════
 ═══════════════════════════════════════════════
-  REMOTE SPY — ARMORED PATROL
-  PlaceId: 10518166490 | Player: WEGAESFDASEG
-  Time: 2026-05-25 20:36:00
-  Total calls intercepted: 7613
-  Unique patterns: 96
+  REMOTE SPY — [💰UPD] 1.8 Arena
+  PlaceId: 77790193039862 | Player: WEGAESFDASEG
+  Time: 2026-05-25 21:31:41
+  Total calls intercepted: 1539
+  Unique patterns: 9
 ═══════════════════════════════════════════════
 
-[S→C] x2626  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|Vector3)
-  Args:  "trackUpdate", 5075, Vec3(2727.09,158.78,2737.32)
+[S→C] x1427  ReplicatedStorage.Remotes.ServerStateUpdate
+  Class: RemoteEvent | Signature: (table<string,string,string,string,string,string,string,string,string,string,string,string,string,string>)
+  Args:  {The_King1c0={crouching=false, sprinting=true, blocking=false, rawInput=Vec3(0.00,0.00,-1.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(3.04,0.00,-22.43)}, Aran34s={crouching=false, sprinting=true, blocking=false, rawInput=Vec3(-0.23,0.00,-0.97), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(-17.48,0.00,6.02)}, Coopster20038={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(0.00,0.00,0.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(0.00,0.00,0.00)}, JaydenUg007={crouching=false, sprinting=true, blocking=false, rawInput=Vec3(0.00,0.00,-1.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(-60.94,-21.87,-1.19)}, Tmcqueen31={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(0.00,0.00,0.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(0.00,0.00,0.00)}, ApexCreedGamer={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(-0.80,0.00,-0.59), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(10.16,0.00,-5.13)}, cowpizza93={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(0.00,0.00,0.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(0.00,0.00,0.00)}, Gordo_pa1723={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(-0.22,0.00,0.98), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(-12.07,0.00,-11.72)}, ...+9 more}
 
-[S→C] x895  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|Vector3|Vector3)
-  Args:  "explode", 5079, Vec3(786.88,99.80,1778.05), Vec3(-0.92,-0.03,0.50)
+[S→C] x60  ReplicatedStorage.Remotes.SetSelectedSlot
+  Class: RemoteEvent | Signature: (Instance|table<string,string,string,string>)
+  Args:  Players.The_King1c0 <Player>, {maxStack=64, type="food", count=14, id="golden_apple"}
 
-[S→C] x819  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|Instance|table<number,number,number,number,number,number,number,number,number>)
-  Args:  "anim-repl-client", Players.rom4ik290610 <Player>, {1=Workspace.rom4ik290610.Torso.Left Shoulder <Motor6D>, 2="DesiredAngle", 3=0.1135, 4=Workspace.rom4ik290610.Torso.Right Shoulder <Motor6D>, 5="DesiredAngle", 6=-0.0882, 7=Workspace.rom4ik290610.Torso.Neck <Motor6D>, 8="DesiredAngle", ...+9 more}
-
-[S→C] x529  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|string|nil|boolean|Vector3|Vector3|Color3)
-  Args:  "auto", 5079, "50Cal", nil, false, Vec3(1025.16,112.27,1651.58), Vec3(748.32,97.60,1798.52), RGB(13,105,172)
-
-[S→C] x379  ReplicatedStorage.FragRE
-  Class: RemoteEvent | Signature: (Vector3|table<number>)
-  Args:  Vec3(-0.65,0.96,0.53), {1=Workspace.TerrainAp.FragTransom.Fragment92103 <Part>}
-
-[C→S] x237  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|table<number,number,number,number,number,number>)
-  Args:  "anim-repl-client", {1=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 2="DesiredAngle", 3=0, 4=Workspace.WEGAESFDASEG.Torso.Left Shoulder <Motor6D>, 5="DesiredAngle", 6=0}
-
-[S→C] x190  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|Instance|table<number,number,number>)
-  Args:  "anim-repl-client", Players.154hgb <Player>, {1=Workspace.154hgb.Torso.Right Shoulder <Motor6D>, 2="DesiredAngle", 3=0}
-
-[C→S] x175  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|table<number,number,number,number,number,number,number,number,number>)
-  Args:  "anim-repl-client", {1=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 2="DesiredAngle", 3=-0.0523, 4=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 5="DesiredAngle", 6=-0.1046, 7=Workspace.WEGAESFDASEG.Torso.Left Shoulder <Motor6D>, 8="DesiredAngle", ...+9 more}
-
-[S→C] x166  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number>)
-  Args:  Vec3(-37.79,23.44,-36.96), {1=Workspace.ManagedRigs.Sturmtiger.Part <Part>}
-
-[S→C] x151  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|Vector3|number)
-  Args:  "explode", 5072, Vec3(671.97,130.17,523.00), 0.1328
-
-[S→C] x119  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|string|nil|Vector3|Vector3|nil|string|Color3|Instance)
-  Args:  "ballistic", 5076, "Shell_Leopard", nil, Vec3(770.51,108.15,1523.57), Vec3(723.65,106.09,1473.67), nil, "low", RGB(13,105,172), Players.Rip_ktoto08 <Player>
-
-[S→C] x101  Workspace.ManagedRigs.BTR.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C] x84  ReplicatedStorage.RepairEffectRE
-  Class: RemoteEvent | Signature: (table<number>|table<number>|number)
-  Args:  {1=Workspace.ManagedRigs.Sturmtiger.GunMount <MeshPart>}, {1=1}, 0.9000
-
-[S→C] x79  Workspace.ManagedRigs.SU122.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C] x70  ReplicatedStorage.FragRE.BreakViRE
-  Class: RemoteEvent | Signature: (Vector3|Instance|CFrame|Vector3)
-  Args:  Vec3(5.39,-4.89,0.52), Workspace.TerrainAp.ProtoWindow.FragWall.FragWall <Part>, CF(667.0,118.5,525.8), Vec3(12.00,1.00,2.50)
-
-[C→S] x66  Workspace.ManagedRigs.SPG.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|Vector3|string)
-  Args:  "g-down", Vec3(2055.03,100.01,2007.62), "Shell_M109"
-
-[S→C] x65  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|Instance|table<number,number,number,number,number,number>)
-  Args:  "anim-repl-client", Players.154hgb <Player>, {1=Workspace.154hgb.Torso.Left Shoulder <Motor6D>, 2="DesiredAngle", 3=0, 4=Workspace.154hgb.Torso.Right Shoulder <Motor6D>, 5="DesiredAngle", 6=0}
-
-[C→S] x63  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|table<number,number,number>)
-  Args:  "anim-repl-client", {1=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 2="DesiredAngle", 3=0}
-
-[C→S] x59  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Args:  "anim-repl-server", {1=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 2="C0", 3=CF(0.0,1.0,0.0), 4=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 5="C1", 6=CF(0.0,-0.5,0.0), 7=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 8="C0", ...+9 more}
-
-[S→C] x55  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number>)
-  Args:  Vec3(-17.82,7.29,-1.58), {1=Workspace.ManagedRigs.Sturmtiger.EngineCover <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.BoltNoFace <MeshPart>}
-
-[C→S] x50  Workspace.ManagedRigs.SPG.RigSvcsRE
-  Class: RemoteEvent | Signature: (string)
-  Args:  "g-up"
-
-[S→C] x49  Workspace.ManagedRigs.Sturmtiger.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C] x37  Workspace.ManagedRigs.Panther.Movable.50Cal.Ss50CalG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|Instance|Instance|Instance|Instance|CFrame|number|number|number|number)
-  Args:  "hello", Workspace.ManagedRigs.Panther.Chassis <Part>, Workspace.ManagedRigs.Panther.Movable.50Cal.Gun50Cal <MeshPart>, Workspace.ManagedRigs.Panther.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Panther.CntrUser <ObjectValue>, CF(2.7,5.3,-13.7), 0.3840, -0.3840, 0.3665, -0.1571
-
-[S→C] x36  Workspace.ManagedRigs.SPG.Movable.50Cal.Ss50CalG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Args:  "hello", Workspace.ManagedRigs.SPG.Movable.CalMount <Part>, Workspace.ManagedRigs.SPG.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.SPG.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.SPG.CntrUser <ObjectValue>, CF(0.0,1.5,-0.0), nil, nil, 1.0472, -0.2094
-
-[S→C] x33  Workspace.ManagedRigs.Patton.Movable.50Cal.Ss50CalG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Args:  "hello", Workspace.ManagedRigs.Patton.Movable.CalMount <Part>, Workspace.ManagedRigs.Patton.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.Patton.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Patton.CntrUser <ObjectValue>, CF(0.0,1.5,-0.0), nil, nil, 1.2217, -0.4363
-
-[S→C] x33  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|string|nil|Color3|Vector3)
-  Args:  "track", 5110, "Rocket", nil, RGB(196,40,28), Vec3(717.55,113.59,1002.67)
-
-[S→C:New] x23  Workspace.ManagedRigs.ChinookArty3.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "drive", 0
-
-[S→C] x21  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|table<string,string,string,string,string,string,string,string,string>|Vector3|Vector3|nil|string|Color3|Instance)
-  Args:  "ballistic-parms", 5264, {tracerFadeRate=0.7000, hiArcGravity=1, range=720, loArcSpeed=800, loArcGravity=30, hiArcSpeed=1, tracerWidth=0.8000, protoBolt="ProtoShell", ...+9 more}, Vec3(475.10,111.38,260.06), Vec3(719.04,97.61,599.84), nil, "low", RGB(196,40,28), Players.vti5389 <Player>
-
-[S→C:New] x20  Workspace.ManagedRigs.SPG.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string>|table<string,string,string,string>)
-  Args:  "hello", 29, nil, 0, -0.0000, Workspace.ManagedRigs.SPG <Model>, Workspace.ManagedRigs.SPG.Chassis <Part>, Workspace.ManagedRigs.SPG.Movable.Mount <Part>, Workspace.ManagedRigs.SPG.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.SPG.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.SPG.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.SPG.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(0.00,-0.55,-9.40), CF(-0.0,7.6,2.5), CF(0.0,-0.7,-14.7), 3.1416, -3.1416, 1.5708, 0, true, {t-down="Shell_M109", g-down="Shell_M109"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-[S→C] x20  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|Vector3|boolean)
-  Args:  "explode", 5162, Vec3(602.72,158.68,1577.00), true
-
-[S→C:New] x20  Workspace.ManagedRigs.Panther.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string>|table<string,string,string,string>)
-  Args:  "hello", 32, nil, -0.0000, 0.0000, Workspace.ManagedRigs.Panther <Model>, Workspace.ManagedRigs.Panther.Chassis <Part>, Workspace.ManagedRigs.Panther.Movable.Mount <Part>, Workspace.ManagedRigs.Panther.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.Panther.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.Panther.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Panther.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,2.42,-1.80), CF(-0.0,10.4,1.6), CF(-0.1,1.4,-7.7), 3.1416, -3.1416, 0.4189, -0.1396, true, {f-down="Shell_Panther"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-[S→C:New] x19  Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Ss50CalG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Args:  "hello", Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Mount <MeshPart>, Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.SupplyTruck.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.SupplyTruck.CntrUser <ObjectValue>, CF(-0.0,1.0,0.0), nil, nil, 0.8727, -0.2269
-
-[S→C:New] x19  Workspace.ManagedRigs.Sherman.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string>|table<string,string,string,string>)
-  Args:  "hello", 11, nil, 0, -0, Workspace.ManagedRigs.Sherman <Model>, Workspace.ManagedRigs.Sherman.Chassis <Part>, Workspace.ManagedRigs.Sherman.Movable.Mount <Part>, Workspace.ManagedRigs.Sherman.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.Sherman.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.Sherman.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Sherman.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-0.30,-1.41), CF(0.0,6.1,-0.3), CF(-0.0,2.3,-6.2), 3.1416, -3.1416, 0.4363, -0.2094, true, {b-down="50Cal", f-down="Shell_Sherman"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-[S→C:New] x19  Workspace.ManagedRigs.KV1.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string>|table<string,string,string,string>)
-  Args:  "hello", 33, nil, 0, 0.0000, Workspace.ManagedRigs.KV1 <Model>, Workspace.ManagedRigs.KV1.Chassis <Part>, Workspace.ManagedRigs.KV1.Movable.Mount <Part>, Workspace.ManagedRigs.KV1.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.KV1.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.KV1.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.KV1.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-0.30,-0.00), CF(-0.0,5.9,-2.6), CF(0.0,1.9,-4.7), 3.1416, -3.1416, 0.4538, -0.1222, true, {b-down="50Cal", f-down="Shell_KV1"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-[C→S] x18  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Args:  "anim-repl-server", {1=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 2="C0", 3=CF(0.0,1.0,0.0), 4=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 5="C1", 6=CF(0.0,-0.5,0.0), 7=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 8="C0", ...+9 more}
-
-[S→C:New] x18  Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string,string>|table<string,string,string,string>)
-  Args:  "hello", 40, nil, 0.0000, -0.0000, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct <Model>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Chassis <Part>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Movable.Mount <Part>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-1.90,-0.65), CF(-0.0,0.0,0.0), CF(0.0,1.8,1.7), 3.1416, -3.1416, 0.3491, -0.3491, true, {f-down="Shell_HowSm_AP", t-down="Shell_HowSm_HE", g-down="Shell_HowSm_HE"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-[S→C:New] x18  Workspace.ManagedRigs.Patton.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string>|table<string,string,string,string>)
-  Args:  "hello", 45, nil, 0.0000, -0.0000, Workspace.ManagedRigs.Patton <Model>, Workspace.ManagedRigs.Patton.Chassis <Part>, Workspace.ManagedRigs.Patton.Movable.Mount <Part>, Workspace.ManagedRigs.Patton.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.Patton.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.Patton.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Patton.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-1.80,3.94), CF(0.0,4.8,-1.4), CF(-0.0,0.2,9.0), 3.1416, -3.1416, 0.4189, -0.1134, true, {f-down="Shell_M48A5"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-[S→C] x17  Workspace.ManagedRigs.Tiger.Movable.50Cal.Ss50CalG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|Instance|Instance|Instance|Instance|CFrame|number|number|number|number)
-  Args:  "hello", Workspace.ManagedRigs.Tiger.Chassis <Part>, Workspace.ManagedRigs.Tiger.Movable.50Cal.Gun50Cal <MeshPart>, Workspace.ManagedRigs.Tiger.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Tiger.CntrUser <ObjectValue>, CF(3.6,6.9,-13.7), 0.3840, -0.3840, 0.3665, -0.1571
-
-[S→C] x16  Workspace.ManagedRigs.AMX.Movable.50Cal.Ss50CalG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Args:  "hello", Workspace.ManagedRigs.AMX.Movable.50Cal.Part <Part>, Workspace.ManagedRigs.AMX.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.AMX.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.AMX.CntrUser <ObjectValue>, CF(0.0,1.5,0.0), nil, nil, 0.7854, -0.2094
-
-[S→C] x14  ReplicatedStorage.RepairEffectRE
-  Class: RemoteEvent | Signature: (table<number,number>|table<number,number>|number)
-  Args:  {1=Workspace.ManagedRigs.Sturmtiger.WedgePartB <WedgePart>, 2=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>}, {1=0, 2=0}, 0.9000
-
-[S→C] x13  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|number|string|nil|Vector3|Vector3|nil|string|Color3|boolean)
-  Args:  "ballistic", 5089, "Shell_BaseSentry", nil, Vec3(361.81,118.03,367.41), Vec3(714.55,103.98,1011.07), nil, "medium", RGB(196,40,28), false
-
-[S→C] x11  ReplicatedStorage.TracerRE
-  Class: RemoteEvent | Signature: (string|string|nil|Vector3)
-  Args:  "grenade-explode", "Grenade", nil, Vec3(714.80,100.59,1022.87)
-
-[S→C] x9  ReplicatedStorage.RepairEffectRE
-  Class: RemoteEvent | Signature: (table<number,number,number>|table<number,number,number>|number)
-  Args:  {1=Workspace.ManagedRigs.Sturmtiger.Movable.Barrel <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.Movable.BarrelEnd <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Movable.Hitbox <Part>}, {1=0, 2=0, 3=1}, 0.9000
-
-[S→C] x8  Workspace.ManagedRigs.ChinookBofors.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "drive", 0
-
-[S→C] x8  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number,number,number,number,number,number>)
-  Args:  Vec3(27.02,31.93,36.06), {1=Workspace.ManagedRigs.Sturmtiger.ExMount <Part>, 2=Workspace.ManagedRigs.Sturmtiger.Bolt1 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Bolt2 <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.Bolt3 <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.Bolt4 <MeshPart>, 6=Workspace.ManagedRigs.Sturmtiger.Bolt5 <MeshPart>, 7=Workspace.ManagedRigs.Sturmtiger.Bolt6 <MeshPart>}
-
-[S→C] x8  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number,number>)
-  Args:  Vec3(26.44,-68.19,-19.26), {1=Workspace.ManagedRigs.Sturmtiger.fender <Part>, 2=Workspace.ManagedRigs.Sturmtiger.wedge <Part>, 3=Workspace.ManagedRigs.Sturmtiger.wedge <Part>}
-
-[S→C] x7  Workspace.ManagedRigs.Grant.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
-
-[S→C] x7  ReplicatedStorage.SpeedUpdate
+[C→S] x27  ReplicatedStorage.Remotes.SetSelectedSlot
   Class: RemoteEvent | Signature: (number)
-  Args:  26
+  Args:  3
 
-[S→C] x7  Workspace.ManagedRigs.Grant.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|number)
-  Args:  "wep-bye", 0, 0.0642
+[S→C] x10  ReplicatedStorage.Remotes.ReceiveSystemMessage
+  Class: RemoteEvent | Signature: (string)
+  Args:  "<font color="rgb(3,252,94)">TIP</font><font color="rgb(140,140,140)">: You ca..."
 
-[S→C] x6  Workspace.ManagedRigs.Tiger.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|number)
-  Args:  "wep-bye", 0.1647, -0.0537
+[S→C] x5  ReplicatedStorage.Remotes.SetSelectedSlot
+  Class: RemoteEvent | Signature: (Instance|number)
+  Args:  Players.JaydenUg007 <Player>, 0
 
-[S→C] x6  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number,number,number>)
-  Args:  Vec3(-14.04,3.83,28.79), {1=Workspace.ManagedRigs.Sturmtiger.ExArmor <Part>, 2=Workspace.ManagedRigs.Sturmtiger.ExArmor2 <Part>, 3=Workspace.ManagedRigs.Sturmtiger.ExArmor1 <Part>, 4=Workspace.ManagedRigs.Sturmtiger.ExArmor5 <MeshPart>}
+[C→S] x3  ReplicatedStorage.Remotes.StopEating
+  Class: RemoteEvent | Signature: ()
+  Args:  ()
 
-[S→C] x5  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number,number,number,number>)
-  Args:  Vec3(63.96,-57.21,-30.23), {1=Workspace.ManagedRigs.Sturmtiger.Part <Part>, 2=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>}
+[C→S] x3  ReplicatedStorage.Remotes.StartEating
+  Class: RemoteEvent | Signature: ()
+  Args:  ()
 
-[S→C] x5  Workspace.ManagedRigs.Tiger.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
+[C→S] x2  ReplicatedStorage.Remotes.StartBowCharge
+  Class: RemoteEvent | Signature: ()
+  Args:  ()
 
-[S→C] x4  Workspace.ManagedRigs.Tiger.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[C→S] x4  Workspace.ManagedRigs.SPG.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (number|number)
-  Args:  0.9991, 0.7309
-
-[S→C] x3  RobloxReplicatedStorage.NewPlayerGroupDetails
-  Class: RemoteEvent | Signature: (table<string>)
-  Args:  {4216940905={GermanLocalizationExpert=false, SpanishLocalizationExpert=false, Admin=false, Intern=false, FrenchLocalizationExpert=false, Star=false, PlaceCreator=false, BrazilianLocalizationExpert=false}}
-
-[S→C] x3  ReplicatedStorage.SpeedUpdate
-  Class: RemoteEvent | Signature: (boolean)
-  Args:  false
-
-[S→C] x3  Workspace.ManagedRigs.Patton.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C] x3  Workspace.ManagedRigs.Sturmtiger.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "engine", 0
-
-[S→C] x3  RobloxReplicatedStorage.NewPlayerCanManageDetails
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "4216940905", false
-
-[S→C] x3  RobloxReplicatedStorage.SendPlayerProfileSettings
-  Class: RemoteEvent | Signature: (string|table<string>)
-  Args:  "4216940905", {isInExperienceNameEnabled=false}
-
-[C→S] x3  Workspace.ManagedRigs.SPG.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "repair", true
-
-[C→S] x3  Workspace.ManagedRigs.SPG.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|string)
-  Args:  "wep-hello", "g-down"
-
-[S→C] x3  RobloxReplicatedStorage.CanChatWith
-  Class: RemoteEvent | Signature: (table<string>)
-  Args:  {4216940905=false}
-
-[C→S] x3  Workspace.WEGAESFDASEG.Grenade.ToolSvcsRE
-  Class: RemoteEvent | Signature: (string|Vector3|string)
-  Args:  "throw", Vec3(1539.28,100.01,1805.70), "low"
-
-[S→C] x3  Workspace.ManagedRigs.Tiger.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "engine", 0
-
-[S→C] x3  Workspace.ManagedRigs.Patton.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|number)
-  Args:  "wep-bye", -2.9817, -0.0544
-
-[C→S] x3  Workspace.WEGAESFDASEG.Grenade.ToolSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "hold", 1
-
-[S→C] x3  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number,number,number,number,number>)
-  Args:  Vec3(24.61,-28.34,-44.90), {1=Workspace.ManagedRigs.Sturmtiger.ExBarrel <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.Pin1 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Pin3 <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.Pin4 <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.Pin2 <MeshPart>, 6=Workspace.ManagedRigs.Sturmtiger.ExCoverTop <MeshPart>}
-
-[S→C:New] x2  Workspace.ManagedRigs.KV1.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
-
-[S→C:New] x2  Workspace.ManagedRigs.Patton.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
-
-[S→C] x2  ReplicatedStorage.RepairEffectRE
-  Class: RemoteEvent | Signature: (table<number,number,number,number,number,number>|table<number,number,number,number,number,number>|number)
-  Args:  {1=Workspace.ManagedRigs.Sturmtiger.ExBarrel <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.Pin1 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Pin3 <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.Pin4 <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.Pin2 <MeshPart>, 6=Workspace.ManagedRigs.Sturmtiger.ExCoverTop <MeshPart>}, {1=0, 2=0, 3=0, 4=0, 5=0, 6=0}, 0.9000
-
-[S→C] x2  Workspace.ManagedRigs.AMX.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|number)
-  Args:  "wep-bye", 0.4530, -0.1391
-
-[C→S] x2  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Args:  "anim-repl-server", {1=Workspace.WEGAESFDASEG.Torso.Right Hip <Motor6D>, 2="C0", 3=CF(1.0,-1.0,0.0), 4=Workspace.WEGAESFDASEG.Torso.Right Hip <Motor6D>, 5="C1", 6=CF(0.5,1.0,0.0), 7=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 8="C0", ...+9 more}
-
-[S→C] x2  Workspace.ManagedRigs.Grant.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C] x2  ReplicatedStorage.RepairEffectRE
-  Class: RemoteEvent | Signature: (table<number,number,number,number,number,number,number,number,number>|table<number,number,number,number,number,number,number,number,number>|number)
-  Args:  {1=Workspace.ManagedRigs.Sturmtiger.DriveTrain.LWheel1 <Part>, 2=Workspace.ManagedRigs.Sturmtiger.DriveTrain.VWhl2 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.DriveTrain.TreadTop <Part>, 4=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 5=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 6=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 7=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 8=Workspace.ManagedRigs.Sturmtiger.DriveTrain.TreadOK <Part>, ...+9 more}, {1=1, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0, 8=0, ...+9 more}, 0.9000
-
-[S→C] x2  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Args:  Vec3(-7.10,-14.08,-20.47), {1=Workspace.ManagedRigs.AMX.TreadMain <Part>, 2=Workspace.ManagedRigs.AMX.Tread <Part>, 3=Workspace.ManagedRigs.AMX.Tread <Part>, 4=Workspace.ManagedRigs.AMX.Tread <Part>, 5=Workspace.ManagedRigs.AMX.Tread <Part>, 6=Workspace.ManagedRigs.AMX.Tread <Part>, 7=Workspace.ManagedRigs.AMX.Tread <Part>, 8=Workspace.ManagedRigs.AMX.Tread <Part>, ...+9 more}
-
-[S→C:New] x1  Workspace.ManagedRigs.KV1.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|number)
-  Args:  "wep-bye", 2.3690, -0.0325
-
-[S→C] x1  Workspace.ManagedRigs.Sturmtiger.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|number|number)
-  Args:  "wep-bye", 0.0698, -0.0155
-
-[S→C] x1  ReplicatedStorage.SpeedUpdate
+[C→S] x2  ReplicatedStorage.Remotes.EndBowCharge
   Class: RemoteEvent | Signature: (Vector3)
-  Args:  Vec3(2568.25,163.74,2777.53)
-
-[S→C] x1  Workspace.ManagedRigs.V150.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C] x1  Workspace.ManagedRigs.ChinookBofors.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "drive", nil
-
-[S→C] x1  Workspace.ManagedRigs.T34.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C:New] x1  Workspace.ManagedRigs.Panther.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
-
-[S→C] x1  Workspace.ManagedRigs.Panther.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C:New] x1  Workspace.ManagedRigs.Sherman.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
-
-[S→C] x1  ReplicatedStorage.BreakRE
-  Class: RemoteEvent | Signature: (Vector3|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Args:  Vec3(-17.52,7.93,-2.51), {1=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 2=Workspace.ManagedRigs.AMX.Movable.Mount <UnionOperation>, 3=Workspace.ManagedRigs.AMX.Movable.Hitbox <Part>, 4=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 5=Workspace.ManagedRigs.AMX.Movable.OK38 <Part>, 6=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 7=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 8=Workspace.ManagedRigs.AMX.Movable.Turret5 <Part>, ...+9 more}
-
-[S→C:New] x1  Workspace.ManagedRigs.SupplyTruck.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "engine", 0
-
-[S→C] x1  ReplicatedStorage.RepairEffectRE
-  Class: RemoteEvent | Signature: (table<number,number,number,number,number,number,number>|table<number,number,number,number,number,number,number>|number)
-  Args:  {1=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Wheel <Part>, 2=Workspace.ManagedRigs.Sturmtiger.DriveTrain.VWhl2 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 4=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 5=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 6=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 7=Workspace.ManagedRigs.Sturmtiger.DriveTrain.TreadBot <Part>}, {1=1, 2=1, 3=1, 4=1, 5=1, 6=1, 7=1}, 0.9000
-
-[S→C] x1  Workspace.ManagedRigs.Patton.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "engine", 0
-
-[S→C] x1  Workspace.WEGAESFDASEG.CharSvcsRE
-  Class: RemoteEvent | Signature: (string|string|boolean|string|number)
-  Args:  "gui", "RemGuiWo", true, "Wiped-out by werq, using standard 50Cal", 10
-
-[S→C] x1  Workspace.ManagedRigs.AMX.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
-
-[S→C] x1  Workspace.ManagedRigs.AMX.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "engine", nil
-
-[S→C] x1  Workspace.ManagedRigs.Huey.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|nil)
-  Args:  "drive", nil
-
-[S→C:New] x1  Workspace.ManagedRigs.Sherman.RigSvcsRE
-  Class: RemoteEvent | Signature: (string|number)
-  Args:  "engine", 0
-
-[S→C] x1  Workspace.ManagedRigs.BoforsAdjunct.Movable.SsTurretG<done.TurretRE
-  Class: RemoteEvent | Signature: (string|boolean)
-  Args:  "wep-hello", false
+  Args:  Vec3(0.94,0.02,-0.34)
 
 
 ════════════════════════════════════════════════════════════
 [ ARGUMENTS ]
 ════════════════════════════════════════════════════════════
-═══ ARGUMENTS DUMP — ARMORED PATROL ═══
-Time: 2026-05-25 20:36:05
-Unique patterns: 96
+═══ ARGUMENTS DUMP — [💰UPD] 1.8 Arena ═══
+Time: 2026-05-25 21:31:46
+Unique patterns: 9
 
-── Workspace.ManagedRigs.Grant.RigSvcsRE ──
-  [S→C] x2 | Types: (string|nil)
-  Example: "engine", nil
+── ReplicatedStorage.Remotes.StartBowCharge ──
+  [C→S] x2 | Types: ()
+  Example: ()
 
-── Workspace.ManagedRigs.Sturmtiger.RigSvcsRE ──
-  [S→C] x3 | Types: (string|number)
-  Example: "engine", 0
-  [S→C] x49 | Types: (string|nil)
-  Example: "engine", nil
+── ReplicatedStorage.Remotes.StopEating ──
+  [C→S] x3 | Types: ()
+  Example: ()
 
-── Workspace.ManagedRigs.BTR.RigSvcsRE ──
-  [S→C] x101 | Types: (string|nil)
-  Example: "engine", nil
+── ReplicatedStorage.Remotes.ReceiveSystemMessage ──
+  [S→C] x10 | Types: (string)
+  Example: "<font color="rgb(3,252,94)">TIP</font><font color="rgb(140,140,140)">: You ca..."
 
-── Workspace.ManagedRigs.ChinookArty3.RigSvcsRE ──
-  [S→C:New] x23 | Types: (string|number)
-  Example: "drive", 0
+── ReplicatedStorage.Remotes.SetSelectedSlot ──
+  [S→C] x60 | Types: (Instance|table<string,string,string,string>)
+  Example: Players.The_King1c0 <Player>, {maxStack=64, type="food", count=14, id="golden_apple"}
+  [S→C] x5 | Types: (Instance|number)
+  Example: Players.JaydenUg007 <Player>, 0
+  [C→S] x27 | Types: (number)
+  Example: 3
 
-── ReplicatedStorage.BreakRE ──
-  [S→C] x2 | Types: (Vector3|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Example: Vec3(-7.10,-14.08,-20.47), {1=Workspace.ManagedRigs.AMX.TreadMain <Part>, 2=Workspace.ManagedRigs.AMX.Tread <Part>, 3=Workspace.ManagedRigs.AMX.Tread <Part>, 4=Workspace.ManagedRigs.AMX.Tread <Part>, 5=Workspace.ManagedRigs.AMX.Tread <Part>, 6=Workspace.ManagedRigs.AMX.Tread <Part>, 7=Workspace.ManagedRigs.AMX.Tread <Part>, 8=Workspace.ManagedRigs.AMX.Tread <Part>, ...+9 more}
-  [S→C] x166 | Types: (Vector3|table<number>)
-  Example: Vec3(-37.79,23.44,-36.96), {1=Workspace.ManagedRigs.Sturmtiger.Part <Part>}
-  [S→C] x8 | Types: (Vector3|table<number,number,number>)
-  Example: Vec3(26.44,-68.19,-19.26), {1=Workspace.ManagedRigs.Sturmtiger.fender <Part>, 2=Workspace.ManagedRigs.Sturmtiger.wedge <Part>, 3=Workspace.ManagedRigs.Sturmtiger.wedge <Part>}
-  [S→C] x1 | Types: (Vector3|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Example: Vec3(-17.52,7.93,-2.51), {1=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 2=Workspace.ManagedRigs.AMX.Movable.Mount <UnionOperation>, 3=Workspace.ManagedRigs.AMX.Movable.Hitbox <Part>, 4=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 5=Workspace.ManagedRigs.AMX.Movable.OK38 <Part>, 6=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 7=Workspace.ManagedRigs.AMX.Movable.Part <Part>, 8=Workspace.ManagedRigs.AMX.Movable.Turret5 <Part>, ...+9 more}
-  [S→C] x5 | Types: (Vector3|table<number,number,number,number,number>)
-  Example: Vec3(63.96,-57.21,-30.23), {1=Workspace.ManagedRigs.Sturmtiger.Part <Part>, 2=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>}
-  [S→C] x6 | Types: (Vector3|table<number,number,number,number>)
-  Example: Vec3(-14.04,3.83,28.79), {1=Workspace.ManagedRigs.Sturmtiger.ExArmor <Part>, 2=Workspace.ManagedRigs.Sturmtiger.ExArmor2 <Part>, 3=Workspace.ManagedRigs.Sturmtiger.ExArmor1 <Part>, 4=Workspace.ManagedRigs.Sturmtiger.ExArmor5 <MeshPart>}
-  [S→C] x8 | Types: (Vector3|table<number,number,number,number,number,number,number>)
-  Example: Vec3(27.02,31.93,36.06), {1=Workspace.ManagedRigs.Sturmtiger.ExMount <Part>, 2=Workspace.ManagedRigs.Sturmtiger.Bolt1 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Bolt2 <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.Bolt3 <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.Bolt4 <MeshPart>, 6=Workspace.ManagedRigs.Sturmtiger.Bolt5 <MeshPart>, 7=Workspace.ManagedRigs.Sturmtiger.Bolt6 <MeshPart>}
-  [S→C] x55 | Types: (Vector3|table<number,number>)
-  Example: Vec3(-17.82,7.29,-1.58), {1=Workspace.ManagedRigs.Sturmtiger.EngineCover <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.BoltNoFace <MeshPart>}
-  [S→C] x3 | Types: (Vector3|table<number,number,number,number,number,number>)
-  Example: Vec3(24.61,-28.34,-44.90), {1=Workspace.ManagedRigs.Sturmtiger.ExBarrel <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.Pin1 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Pin3 <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.Pin4 <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.Pin2 <MeshPart>, 6=Workspace.ManagedRigs.Sturmtiger.ExCoverTop <MeshPart>}
+── ReplicatedStorage.Remotes.ServerStateUpdate ──
+  [S→C] x1427 | Types: (table<string,string,string,string,string,string,string,string,string,string,string,string,string,string>)
+  Example: {The_King1c0={crouching=false, sprinting=true, blocking=false, rawInput=Vec3(0.00,0.00,-1.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(3.04,0.00,-22.43)}, Aran34s={crouching=false, sprinting=true, blocking=false, rawInput=Vec3(-0.23,0.00,-0.97), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(-17.48,0.00,6.02)}, Coopster20038={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(0.00,0.00,0.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(0.00,0.00,0.00)}, JaydenUg007={crouching=false, sprinting=true, blocking=false, rawInput=Vec3(0.00,0.00,-1.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(-60.94,-21.87,-1.19)}, Tmcqueen31={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(0.00,0.00,0.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(0.00,0.00,0.00)}, ApexCreedGamer={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(-0.80,0.00,-0.59), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(10.16,0.00,-5.13)}, cowpizza93={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(0.00,0.00,0.00), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(0.00,0.00,0.00)}, Gordo_pa1723={crouching=false, sprinting=false, blocking=false, rawInput=Vec3(-0.22,0.00,0.98), lastCrouchState=false, neckC0=CF(0.0,1.4,0.0), PLAYER_VELOCITY=Vec3(-12.07,0.00,-11.72)}, ...+9 more}
 
-── Workspace.ManagedRigs.Panther.Movable.SsTurretG<done.TurretRE ──
-  [S→C:New] x20 | Types: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string>|table<string,string,string,string>)
-  Example: "hello", 32, nil, -0.0000, 0.0000, Workspace.ManagedRigs.Panther <Model>, Workspace.ManagedRigs.Panther.Chassis <Part>, Workspace.ManagedRigs.Panther.Movable.Mount <Part>, Workspace.ManagedRigs.Panther.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.Panther.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.Panther.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Panther.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,2.42,-1.80), CF(-0.0,10.4,1.6), CF(-0.1,1.4,-7.7), 3.1416, -3.1416, 0.4189, -0.1396, true, {f-down="Shell_Panther"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-  [S→C:New] x1 | Types: (string|boolean)
-  Example: "wep-hello", false
+── ReplicatedStorage.Remotes.StartEating ──
+  [C→S] x3 | Types: ()
+  Example: ()
 
-── Workspace.ManagedRigs.BoforsAdjunct.Movable.SsTurretG<done.TurretRE ──
-  [S→C] x1 | Types: (string|boolean)
-  Example: "wep-hello", false
-
-── Workspace.ManagedRigs.SPG.RigSvcsRE ──
-  [C→S] x66 | Types: (string|Vector3|string)
-  Example: "g-down", Vec3(2055.03,100.01,2007.62), "Shell_M109"
-  [C→S] x50 | Types: (string)
-  Example: "g-up"
-  [C→S] x3 | Types: (string|boolean)
-  Example: "repair", true
-  [C→S] x3 | Types: (string|string)
-  Example: "wep-hello", "g-down"
-
-── Workspace.ManagedRigs.AMX.Movable.SsTurretG<done.TurretRE ──
-  [S→C] x2 | Types: (string|number|number)
-  Example: "wep-bye", 0.4530, -0.1391
-  [S→C] x1 | Types: (string|boolean)
-  Example: "wep-hello", false
-
-── Workspace.ManagedRigs.SPG.Movable.50Cal.Ss50CalG<done.TurretRE ──
-  [S→C] x36 | Types: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Example: "hello", Workspace.ManagedRigs.SPG.Movable.CalMount <Part>, Workspace.ManagedRigs.SPG.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.SPG.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.SPG.CntrUser <ObjectValue>, CF(0.0,1.5,-0.0), nil, nil, 1.0472, -0.2094
-
-── Workspace.ManagedRigs.ChinookBofors.RigSvcsRE ──
-  [S→C] x1 | Types: (string|nil)
-  Example: "drive", nil
-  [S→C] x8 | Types: (string|number)
-  Example: "drive", 0
-
-── Workspace.ManagedRigs.Tiger.Movable.SsTurretG<done.TurretRE ──
-  [S→C] x5 | Types: (string|boolean)
-  Example: "wep-hello", false
-  [S→C] x6 | Types: (string|number|number)
-  Example: "wep-bye", 0.1647, -0.0537
-
-── Workspace.ManagedRigs.Sherman.RigSvcsRE ──
-  [S→C:New] x1 | Types: (string|number)
-  Example: "engine", 0
-
-── ReplicatedStorage.TracerRE ──
-  [S→C] x20 | Types: (string|number|Vector3|boolean)
-  Example: "explode", 5162, Vec3(602.72,158.68,1577.00), true
-  [S→C] x33 | Types: (string|number|string|nil|Color3|Vector3)
-  Example: "track", 5110, "Rocket", nil, RGB(196,40,28), Vec3(717.55,113.59,1002.67)
-  [S→C] x119 | Types: (string|number|string|nil|Vector3|Vector3|nil|string|Color3|Instance)
-  Example: "ballistic", 5076, "Shell_Leopard", nil, Vec3(770.51,108.15,1523.57), Vec3(723.65,106.09,1473.67), nil, "low", RGB(13,105,172), Players.Rip_ktoto08 <Player>
-  [S→C] x529 | Types: (string|number|string|nil|boolean|Vector3|Vector3|Color3)
-  Example: "auto", 5079, "50Cal", nil, false, Vec3(1025.16,112.27,1651.58), Vec3(748.32,97.60,1798.52), RGB(13,105,172)
-  [S→C] x151 | Types: (string|number|Vector3|number)
-  Example: "explode", 5072, Vec3(671.97,130.17,523.00), 0.1328
-  [S→C] x21 | Types: (string|number|table<string,string,string,string,string,string,string,string,string>|Vector3|Vector3|nil|string|Color3|Instance)
-  Example: "ballistic-parms", 5264, {tracerFadeRate=0.7000, hiArcGravity=1, range=720, loArcSpeed=800, loArcGravity=30, hiArcSpeed=1, tracerWidth=0.8000, protoBolt="ProtoShell", ...+9 more}, Vec3(475.10,111.38,260.06), Vec3(719.04,97.61,599.84), nil, "low", RGB(196,40,28), Players.vti5389 <Player>
-  [S→C] x11 | Types: (string|string|nil|Vector3)
-  Example: "grenade-explode", "Grenade", nil, Vec3(714.80,100.59,1022.87)
-  [S→C] x2626 | Types: (string|number|Vector3)
-  Example: "trackUpdate", 5075, Vec3(2727.09,158.78,2737.32)
-  [S→C] x895 | Types: (string|number|Vector3|Vector3)
-  Example: "explode", 5079, Vec3(786.88,99.80,1778.05), Vec3(-0.92,-0.03,0.50)
-  [S→C] x13 | Types: (string|number|string|nil|Vector3|Vector3|nil|string|Color3|boolean)
-  Example: "ballistic", 5089, "Shell_BaseSentry", nil, Vec3(361.81,118.03,367.41), Vec3(714.55,103.98,1011.07), nil, "medium", RGB(196,40,28), false
-
-── Workspace.ManagedRigs.Patton.Movable.50Cal.Ss50CalG<done.TurretRE ──
-  [S→C] x33 | Types: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Example: "hello", Workspace.ManagedRigs.Patton.Movable.CalMount <Part>, Workspace.ManagedRigs.Patton.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.Patton.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Patton.CntrUser <ObjectValue>, CF(0.0,1.5,-0.0), nil, nil, 1.2217, -0.4363
-
-── Workspace.ManagedRigs.Panther.RigSvcsRE ──
-  [S→C] x1 | Types: (string|nil)
-  Example: "engine", nil
-
-── Workspace.ManagedRigs.Sturmtiger.Movable.SsTurretG<done.TurretRE ──
-  [S→C] x1 | Types: (string|number|number)
-  Example: "wep-bye", 0.0698, -0.0155
-
-── RobloxReplicatedStorage.CanChatWith ──
-  [S→C] x3 | Types: (table<string>)
-  Example: {4216940905=false}
-
-── RobloxReplicatedStorage.SendPlayerProfileSettings ──
-  [S→C] x3 | Types: (string|table<string>)
-  Example: "4216940905", {isInExperienceNameEnabled=false}
-
-── Workspace.ManagedRigs.AMX.RigSvcsRE ──
-  [S→C] x1 | Types: (string|nil)
-  Example: "engine", nil
-
-── Workspace.ManagedRigs.Panther.Movable.50Cal.Ss50CalG<done.TurretRE ──
-  [S→C] x37 | Types: (string|Instance|Instance|Instance|Instance|CFrame|number|number|number|number)
-  Example: "hello", Workspace.ManagedRigs.Panther.Chassis <Part>, Workspace.ManagedRigs.Panther.Movable.50Cal.Gun50Cal <MeshPart>, Workspace.ManagedRigs.Panther.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Panther.CntrUser <ObjectValue>, CF(2.7,5.3,-13.7), 0.3840, -0.3840, 0.3665, -0.1571
-
-── ReplicatedStorage.FragRE ──
-  [S→C] x379 | Types: (Vector3|table<number>)
-  Example: Vec3(-0.65,0.96,0.53), {1=Workspace.TerrainAp.FragTransom.Fragment92103 <Part>}
-
-── ReplicatedStorage.RepairEffectRE ──
-  [S→C] x2 | Types: (table<number,number,number,number,number,number>|table<number,number,number,number,number,number>|number)
-  Example: {1=Workspace.ManagedRigs.Sturmtiger.ExBarrel <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.Pin1 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Pin3 <MeshPart>, 4=Workspace.ManagedRigs.Sturmtiger.Pin4 <MeshPart>, 5=Workspace.ManagedRigs.Sturmtiger.Pin2 <MeshPart>, 6=Workspace.ManagedRigs.Sturmtiger.ExCoverTop <MeshPart>}, {1=0, 2=0, 3=0, 4=0, 5=0, 6=0}, 0.9000
-  [S→C] x9 | Types: (table<number,number,number>|table<number,number,number>|number)
-  Example: {1=Workspace.ManagedRigs.Sturmtiger.Movable.Barrel <MeshPart>, 2=Workspace.ManagedRigs.Sturmtiger.Movable.BarrelEnd <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.Movable.Hitbox <Part>}, {1=0, 2=0, 3=1}, 0.9000
-  [S→C] x2 | Types: (table<number,number,number,number,number,number,number,number,number>|table<number,number,number,number,number,number,number,number,number>|number)
-  Example: {1=Workspace.ManagedRigs.Sturmtiger.DriveTrain.LWheel1 <Part>, 2=Workspace.ManagedRigs.Sturmtiger.DriveTrain.VWhl2 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.DriveTrain.TreadTop <Part>, 4=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 5=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 6=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 7=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 8=Workspace.ManagedRigs.Sturmtiger.DriveTrain.TreadOK <Part>, ...+9 more}, {1=1, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0, 8=0, ...+9 more}, 0.9000
-  [S→C] x84 | Types: (table<number>|table<number>|number)
-  Example: {1=Workspace.ManagedRigs.Sturmtiger.GunMount <MeshPart>}, {1=1}, 0.9000
-  [S→C] x1 | Types: (table<number,number,number,number,number,number,number>|table<number,number,number,number,number,number,number>|number)
-  Example: {1=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Wheel <Part>, 2=Workspace.ManagedRigs.Sturmtiger.DriveTrain.VWhl2 <MeshPart>, 3=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 4=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 5=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 6=Workspace.ManagedRigs.Sturmtiger.DriveTrain.Tread <Part>, 7=Workspace.ManagedRigs.Sturmtiger.DriveTrain.TreadBot <Part>}, {1=1, 2=1, 3=1, 4=1, 5=1, 6=1, 7=1}, 0.9000
-  [S→C] x14 | Types: (table<number,number>|table<number,number>|number)
-  Example: {1=Workspace.ManagedRigs.Sturmtiger.WedgePartB <WedgePart>, 2=Workspace.ManagedRigs.Sturmtiger.bolt <MeshPart>}, {1=0, 2=0}, 0.9000
-
-── ReplicatedStorage.FragRE.BreakViRE ──
-  [S→C] x70 | Types: (Vector3|Instance|CFrame|Vector3)
-  Example: Vec3(5.39,-4.89,0.52), Workspace.TerrainAp.ProtoWindow.FragWall.FragWall <Part>, CF(667.0,118.5,525.8), Vec3(12.00,1.00,2.50)
-
-── Workspace.ManagedRigs.V150.RigSvcsRE ──
-  [S→C] x1 | Types: (string|nil)
-  Example: "engine", nil
-
-── Workspace.ManagedRigs.Patton.RigSvcsRE ──
-  [S→C] x3 | Types: (string|nil)
-  Example: "engine", nil
-  [S→C] x1 | Types: (string|number)
-  Example: "engine", 0
-
-── Workspace.WEGAESFDASEG.Grenade.ToolSvcsRE ──
-  [C→S] x3 | Types: (string|Vector3|string)
-  Example: "throw", Vec3(1539.28,100.01,1805.70), "low"
-  [C→S] x3 | Types: (string|number)
-  Example: "hold", 1
-
-── ReplicatedStorage.SpeedUpdate ──
-  [S→C] x1 | Types: (Vector3)
-  Example: Vec3(2568.25,163.74,2777.53)
-  [S→C] x7 | Types: (number)
-  Example: 26
-  [S→C] x3 | Types: (boolean)
-  Example: false
-
-── Workspace.ManagedRigs.SPG.Movable.SsTurretG<done.TurretRE ──
-  [S→C:New] x20 | Types: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string>|table<string,string,string,string>)
-  Example: "hello", 29, nil, 0, -0.0000, Workspace.ManagedRigs.SPG <Model>, Workspace.ManagedRigs.SPG.Chassis <Part>, Workspace.ManagedRigs.SPG.Movable.Mount <Part>, Workspace.ManagedRigs.SPG.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.SPG.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.SPG.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.SPG.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(0.00,-0.55,-9.40), CF(-0.0,7.6,2.5), CF(0.0,-0.7,-14.7), 3.1416, -3.1416, 1.5708, 0, true, {t-down="Shell_M109", g-down="Shell_M109"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-  [C→S] x4 | Types: (number|number)
-  Example: 0.9991, 0.7309
-
-── Workspace.WEGAESFDASEG.CharSvcsRE ──
-  [S→C] x190 | Types: (string|Instance|table<number,number,number>)
-  Example: "anim-repl-client", Players.154hgb <Player>, {1=Workspace.154hgb.Torso.Right Shoulder <Motor6D>, 2="DesiredAngle", 3=0}
-  [C→S] x59 | Types: (string|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Example: "anim-repl-server", {1=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 2="C0", 3=CF(0.0,1.0,0.0), 4=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 5="C1", 6=CF(0.0,-0.5,0.0), 7=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 8="C0", ...+9 more}
-  [C→S] x63 | Types: (string|table<number,number,number>)
-  Example: "anim-repl-client", {1=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 2="DesiredAngle", 3=0}
-  [C→S] x2 | Types: (string|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Example: "anim-repl-server", {1=Workspace.WEGAESFDASEG.Torso.Right Hip <Motor6D>, 2="C0", 3=CF(1.0,-1.0,0.0), 4=Workspace.WEGAESFDASEG.Torso.Right Hip <Motor6D>, 5="C1", 6=CF(0.5,1.0,0.0), 7=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 8="C0", ...+9 more}
-  [S→C] x819 | Types: (string|Instance|table<number,number,number,number,number,number,number,number,number>)
-  Example: "anim-repl-client", Players.rom4ik290610 <Player>, {1=Workspace.rom4ik290610.Torso.Left Shoulder <Motor6D>, 2="DesiredAngle", 3=0.1135, 4=Workspace.rom4ik290610.Torso.Right Shoulder <Motor6D>, 5="DesiredAngle", 6=-0.0882, 7=Workspace.rom4ik290610.Torso.Neck <Motor6D>, 8="DesiredAngle", ...+9 more}
-  [C→S] x175 | Types: (string|table<number,number,number,number,number,number,number,number,number>)
-  Example: "anim-repl-client", {1=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 2="DesiredAngle", 3=-0.0523, 4=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 5="DesiredAngle", 6=-0.1046, 7=Workspace.WEGAESFDASEG.Torso.Left Shoulder <Motor6D>, 8="DesiredAngle", ...+9 more}
-  [C→S] x18 | Types: (string|table<number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number>)
-  Example: "anim-repl-server", {1=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 2="C0", 3=CF(0.0,1.0,0.0), 4=Workspace.WEGAESFDASEG.Torso.Neck <Motor6D>, 5="C1", 6=CF(0.0,-0.5,0.0), 7=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 8="C0", ...+9 more}
-  [S→C] x1 | Types: (string|string|boolean|string|number)
-  Example: "gui", "RemGuiWo", true, "Wiped-out by werq, using standard 50Cal", 10
-  [C→S] x237 | Types: (string|table<number,number,number,number,number,number>)
-  Example: "anim-repl-client", {1=Workspace.WEGAESFDASEG.Torso.Right Shoulder <Motor6D>, 2="DesiredAngle", 3=0, 4=Workspace.WEGAESFDASEG.Torso.Left Shoulder <Motor6D>, 5="DesiredAngle", 6=0}
-  [S→C] x65 | Types: (string|Instance|table<number,number,number,number,number,number>)
-  Example: "anim-repl-client", Players.154hgb <Player>, {1=Workspace.154hgb.Torso.Left Shoulder <Motor6D>, 2="DesiredAngle", 3=0, 4=Workspace.154hgb.Torso.Right Shoulder <Motor6D>, 5="DesiredAngle", 6=0}
-
-── Workspace.ManagedRigs.KV1.Movable.SsTurretG<done.TurretRE ──
-  [S→C:New] x19 | Types: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string>|table<string,string,string,string>)
-  Example: "hello", 33, nil, 0, 0.0000, Workspace.ManagedRigs.KV1 <Model>, Workspace.ManagedRigs.KV1.Chassis <Part>, Workspace.ManagedRigs.KV1.Movable.Mount <Part>, Workspace.ManagedRigs.KV1.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.KV1.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.KV1.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.KV1.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-0.30,-0.00), CF(-0.0,5.9,-2.6), CF(0.0,1.9,-4.7), 3.1416, -3.1416, 0.4538, -0.1222, true, {b-down="50Cal", f-down="Shell_KV1"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-  [S→C:New] x1 | Types: (string|number|number)
-  Example: "wep-bye", 2.3690, -0.0325
-  [S→C:New] x2 | Types: (string|boolean)
-  Example: "wep-hello", false
-
-── RobloxReplicatedStorage.NewPlayerGroupDetails ──
-  [S→C] x3 | Types: (table<string>)
-  Example: {4216940905={GermanLocalizationExpert=false, SpanishLocalizationExpert=false, Admin=false, Intern=false, FrenchLocalizationExpert=false, Star=false, PlaceCreator=false, BrazilianLocalizationExpert=false}}
-
-── Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Ss50CalG<done.TurretRE ──
-  [S→C:New] x19 | Types: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Example: "hello", Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Mount <MeshPart>, Workspace.ManagedRigs.SupplyTruck.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.SupplyTruck.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.SupplyTruck.CntrUser <ObjectValue>, CF(-0.0,1.0,0.0), nil, nil, 0.8727, -0.2269
-
-── Workspace.ManagedRigs.Tiger.Movable.50Cal.Ss50CalG<done.TurretRE ──
-  [S→C] x17 | Types: (string|Instance|Instance|Instance|Instance|CFrame|number|number|number|number)
-  Example: "hello", Workspace.ManagedRigs.Tiger.Chassis <Part>, Workspace.ManagedRigs.Tiger.Movable.50Cal.Gun50Cal <MeshPart>, Workspace.ManagedRigs.Tiger.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Tiger.CntrUser <ObjectValue>, CF(3.6,6.9,-13.7), 0.3840, -0.3840, 0.3665, -0.1571
-
-── Workspace.ManagedRigs.SU122.RigSvcsRE ──
-  [S→C] x79 | Types: (string|nil)
-  Example: "engine", nil
-
-── Workspace.ManagedRigs.Patton.Movable.SsTurretG<done.TurretRE ──
-  [S→C:New] x18 | Types: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string>|table<string,string,string,string>)
-  Example: "hello", 45, nil, 0.0000, -0.0000, Workspace.ManagedRigs.Patton <Model>, Workspace.ManagedRigs.Patton.Chassis <Part>, Workspace.ManagedRigs.Patton.Movable.Mount <Part>, Workspace.ManagedRigs.Patton.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.Patton.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.Patton.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Patton.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-1.80,3.94), CF(0.0,4.8,-1.4), CF(-0.0,0.2,9.0), 3.1416, -3.1416, 0.4189, -0.1134, true, {f-down="Shell_M48A5"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-  [S→C] x3 | Types: (string|number|number)
-  Example: "wep-bye", -2.9817, -0.0544
-  [S→C:New] x2 | Types: (string|boolean)
-  Example: "wep-hello", false
-
-── Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Movable.SsTurretG<done.TurretRE ──
-  [S→C:New] x18 | Types: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string,string>|table<string,string,string,string>)
-  Example: "hello", 40, nil, 0.0000, -0.0000, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct <Model>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Chassis <Part>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Movable.Mount <Part>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.ChinookArty3.Arty3Adjunct.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-1.90,-0.65), CF(-0.0,0.0,0.0), CF(0.0,1.8,1.7), 3.1416, -3.1416, 0.3491, -0.3491, true, {f-down="Shell_HowSm_AP", t-down="Shell_HowSm_HE", g-down="Shell_HowSm_HE"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-── Workspace.ManagedRigs.Huey.RigSvcsRE ──
-  [S→C] x1 | Types: (string|nil)
-  Example: "drive", nil
-
-── RobloxReplicatedStorage.NewPlayerCanManageDetails ──
-  [S→C] x3 | Types: (string|boolean)
-  Example: "4216940905", false
-
-── Workspace.ManagedRigs.Tiger.RigSvcsRE ──
-  [S→C] x4 | Types: (string|nil)
-  Example: "engine", nil
-  [S→C] x3 | Types: (string|number)
-  Example: "engine", 0
-
-── Workspace.ManagedRigs.Sherman.Movable.SsTurretG<done.TurretRE ──
-  [S→C:New] x1 | Types: (string|boolean)
-  Example: "wep-hello", false
-  [S→C:New] x19 | Types: (string|number|nil|number|number|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Instance|Vector3|CFrame|CFrame|number|number|number|number|boolean|table<string,string>|table<string,string,string,string>)
-  Example: "hello", 11, nil, 0, -0, Workspace.ManagedRigs.Sherman <Model>, Workspace.ManagedRigs.Sherman.Chassis <Part>, Workspace.ManagedRigs.Sherman.Movable.Mount <Part>, Workspace.ManagedRigs.Sherman.Movable.Barrel <MeshPart>, Workspace.ManagedRigs.Sherman.RigSvcsRE <RemoteEvent>, Workspace.ManagedRigs.Sherman.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.Sherman.CntrUser <ObjectValue>, JointsService.Weld <Weld>, JointsService.Weld <Weld>, Vec3(-0.00,-0.30,-1.41), CF(0.0,6.1,-0.3), CF(-0.0,2.3,-6.2), 3.1416, -3.1416, 0.4363, -0.2094, true, {b-down="50Cal", f-down="Shell_Sherman"}, {f-down="low", b-down="low", t-down="high", g-down="medium"}
-
-── Workspace.ManagedRigs.T34.RigSvcsRE ──
-  [S→C] x1 | Types: (string|nil)
-  Example: "engine", nil
-
-── Workspace.ManagedRigs.AMX.Movable.50Cal.Ss50CalG<done.TurretRE ──
-  [S→C] x16 | Types: (string|Instance|Instance|Instance|Instance|CFrame|nil|nil|number|number)
-  Example: "hello", Workspace.ManagedRigs.AMX.Movable.50Cal.Part <Part>, Workspace.ManagedRigs.AMX.Movable.50Cal.Gun50Cal <Part>, Workspace.ManagedRigs.AMX.RigSvcsBE <BindableEvent>, Workspace.ManagedRigs.AMX.CntrUser <ObjectValue>, CF(0.0,1.5,0.0), nil, nil, 0.7854, -0.2094
-
-── Workspace.ManagedRigs.Grant.Movable.SsTurretG<done.TurretRE ──
-  [S→C] x7 | Types: (string|number|number)
-  Example: "wep-bye", 0, 0.0642
-  [S→C] x7 | Types: (string|boolean)
-  Example: "wep-hello", false
-
-── Workspace.ManagedRigs.SupplyTruck.RigSvcsRE ──
-  [S→C:New] x1 | Types: (string|number)
-  Example: "engine", 0
+── ReplicatedStorage.Remotes.EndBowCharge ──
+  [C→S] x2 | Types: (Vector3)
+  Example: Vec3(0.94,0.02,-0.34)
 
 
 ════════════════════════════════════════════════════════════
 [ SCRIPTS ]
 ════════════════════════════════════════════════════════════
-═══ SCRIPTS DUMP — ARMORED PATROL ═══
-Time: 2026-05-25 20:36:07
-Scripts found: 21588
+═══ SCRIPTS DUMP — [💰UPD] 1.8 Arena ═══
+Time: 2026-05-25 21:31:47
+Scripts found: 21320
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButSPG.Wiki.LsWiki ──
+── ModuleScript: Workspace.Data.GameState ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButSU200.Wiki.LsWiki ──
+── ModuleScript: Workspace.Data.CurrentGamerules.Gamerules ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButElephant.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.ParkourDude.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButPanther.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.PromoCodes.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButKV1.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.QueueBedFight.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButTiger1.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.KitSelect.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButAMX.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.DailyReward.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButGrant.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.ChangeSkin.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButSherman.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.Shop.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButLeopard.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.QueueBoxing.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButPatton.Wiki.LsWiki ──
+── LocalScript: Workspace.LobbyInstances.QueueBridge.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButV150.Wiki.LsWiki ──
+── LocalScript: Workspace.Tmcqueen31.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButFv101.Wiki.LsWiki ──
+── LocalScript: Workspace.Aran34s.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButScott.Wiki.LsWiki ──
+── LocalScript: Workspace.LocalCharacter_WEGAESFDASEG.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButT34.Wiki.LsWiki ──
+── LocalScript: Workspace.Coopster20038.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButVecM1.Wiki.LsWiki ──
+── LocalScript: Workspace.Gordo_pa1723.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStation.GenButBTR80A.Wiki.LsWiki ──
+── LocalScript: Workspace.The_King1c0.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseRed.GenStationWiki.WikiPageButton.Wiki.LsWiki ──
+── LocalScript: Workspace.paula32891.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseBlue.GenStationWiki.WikiPageButton.Wiki.LsWiki ──
+── LocalScript: Workspace.chancethereal236.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseBlue.GenStation.GenButTiger1.Wiki.LsWiki ──
+── LocalScript: Workspace.ApexCreedGamer.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseBlue.GenStation.GenButKV1.Wiki.LsWiki ──
+── LocalScript: Workspace.JaydenUg007.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseBlue.GenStation.GenButPanther.Wiki.LsWiki ──
+── LocalScript: Workspace.Jakster040418.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseBlue.GenStation.GenButElephant.Wiki.LsWiki ──
+── LocalScript: Workspace.Legendarydiamond678.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseBlue.GenStation.GenButSU200.Wiki.LsWiki ──
+── LocalScript: Workspace.yaya123456789902.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.BaseBlue.GenStation.GenButSPG.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButVecM1.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButT34.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButScott.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButFv101.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButV150.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButBTR80A.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButPatton.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButLeopard.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButSherman.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButGrant.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.BaseBlue.GenStation.GenButAMX.Wiki.LsWiki ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Arty3Adjunct.SeatDriver.LsTeArty ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Tiger.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Tiger.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Grant.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Grant.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Sturmtiger.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Sturmtiger.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.SupplyTruck.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.SupplyTruck.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.ChinookArty3.SeatDriver.LsTeHeli ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.ChinookArty3.SeatDriver.LsTeWepHeli ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.VEC.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.VEC.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Leopard.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Leopard.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.BTR.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.BTR.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Patton.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Patton.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Huey.SeatDriver.LsTeHeli ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Huey.SeatDriver.LsTeWepHeli ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.T34.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.T34.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Panther.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Panther.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.SPG.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.SPG.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.KV1.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.KV1.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.V150.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.V150.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.AMX.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.AMX.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.ChinookBofors.SeatDriver.LsTeHeli ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.ChinookBofors.SeatDriver.LsTeWepHeli ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.BoforsAdjunct.SeatDriver.LsTeArty ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Sherman.SeatDriver.LsTeDrive ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.ManagedRigs.Sherman.SeatDriver.LsTeWep ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kostasvak.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kostasvak.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kostasvak.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kostasvak.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kostasvak.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kostasvak.Control.LsTlControl ──
+── LocalScript: Workspace.cowpizza93.Animate ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -1442,505 +358,28 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.WEGAESFDASEG.LsForceHatch ──
+── LocalScript: Players.WEGAESFDASEG.PlayerScripts.CharacterController ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.WEGAESFDASEG.LsHeadFix ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.CharacterController.PlayerState ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.WEGAESFDASEG.LsWipeTools ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.CharacterController.Inventory ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Workspace.WEGAESFDASEG.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.KNIFE_LEMON74.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.KNIFE_LEMON74.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.KNIFE_LEMON74.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.KNIFE_LEMON74.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.KNIFE_LEMON74.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.KNIFE_LEMON74.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Talgatpro_bro.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Talgatpro_bro.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Talgatpro_bro.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Talgatpro_bro.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Talgatpro_bro.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Kaktys_mem.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Kaktys_mem.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Kaktys_mem.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Kaktys_mem.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Kaktys_mem.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Kaktys_mem.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hddhdjsjdgsjajdjdjdj.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hddhdjsjdgsjajdjdjdj.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hddhdjsjdgsjajdjdjdj.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hddhdjsjdgsjajdjdjdj.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hddhdjsjdgsjajdjdjdj.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hddhdjsjdgsjajdjdjdj.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.arbuzik095766.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.arbuzik095766.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.arbuzik095766.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.arbuzik095766.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.arbuzik095766.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.arbuzik095766.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.vti5389.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.vti5389.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.vti5389.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.vti5389.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.vti5389.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.vti5389.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.8_nog.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.8_nog.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.8_nog.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.8_nog.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.8_nog.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Rip_ktoto08.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Rip_ktoto08.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Rip_ktoto08.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Rip_ktoto08.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Rip_ktoto08.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.Rip_ktoto08.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hihuvu.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hihuvu.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hihuvu.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hihuvu.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hihuvu.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.hihuvu.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.rom4ik290610.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.rom4ik290610.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.rom4ik290610.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.rom4ik290610.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.rom4ik290610.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.rom4ik290610.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.funnyzayc.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.funnyzayc.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.funnyzayc.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.funnyzayc.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.funnyzayc.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.funnyzayc.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kivk99.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kivk99.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kivk99.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.kivk99.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.fanerachka.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.fanerachka.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.fanerachka.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.fanerachka.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.fanerachka.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.tyelsqw.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.tyelsqw.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.tyelsqw.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.tyelsqw.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.tyelsqw.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.tyelsqw.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.xlebbylit.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.xlebbylit.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.xlebbylit.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.xlebbylit.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.xlebbylit.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.xlebbylit.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.stasik_sigma8.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.stasik_sigma8.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.stasik_sigma8.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.stasik_sigma8.LsWipeTools ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.stasik_sigma8.LsDisablejump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.DJBMW531.Animate ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.DJBMW531.LsForceHatch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.DJBMW531.LsHeadFix ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Workspace.DJBMW531.LsWipeTools ──
+── LocalScript: Players.WEGAESFDASEG.PlayerScripts.PlayerScriptsLoader ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
 ── LocalScript: Players.WEGAESFDASEG.PlayerScripts.RbxCharacterSounds ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.RbxCharacterSounds.AtomicBinding ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
+  Bytecode is empty
 
 ── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule ──
   -- Decompile failed: decompiler error
@@ -1948,61 +387,6 @@ Scripts found: 21588
   -- key 1: Unsupported bytecode version: 9
 
 ── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.Invisicam ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.TransparencyController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraUI ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraInput ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.BaseCamera ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.VRCamera ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.BaseOcclusion ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.MouseLockController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraToggleStateController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.LegacyCamera ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.OrbitalCamera ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -2022,7 +406,62 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.Poppercam ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.TransparencyController ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraUtils ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.VRBaseCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.Invisicam ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.VRVehicleCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraInput ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.ClassicCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.BaseOcclusion ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.VRCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.LegacyCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraToggleStateController ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraUI ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -2037,27 +476,55 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.CameraUtils ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.BaseCamera ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.ClassicCamera ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.OrbitalCamera ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.VRBaseCamera ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.Poppercam ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.VRVehicleCamera ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CameraModule.MouseLockController ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils ──
+  Bytecode is empty
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.ConnectionUtil ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.FlagUtil ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
 ── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.TouchJump ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.DynamicThumbstick ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.Gamepad ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -2072,32 +539,7 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.DynamicThumbstick ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.VRNavigation ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.ClickToMoveController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.TouchJump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
 ── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.BaseCharacterController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.Gamepad ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -2107,772 +549,212 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.VehicleController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.AvatarAbilitiesInterface ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
 ── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.PathDisplay ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.FlagUtil ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.ClickToMoveController ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.ConnectionUtil ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.VRNavigation ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.CharacterUtil ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.ControlModule.VehicleController ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.ConnectionUtil.spec ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.CameraWrapper.spec ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Types ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerScripts.PlayerModule.CommonUtils.CameraWrapper ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.VERSION ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerScripts.PlayerScriptsLoader ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Reference ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.HealthBar.Frame.PlayerHealthBar.inner.LocalScript ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Attribute ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.HealthBar.Frame.VehicleHealthBar.inner.LocalScript ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Utility ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: Players.WEGAESFDASEG.PlayerGui.RobloxGui.Modules.PlayerPermissionsModule ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Caption ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.RobloxGui.PlayerList ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Container ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.VoteGui.Frame.LsMapVoteGui ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Indicator ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.PersistentGui.QualityHud.LsLowq ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Menu ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.PersistentGui.Skybox ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Notice ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.PersistentGui.LsRockCamera ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Selection ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.PersistentGui.WikiSetup ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Widget ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.PersistentGui.ReportFeedback.LsReportFeedback ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Elements.Dropdown ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.Cloner ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Features.Gamepad ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ClibPlayer ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Features.Overflow ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ClibBoltParms ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Features.Themes ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ClibCommon ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Features.Themes.Classic ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ClibUtil ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Features.Themes.Default ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.LsOrientC ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Packages.GoodSignal ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.LsPlayer ──
+── ModuleScript: Players.WEGAESFDASEG.PlayerGui.Icon.Packages.Janitor ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.UpgrSelHud.LsUpgradeSelB ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Topbar ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.HealthBar.Frame.PlayerHealthBar.inner.LocalScript ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.Buttons ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.HealthBar.Frame.VehicleHealthBar.inner.LocalScript ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.ClientGui ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.ButBinocs.LsBinocs ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.HealthBarContainer.HealthBarManager ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.ShopHud.LsShopAp ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.Chat.ChatClient ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.HelpHudB.LsHelpB ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.Scoreboard.ScoreboardClient ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.TeamChangeHud.LsTeamChange ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.ControlsFrame.ControlsEditor ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.LsDpStatus ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.SkinChangeFrame.SelectionFrame.SkinChanger ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.LsSysGui ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.ShopFrame.Body.PassShop.InsetFrame_Old.PassShop ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui.Skybox ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.ShopFrame.Body.PassShop.InsetFrame.PassShop ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.PlayerGui.ScreenGui2.TextLabel.LocalScript ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.ShopFrame.ShopClient ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.Backpack.LsRepair ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.TitleFrame.TitleClient ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.Backpack.Rifle.LsTlRifle ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.BridgeFrame.ButtonContainer.BridgeEndGameButtons ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.Backpack.Fists.LsPunch ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.BridgeFrame.TutorialOne.CloseButton.CloseWindow ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.Backpack.Control.LsTlControl ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.BridgeFrame.BridgeTutorialClient ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.WEGAESFDASEG.Backpack.Grenade.LsTlThrow ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.BridgeFrame.TutorialTwo.CloseButton.CloseWindow ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: Players.tyelsqw.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.tyelsqw.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.tyelsqw.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.tyelsqw.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.tyelsqw.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.arbuzik095766.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.arbuzik095766.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.arbuzik095766.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.arbuzik095766.Backpack.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.arbuzik095766.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.KNIFE_LEMON74.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.KNIFE_LEMON74.Backpack.Foxhole.LsTlFoxhole ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.KNIFE_LEMON74.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.KNIFE_LEMON74.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.KNIFE_LEMON74.Backpack.Build.LsTlBuild ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.KNIFE_LEMON74.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.KNIFE_LEMON74.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Rip_ktoto08.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Rip_ktoto08.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Rip_ktoto08.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Rip_ktoto08.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Rip_ktoto08.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Rip_ktoto08.Backpack.Build.LsTlBuild ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Rip_ktoto08.Backpack.Foxhole.LsTlFoxhole ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Kaktys_mem.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Kaktys_mem.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Kaktys_mem.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Kaktys_mem.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Kaktys_mem.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.funnyzayc.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.funnyzayc.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.funnyzayc.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.funnyzayc.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.funnyzayc.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.funnyzayc.Backpack.Build.LsTlBuild ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.funnyzayc.Backpack.C4.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.xlebbylit.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.xlebbylit.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.xlebbylit.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.xlebbylit.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.xlebbylit.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.DJBMW531.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.DJBMW531.Backpack.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.DJBMW531.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.DJBMW531.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.DJBMW531.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.DJBMW531.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.Build.LsTlBuild ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kivk99.Backpack.Foxhole.LsTlFoxhole ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.rom4ik290610.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.rom4ik290610.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.rom4ik290610.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.rom4ik290610.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.rom4ik290610.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.8_nog.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.8_nog.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.8_nog.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.8_nog.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.8_nog.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.8_nog.Backpack.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.Build.LsTlBuild ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.Foxhole.LsTlFoxhole ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.C4.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.Smoke.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.stasik_sigma8.Backpack.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.Smoke.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.Foxhole.LsTlFoxhole ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.fanerachka.Backpack.C4.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hddhdjsjdgsjajdjdjdj.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hddhdjsjdgsjajdjdjdj.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hddhdjsjdgsjajdjdjdj.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hddhdjsjdgsjajdjdjdj.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hddhdjsjdgsjajdjdjdj.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.vti5389.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.vti5389.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.vti5389.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.vti5389.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.vti5389.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Talgatpro_bro.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Talgatpro_bro.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Talgatpro_bro.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Talgatpro_bro.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Talgatpro_bro.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.Talgatpro_bro.Backpack.Control.LsTlControl ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kostasvak.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kostasvak.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kostasvak.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kostasvak.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.kostasvak.Backpack.Fists.LsPunch ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hihuvu.Backpack.LsRepair ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hihuvu.Backpack.Grenade.LsTlThrow ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hihuvu.Backpack.RPG.LsTlRpg ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hihuvu.Backpack.Rifle.LsTlRifle ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: Players.hihuvu.Backpack.Fists.LsPunch ──
+── LocalScript: Players.WEGAESFDASEG.PlayerGui.Game.GameUI.BridgeFrame.ButtonContainer_Lobby.Lobby ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -60375,15 +58257,28 @@ Scripts found: 21588
 ── ModuleScript: CorePackages.Packages.VirtualizedList ──
   Bytecode is empty
 
-── LocalScript: StarterPlayer.StarterPlayerScripts.RbxCharacterSounds ──
+── LocalScript: StarterPlayer.StarterPlayerScripts.CharacterController ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.RbxCharacterSounds.AtomicBinding ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.CharacterController.PlayerState ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.CharacterController.Inventory ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterPlayer.StarterPlayerScripts.PlayerScriptsLoader ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterPlayer.StarterPlayerScripts.RbxCharacterSounds ──
+  Bytecode is empty
 
 ── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule ──
   -- Decompile failed: decompiler error
@@ -60391,61 +58286,6 @@ Scripts found: 21588
   -- key 1: Unsupported bytecode version: 9
 
 ── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Invisicam ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.TransparencyController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUI ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraInput ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseCamera ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCamera ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseOcclusion ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.MouseLockController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraToggleStateController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.LegacyCamera ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.OrbitalCamera ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -60465,7 +58305,62 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Poppercam ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.TransparencyController ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUtils ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRBaseCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Invisicam ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraInput ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ClassicCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseOcclusion ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.LegacyCamera ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraToggleStateController ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUI ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -60480,27 +58375,55 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUtils ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseCamera ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ClassicCamera ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.OrbitalCamera ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRBaseCamera ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Poppercam ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCamera ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.MouseLockController ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils ──
+  Bytecode is empty
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.ConnectionUtil ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.FlagUtil ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
 ── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchJump ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DynamicThumbstick ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Gamepad ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -60515,32 +58438,7 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DynamicThumbstick ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VRNavigation ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchJump ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
 ── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.BaseCharacterController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Gamepad ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -60550,52 +58448,22 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VehicleController ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.AvatarAbilitiesInterface ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
 ── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.PathDisplay ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.FlagUtil ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveController ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.ConnectionUtil ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VRNavigation ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CharacterUtil ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.ConnectionUtil.spec ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper.spec ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: StarterPlayer.StarterPlayerScripts.PlayerScriptsLoader ──
+── ModuleScript: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VehicleController ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -60605,107 +58473,192 @@ Scripts found: 21588
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPlayer.StarterCharacterScripts.LsForceHatch ──
+── ModuleScript: StarterGui.Icon ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPlayer.StarterCharacterScripts.LsHeadFix ──
+── ModuleScript: StarterGui.Icon.Types ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPlayer.StarterCharacterScripts.LsWipeTools ──
+── ModuleScript: StarterGui.Icon.VERSION ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPack.LsRepair ──
+── ModuleScript: StarterGui.Icon.Reference ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPack.Control.LsTlControl ──
+── ModuleScript: StarterGui.Icon.Attribute ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPack.Grenade.LsTlThrow ──
+── ModuleScript: StarterGui.Icon.Utility ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPack.RPG.LsTlRpg ──
+── ModuleScript: StarterGui.Icon.Elements.Caption ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPack.Rifle.LsTlRifle ──
+── ModuleScript: StarterGui.Icon.Elements.Container ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterPack.Fists.LsPunch ──
+── ModuleScript: StarterGui.Icon.Elements.Indicator ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.Cloner ──
+── ModuleScript: StarterGui.Icon.Elements.Menu ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.ScreenGui2.TextLabel.LocalScript ──
+── ModuleScript: StarterGui.Icon.Elements.Notice ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.HealthBar.Frame.PlayerHealthBar.inner.LocalScript ──
+── ModuleScript: StarterGui.Icon.Elements.Selection ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.HealthBar.Frame.VehicleHealthBar.inner.LocalScript ──
+── ModuleScript: StarterGui.Icon.Elements.Widget ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.RobloxGui.PlayerList ──
+── ModuleScript: StarterGui.Icon.Elements.Dropdown ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: StarterGui.RobloxGui.Modules.PlayerPermissionsModule ──
+── ModuleScript: StarterGui.Icon.Features.Gamepad ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.VoteGui.Frame.LsMapVoteGui ──
+── ModuleScript: StarterGui.Icon.Features.Overflow ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.PersistentGui.Skybox ──
+── ModuleScript: StarterGui.Icon.Features.Themes ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.PersistentGui.LsRockCamera ──
+── ModuleScript: StarterGui.Icon.Features.Themes.Classic ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.PersistentGui.WikiSetup ──
+── ModuleScript: StarterGui.Icon.Features.Themes.Default ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.PersistentGui.QualityHud.LsLowq ──
+── ModuleScript: StarterGui.Icon.Packages.GoodSignal ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: StarterGui.PersistentGui.ReportFeedback.LsReportFeedback ──
+── ModuleScript: StarterGui.Icon.Packages.Janitor ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Topbar ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.Buttons ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.ClientGui ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.HealthBarContainer.HealthBarManager ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.Chat.ChatClient ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.Scoreboard.ScoreboardClient ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.ControlsFrame.ControlsEditor ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.SkinChangeFrame.SelectionFrame.SkinChanger ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.ShopFrame.ShopClient ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.ShopFrame.Body.PassShop.InsetFrame_Old.PassShop ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.ShopFrame.Body.PassShop.InsetFrame.PassShop ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.TitleFrame.TitleClient ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.BridgeFrame.BridgeTutorialClient ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.BridgeFrame.ButtonContainer.BridgeEndGameButtons ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.BridgeFrame.TutorialOne.CloseButton.CloseWindow ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.BridgeFrame.TutorialTwo.CloseButton.CloseWindow ──
+  -- Decompile failed: decompiler error
+  -- key 203: Unsupported bytecode version: 9
+  -- key 1: Unsupported bytecode version: 9
+
+── LocalScript: StarterGui.Game.GameUI.BridgeFrame.ButtonContainer_Lobby.Lobby ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -66575,162 +64528,52 @@ Scripts found: 21588
 ── ModuleScript: CoreGui.RobloxGui.Modules.ChatUtil ──
   Bytecode is empty
 
-── ModuleScript: ReplicatedStorage.LmPlayer ──
+── ModuleScript: ReplicatedStorage.TextureModule ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.LmCram ──
+── ModuleScript: ReplicatedStorage.ItemRegistry ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.LmConfig ──
+── ModuleScript: ReplicatedStorage.ProductIDs ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.CramConfig ──
+── ModuleScript: ReplicatedStorage.ColorCodes ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.BoltParms ──
+── ModuleScript: ReplicatedStorage.Cosmetics.Information.Auras ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.LsmTreadAnim ──
+── ModuleScript: ReplicatedStorage.Cosmetics.Information.KillMessages ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.LmPool ──
+── ModuleScript: ReplicatedStorage.Cosmetics.Information.DeathCries ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.LmLowq ──
+── ModuleScript: ReplicatedStorage.Cosmetics.Information.Kits ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── ModuleScript: ReplicatedStorage.LmAddedUtil ──
+── ModuleScript: ReplicatedStorage.Modules.PlayerConfig ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
 
-── LocalScript: ReplicatedStorage.ProtoBuildObjects.X01_Arty.Arty.SeatDriver.LsTeArty-ph ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.ProtoBuildObjects.X03_Arty2.Arty2.SeatDriver.LsTeArty-ph ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.ProtoBuildObjects.X02_Bofors.Bofors.SeatDriver.LsTeArty-ph ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.ProtoBuildObjects.X04_Nebelwerfer.Nebelwerfer.SeatDriver.LsTeArty-ph ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.WarnBuyer.LsRoundTimerWarn ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.AntiHarassment ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.UnblockSpawn ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ClibPlayer ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ClibBoltParms ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ClibCommon ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ClibUtil ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.LsOrientC ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.LsPlayer ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.UpgrSelHud.LsUpgradeSelB ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.HealthBar.Frame.PlayerHealthBar.inner.LocalScript ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.HealthBar.Frame.VehicleHealthBar.inner.LocalScript ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.ButBinocs.LsBinocs ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.ShopHud.LsShopAp ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.HelpHudB.LsHelpB ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.TeamChangeHud.LsTeamChange ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.LsDpStatus ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.LsSysGui ──
-  -- Decompile failed: decompiler error
-  -- key 203: Unsupported bytecode version: 9
-  -- key 1: Unsupported bytecode version: 9
-
-── LocalScript: ReplicatedStorage.StarterGui.ScreenGui.Skybox ──
+── ModuleScript: ReplicatedStorage.Modules.Particle ──
   -- Decompile failed: decompiler error
   -- key 203: Unsupported bytecode version: 9
   -- key 1: Unsupported bytecode version: 9
@@ -66739,10 +64582,10 @@ Scripts found: 21588
 ════════════════════════════════════════════════════════════
 [ FUNCTIONS ]
 ════════════════════════════════════════════════════════════
-═══ FUNCTIONS DUMP — ARMORED PATROL ═══
-Time: 2026-05-25 20:36:09
+═══ FUNCTIONS DUMP — [💰UPD] 1.8 Arena ═══
+Time: 2026-05-25 21:31:49
 
 [getclosures() not available]
 
 ════════════════════════════════════════════════════════════
-END — 2026-05-25 20:36:14
+END — 2026-05-25 21:31:52
